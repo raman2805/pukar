@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+</style>
+</head>
+</head>
+<body>
+<table style="width:100%">
+  <tr>
+    <th>ComplaintId</th>
+    <th>ActionTakenBy</th>
+    <th>ActionDescription</th>
+  </tr>
+  {% for action in actions %}
+  <tr>
+    <td> <a href="sos_action/complaint/{{ action.complaint_id }}"> {{ action.complaint_id }} </td>
+    <td> {{ action.name }} </td>
+    <td> {{ action.action }} </td>
+  </tr>
+  {% endfor %}
+</table>
+</body>
+</html>

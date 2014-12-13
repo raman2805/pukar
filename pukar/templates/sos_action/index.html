@@ -1,45 +1,31 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <title>SOS Entry DataBase</title>
-</head>
-
-<body>
-<h1>
-  SOS Action database
-</h1>
-Received an alert from {{ name }} <br />
 <table style="width:100%">
+  <tr> 
+    <td>Complaint id</td>
+    <td>{{ id }} </td>
+  </tr>
   <tr> 
     <td>Name of Complainant</td>
     <td>{{ name }} </td>
   </tr>
   <tr> 
     <td>Mobile Number</td>
-    <td>{{ name }} </td>
+    <td>{{ mobile }} </td>
   </tr>
   <tr> 
     <td>IMEI Number (ID field)</td>
-    <td>{{ name }} </td>
+    <td>{{ imei }} </td>
   </tr>
   <tr> 
     <td>Alert Location</td>
-    <td>{{ name }} </td>
+    <td>{{ location }} </td>
   </tr>
   <tr> 
-    <td>Time</td>
-    <td>{{ name }} </td>
-  </tr>
-  <tr> 
-    <td>Date</td>
-    <td>{{ name }} </td>
+    <td>DateTime</td>
+    <td>{{ datetime }} </td>
   </tr>
   <tr> 
     <td>Alert Status</td>
-    <td>{{ name }} </td>
+    <td>{{ status }} </td>
   </tr>
 </table>
-</body>
-
-</html>

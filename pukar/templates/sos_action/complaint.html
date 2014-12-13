@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+</style>
+</head>
+</head>
+<body>
+<h2> Commplaint Details  </h2>
+<table style="width:100%">
+  <tr> 
+    <td>Complaint id</td>
+    <td>{{ complaint.id }} </td>
+  </tr>
+  <tr> 
+    <td>Name of Complainant</td>
+    <td>{{ complaint.name }} </td>
+  </tr>
+  <tr> 
+    <td>Mobile Number</td>
+    <td>{{ complaint.mobile }} </td>
+  </tr>
+  <tr> 
+    <td>IMEI Number (ID field)</td>
+    <td>{{ complaint.imei }} </td>
+  </tr>
+  <tr> 
+    <td>Alert Location</td>
+    <td>{{ complaint.location }} </td>
+  </tr>
+  <tr> 
+    <td>DateTime</td>
+    <td>{{ complaint_time }} </td>
+  </tr>
+  <tr> 
+    <td>Status</td>
+    <td>{{ status }} </td>
+  </tr>
+</table>
+
+<h2> Actions taken on the Complaint </h2>
+<table style="width:100%">
+  <tr>
+    <th>ComplaintId</th>
+    <th>ActionTakenBy</th>
+    <th>ActionDescription</th>
+  </tr>
+  {% for action in actions %}
+  <tr>
+    <td> {{ action.complaint_id }} </td>
+    <td> {{ action.name }} </td>
+    <td> {{ action.action }} </td>
+  </tr>
+  {% endfor %}
+
+</table>
+<a href="/sos_action/add_action/{{complaint.id}}"> add_action </a>
+</body>
+</html>
