@@ -51,18 +51,17 @@ th {
 <h2> Actions taken on the Complaint </h2>
 <table style="width:100%">
   <tr>
-    <th>ComplaintId</th>
     <th>ActionTakenBy</th>
+    <th>ActionTime</th>
     <th>ActionDescription</th>
   </tr>
   {% for action in actions %}
   <tr>
-    <td> {{ action.complaint_id }} </td>
     <td> {{ action.name }} </td>
+    <td> {{ action.action_time }} </td>
     <td> {{ action.action }} </td>
   </tr>
   {% endfor %}
-
 </table>
 <a href="/sos_action/add_action/{{complaint.id}}"> add_action </a>
 </body>

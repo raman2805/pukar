@@ -5,7 +5,8 @@ from django.shortcuts import render_to_response
 from forms import *
 
 def index(request) :
-  return HttpResponse("Welcome to Pukar Management System")
+  context = RequestContext(request)
+  return render_to_response('sos_action/index.html', {}, context)
 
 def list_actions(request) :
   context = RequestContext(request)
@@ -42,7 +43,7 @@ def add_action(request, complaint_id = -1) :
       action = form.save(commit=False)
       action.complaint_id = complaint_id
       action.save()
-      return complaint(request, action.complaint_id)
+      return view_complaint(request, action.complaint_id)
     else :
       return HttpResponse(form.errors)
 

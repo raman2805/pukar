@@ -6,6 +6,7 @@
 
 <body>
 <form id="Action Form" method="post" action="/sos_action/add_action/{{complaint.id}}">
+  <input type="hidden" name="complaint_id" id="id_complaint_id" value="{{complaint.id}}" />
   {% csrf_token %}
   <table style="width:100%">
   <tr> 

@@ -20,15 +20,19 @@ th {
   <tr>
     <th>ComplaintId</th>
     <th>ActionTakenBy</th>
+    <th>ActionTime</th>
     <th>ActionDescription</th>
   </tr>
   {% for action in actions %}
   <tr>
-    <td> <a href="sos_action/complaint/{{ action.complaint_id }}"> {{ action.complaint_id }} </td>
+    <td> <a href="/sos_action/complaint/{{ action.complaint_id }}"> {{ action.complaint_id }}</a> </td>
     <td> {{ action.name }} </td>
+    <td> {{ action.action_time }} </td>
     <td> {{ action.action }} </td>
   </tr>
   {% endfor %}
 </table>
+  <br>
+  <a href="/sos_action/list_complaints/"> List of All Complaints </a>
 </body>
 </html>

@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
+                       url(r'^$', 'pukar.views.home', name='home'),
                        url(r'^sos_action/', include('sos_action.urls')),
                        url(r'^admin/', include(admin.site.urls))
     # Examples:
