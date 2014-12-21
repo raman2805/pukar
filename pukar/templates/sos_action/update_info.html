@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+{%  include "sos_action/complaint_common.html" with complaint=complaint only %}
+<form id="UpdateForm" name="UpdateForm" method="post" action="/sos_action/update_info/{{ complaint.id }}">
+  {% csrf_token %}
+  <table style=width:100%>
+    <tr>
+      <td> Status </td>
+      <td> 
+        <input type="radio" name="status" value="OPEN" {% ifequal complaint.status "OPEN" %} checked {% endifequal %} > Open 
+        <input type="radio" name="status" value="CLOSED" {% ifequal complaint.status "CLOSED" %} checked {% endifequal %} > Closed  
+      </td>
+    </tr>
+    <tr>
+      <td> Update Info </td>
+      <td> <input type="text" name="info">  </td>
+    </tr>
+
+    <tr>
+      <td> <input type="submit" value="Update"> </td>
+    </tr> 
+  </table>
+</form>
+{% include "sos_action/footer.html" %}
+</body>
+</html>

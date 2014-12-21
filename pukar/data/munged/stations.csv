@@ -1,0 +1,1582 @@
+range,city,district,type,in_charge,contact
+BHOPAL,Bhopal,Aishbag,Police Station,Sanjay SG Bais,9479990521
+BHOPAL,Bhopal,BP_AJK,Police Station,Amar Singh,9479990607
+BHOPAL,Bhopal,Ashoka Garden,Police Station,Rupesh Dubey,9479990434
+BHOPAL,Bhopal,Bagsewaniya,Police Station,DINESH JOSHI,9479990533
+BHOPAL,Bhopal,Bairagarh,Police Station,Dipak Khatri,9479990653
+BHOPAL,Bhopal,Berasiya,Police Station,G.S. Chouhan,9479990663
+BHOPAL,Bhopal,Bilkhiriya,Police Station,T Sapray,9479990678
+BHOPAL,Bhopal,Chola Mandir,Police Station,,9479990638
+BHOPAL,Bhopal,Gandhi Nagar,Police Station,JITENDRA SG PATEL,9479990643
+BHOPAL,Bhopal,Gautam Nagar,Police Station,S K AWASTHI,9424858555
+BHOPAL,Bhopal,Govindpura,Police Station,B.K. Mishra,9425152315
+BHOPAL,Bhopal,Gunga,Police Station,sujeet tiwari,9826814107
+BHOPAL,Bhopal,Habibganj,Police Station,sudhir arjariya,9479990474
+BHOPAL,Bhopal,BP_Hanumanganj,Police Station,A.R. Negi,9826284868
+BHOPAL,Bhopal,Jehanagirabad,Police Station,B.S. Chouhan,9479990503
+BHOPAL,Bhopal,Kamla Nagar,Police Station,mukati sir,9425431072
+BHOPAL,Bhopal,Khajuri Sadak,Police Station,narendra singh raghuvanshi,9425818180
+BHOPAL,Bhopal,Koh-E-Fiza,Police Station,MANISH MISHRA,
+BHOPAL,Bhopal,Kolar Road,Police Station,akhilesh mishra,9479990488
+BHOPAL,Bhopal,BP_Kotwali,Police Station,pritam sg thakur,9479990550
+BHOPAL,Bhopal,BP_Mahila Thana,Police Station,pragya arya,9479990797
+BHOPAL,Bhopal,Mangalwara,Police Station,Rajendra Singh,9479990613
+BHOPAL,Bhopal,Misrod,Police Station,Anil Shukla,9479990688
+BHOPAL,Bhopal,MP Nagar,Police Station,Brajesh Bhargawa,9479990424
+BHOPAL,Bhopal,Nazirabad,Police Station,PRADEEP SHUKLA,9827268975
+BHOPAL,Bhopal,Nishatpura,Police Station,DINESH JOSHI,9827264678
+BHOPAL,Bhopal,Parbalia Sadak,Police Station,,9993650576
+BHOPAL,Bhopal,Piplani,Police Station,SUDHIR ARJARIYA SIR,9479990416
+BHOPAL,Bhopal,Ratibarh,Police Station,ABHAY NEMA,9425455112
+BHOPAL,Bhopal,BP_Shahpura,Police Station,Pragya Arya,9479990489
+BHOPAL,Bhopal,Shajahanbad,Police Station,PANKAJ DWIVEDI,9425918363
+BHOPAL,Bhopal,Shyamala Hills,Police Station,TI AGRAWAL,
+BHOPAL,Bhopal,Bazariya,Police Station,MALVIYA,
+BHOPAL,Bhopal,Sukhi Sewaniya,Police Station,ti ips,7747001000
+BHOPAL,Bhopal,T.T Nagar,Police Station,manish raj sg bhadauriya,9479990444
+BHOPAL,Bhopal,Talaiya,Police Station,Salil Sharma,2677364
+BHOPAL,Bhopal,Teelajamalpura,Police Station,J.S. Parmar,9479990597
+BHOPAL,Bhopal,Alpana Tiraha,Out Post Bhopal,,
+BHOPAL,Bhopal,Anandnagar,Out Post Bhopal,b b tandiya,9301184588
+BHOPAL,Bhopal,Ayodhya Nagar,Out Post Bhopal,RK MalvIyA,9926671089
+BHOPAL,Bhopal,Barkhedi,Out Post Bhopal,shukla jee,9826376538
+BHOPAL,Bhopal,Charimli,Out Post Bhopal,,
+BHOPAL,Bhopal,Chowk,Out Post Bhopal,,
+BHOPAL,Bhopal,Chola Nishatpura,Out Post Bhopal,Mohan Sarwan,9479990638
+BHOPAL,Bhopal,Durga Chowk,Out Post Bhopal,,
+BHOPAL,Bhopal,Hamidia Hospital,Out Post Bhopal,,
+BHOPAL,Bhopal,"Housing Bord,Nishatpura",Out Post Bhopal,,
+BHOPAL,Bhopal,Imambada,Out Post Bhopal,,
+BHOPAL,Bhopal,Indiranagar,Out Post Bhopal,,
+BHOPAL,Bhopal,Industrial Area,Out Post Bhopal,,
+BHOPAL,Bhopal,Itwara Chowk,Out Post Bhopal,,
+BHOPAL,Bhopal,Idgaah Hills,Out Post Bhopal,,
+BHOPAL,Bhopal,Jinsi,Out Post Bhopal,,
+BHOPAL,Bhopal,Kabitpura,Out Post Bhopal,,
+BHOPAL,Bhopal,"Kamla Park,Halal pura",Out Post Bhopal,,
+BHOPAL,Bhopal,Kerwadam,Out Post Bhopal,,
+BHOPAL,Bhopal,Koh-E-Fiza,Out Post Bhopal,MANISH MISHRA,
+BHOPAL,Bhopal,Kokta,Out Post Bhopal,,
+BHOPAL,Bhopal,Lalariya,Out Post Bhopal,,
+BHOPAL,Bhopal,"Lalghati,Koh-E- Fiza",Out Post Bhopal,,
+BHOPAL,Bhopal,Laxmiganj,Out Post Bhopal,,
+BHOPAL,Bhopal,Lily Tower,Out Post Bhopal,,
+BHOPAL,Bhopal,MLA Rest House,Out Post Bhopal,,
+BHOPAL,Bhopal,Peer Gate Kotwali,Out Post Bhopal,,
+BHOPAL,Bhopal,Roshanpura,Out Post Bhopal,,
+BHOPAL,Bhopal,Royal Market,Out Post Bhopal,,
+BHOPAL,Bhopal,Samasgarh,Out Post Bhopal,,
+BHOPAL,Bhopal,Sindhi Colony,Out Post Bhopal,,
+BHOPAL,Bhopal,TT Nagar,Out Post Bhopal,MANISH RAJ SINGH,9479990444
+BHOPAL,Bhopal,Talaiya,Out Post Bhopal,Salil Sharma,2677364
+BHOPAL,Bhopal,BPOutpost_Vijaynagar,Out Post Bhopal,,
+BHOPAL,Bhopal,Chuna Bhatti,Police Station,jitendra pathak,9479990481
+BHOPAL,Bhopal,Mahila thana Habibganj,Police Station,,
+BHOPAL,Bhopal,GRP Thana,Police Station,,7049149419
+BHOPAL,Bhopal,intkhedi,Out_Post,SI DINESH SINGH,7049106400
+BHOPAL,Vidisha,Control Room,Control_Room,,7592234254
+BHOPAL,Vidisha,VI_AJK,Police Station,,
+BHOPAL,Vidisha,Anandpur,Police Station,managal,9479999398
+BHOPAL,Vidisha,Deepnakheda,Police Station,Roopkishor,7389008906
+BHOPAL,Vidisha,VI_Dehat,Police Station,Kamlendra singh kalchuri,9479999267
+BHOPAL,Vidisha,Ganj Basoda,Police Station,S.P. SHUKLA,8965082619
+BHOPAL,Vidisha,Gulabganj,Police Station,PS Raghuwanshi,9425769115
+BHOPAL,Vidisha,Gyaraspur,Police Station,SAJJAN SGMUKATI,9893514488
+BHOPAL,Vidisha,VI_Kotwali,Police Station,RAJESH TIWARI,9425023622
+BHOPAL,Vidisha,Kurwai,Police Station,h.c.boyat,9424451315
+BHOPAL,Vidisha,Lateri,Police Station,gopal singh jatet,7049130423
+BHOPAL,Vidisha,Mugalsarai,Police Station,MR Romde,9993900404
+BHOPAL,Vidisha,Murwas,Police Station,ram babu chaudhary,9993949676
+BHOPAL,Vidisha,Nateran,Police Station,,
+BHOPAL,Vidisha,Pathari,Police Station,yogendra parmar,9479999341
+BHOPAL,Vidisha,Pathariya,Police Station,KS Tekam,9753636407
+BHOPAL,Vidisha,Satpada,Police Station,ASI VISHAKARMA,
+BHOPAL,Vidisha,Shamsabad,Police Station,R.K. Shrivastava,9425023655
+BHOPAL,Vidisha,Sironj,Police Station,Dinesh Prajapati,9425139932
+BHOPAL,Vidisha,Teonda,Police Station,S.O MAHOR 7049130893,
+BHOPAL,Vidisha,Unarsikala,Police Station,aVDESH tOMAR,8102957776
+BHOPAL,Vidisha,Bagroad,Out Post,Tarun Kuril,9425069906
+BHOPAL,Vidisha,Bamhorishala,Out Post,,
+BHOPAL,Vidisha,Bareth,Out Post,d.s. yadav,9993425028
+BHOPAL,Vidisha,Gandhichock,Out Post,,
+BHOPAL,Vidisha,Haidargarh,Out Post,r.c.dangar,9479999433 /958
+BHOPAL,Vidisha,Imlani,Out Post,,
+BHOPAL,Vidisha,Kasbatal,Out Post,,
+BHOPAL,Vidisha,Khamkheda,Out Post,,
+BHOPAL,Vidisha,Kotara,Out Post,,
+BHOPAL,Vidisha,Layra,Out Post,LaljiRam,9479999330
+BHOPAL,Vidisha,Mahalua,Out Post,NPS Baghel,9425463348
+BHOPAL,Vidisha,Karariya,Police Station,Aruna singh,9479999423
+BHOPAL,Vidisha,Ganj Basoda_Dehat,Police Station,M.R.ROMNE,9425337233
+BHOPAL,sehore,Control Room,Control_Room,,7562227004
+BHOPAL,sehore,Ahmedpur,Police Station,,
+BHOPAL,sehore,SR_AJK,Police Station,,
+BHOPAL,sehore,Ashta,Police Station,anil tripathi,9407537426
+BHOPAL,sehore,Biilkisgang,Police Station,si meena,9425674785
+BHOPAL,sehore,Budhni,Police Station,DEEPAK KAPOOR,9479990941
+BHOPAL,sehore,SR_Dehat,Police Station,K.R. CHOHDRY,9425091802
+BHOPAL,sehore,Doraha,Police Station,BP BIRAL,9754339222
+BHOPAL,sehore,Ichhawar,Police Station,LALIT SINGH,9424560000
+BHOPAL,sehore,SR_Jawar,Police Station,ti borasi 9479990903,9425091802
+BHOPAL,sehore,SR_Kotwali,Police Station,niranjan sharma,9425006102
+BHOPAL,sehore,Nasrullaganj,Police Station,C.M. DIWEDI,9479990936
+BHOPAL,sehore,Rehti,Police Station,bhaartendu sharma,9479990921
+BHOPAL,sehore,Shahganj,Police Station,Narendra Parihar,9098978218
+BHOPAL,sehore,Siddiqganj,Police Station,,
+BHOPAL,sehore,Amlaha,Out Post,,
+BHOPAL,sehore,Baktra,Out Post,,
+BHOPAL,sehore,Chhaoani,Out Post,,
+BHOPAL,sehore,Chouk,Out Post,,
+BHOPAL,sehore,Ganj,Out Post,Narendra singh katariya,9993414776
+BHOPAL,sehore,Outpost_Gopalpur,Out Post,,
+BHOPAL,sehore,Outpost_Jawar,Out Post,,
+BHOPAL,sehore,Kasba,Out Post,,7049128101
+BHOPAL,sehore,Larkaui,Out Post,,
+BHOPAL,sehore,Maina,Out Post,,
+BHOPAL,sehore,Metwada,Out Post,,9479990912
+BHOPAL,sehore,Salkanpur,Out Post,,
+BHOPAL,sehore,Shyampur,Out Post,D S CHAUHAN,8225914259
+BHOPAL,sehore,mandi,Police Station,,
+BHOPAL,Rajgarh,Control room,Control_Room,,7372255319
+BHOPAL,Rajgarh,RG_AJK,Police Station,,
+BHOPAL,Rajgarh,Bhojpur,Police Station,SO.SEN,9179523619
+BHOPAL,Rajgarh,Biaora,Police Station,A.K.TOMAR,9425496338
+BHOPAL,Rajgarh,Chhapiheda,Police Station,SO == b.l. raut,7049121759
+BHOPAL,Rajgarh,GRP Biaora,Police Station,,
+BHOPAL,Rajgarh,Jeerapur,Police Station,HS Singhai,
+BHOPAL,Rajgarh,Kalipith,Police Station,BHAN SG PRAJAPATI,9977949773
+BHOPAL,Rajgarh,Karanwas,Police Station,U.S.Mukati,9993043822
+BHOPAL,Rajgarh,Khilchipur,Police Station,ILDI VAISHNAV,9406937760
+BHOPAL,Rajgarh,Khujner,Police Station,JAIDEEP PRASAD SONI,9752685816
+BHOPAL,Rajgarh,Kurawar,Police Station,gopal singh sikarwar,9754574727
+BHOPAL,Rajgarh,Machalpur,Police Station,M.S.RAJPOOT,9685731699
+BHOPAL,Rajgarh,Malawar,Police Station,MOHAN SINGH RAGHU,9179141086
+BHOPAL,Rajgarh,Narsinghgarh,Police Station,SATISH MAHELWALE,9755104283
+BHOPAL,Rajgarh,Pachore,Police Station,SUNIL SHARMA,9981885371
+BHOPAL,Rajgarh,Rajgarh,Police Station,R.K.chawriya,9009604442
+BHOPAL,Rajgarh,Sarangpur,Police Station,PRAKASH MISHRA,7354644844
+BHOPAL,Rajgarh,Suthaliya,Police Station,,
+BHOPAL,Rajgarh,Talen,Police Station,,
+BHOPAL,Rajgarh,Boda,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Bhagora,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Bhesana,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Gramsadawata,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Highway Biaora,Out Post Rajgarh,,232619
+BHOPAL,Rajgarh,Highway Narsingh garh,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Iklera,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Kotra,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Kotreekalan,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Lakhanwas,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Limachhavan,Out Post Rajgarh,Shiv harsh mishra.,9479996833
+BHOPAL,Rajgarh,Nepanara,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Papdel,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Padana,Out Post Rajgarh,si verma,7371222040
+BHOPAL,Rajgarh,Piplodi,Out Post Rajgarh,,
+BHOPAL,Rajgarh,UdanKhedi,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Varol,Out Post Rajgarh,,
+BHOPAL,Rajgarh,Dehat civil line,Police Station,,
+BHOPAL,Rajgarh,LEMA CHOHAN,Police Station,,
+INDORE,Indore,Aerodrum,Police Station,MANJU YADAV,9479993572
+INDORE,Indore,IN_AJK,Police Station,,
+INDORE,Indore,Annapurna,Police Station,b.s chouhan,
+INDORE,Indore,Badgonda,Police Station,P.S. KANOJI,9479993646
+INDORE,Indore,Bahnvarkuan,Police Station,PRADEEP SINGH,
+INDORE,Indore,Banganga,Police Station,YS Tomar,9827575475
+INDORE,Indore,Betma,Police Station,Sanjay Chaturvedi,7049108832
+INDORE,Indore,Central kotwali,Police Station,smt manju yadaw,9479993387
+INDORE,Indore,Chandan nagar,Police Station,Vinod DIXIT JI,9479993581
+INDORE,Indore,Chatripura,Police Station,R.D .KANWA SIR,7049108663
+INDORE,Indore,Choti gwaltoli,Police Station,Ramnarayan Sharma,9479993424
+INDORE,Indore,Depalpur,Police Station,sunil yadav,704108815
+INDORE,Indore,Gotampura,Police Station,KS Bundela,9479993705
+INDORE,Indore,Hatod,Police Station,SEVARAM UCHARIA,
+INDORE,Indore,Heera nagar,Police Station,BASANT MISHRA,7049108575
+INDORE,Indore,Juni indore,Police Station,Anirudh Wadhiya,9479993502
+INDORE,Indore,IN_Kotwali,Police Station,Rajendra Soni,9479993387
+INDORE,Indore,Khajarana,Police Station,CB Singh,9479993483
+INDORE,Indore,Kshtripura,Police Station,,
+INDORE,Indore,Khudel,Police Station,V P Verma,7049108778
+INDORE,Indore,Kishan ganj,Police Station,RAMESH CHAND BHASKARE,9479993630
+INDORE,Indore,Kshipra,Police Station,SHILENDRA SG MUKATI,9479993672
+INDORE,Indore,Lasudiya,Police Station,Basant Mishra,7049108617
+INDORE,Indore,IN_Mahila thana,Police Station,jyoti sharma,9479993609
+INDORE,Indore,Malharganj,Police Station,Pawan Singhal,9479993554
+INDORE,Indore,IN_Manpur,Police Station,shalendra shriwastav,9425881081
+INDORE,Indore,Mgroad,Police Station,Kanhayya lal Dangi,
+INDORE,Indore,Mhow,Police Station,d.s.chauhaan jee,9479993622
+INDORE,Indore,Mig,Police Station,RAJENDRA SONI,9479993470
+INDORE,Indore,Narcotics,Police Station,,
+INDORE,Indore,Palasiya,Police Station,Pradeep Singh,9479993432
+INDORE,Indore,Pandharinath,Police Station,VARMA,9479993537
+INDORE,Indore,Perdeshi pura,Police Station,S.K.DASH,9479993441
+INDORE,Indore,Rajendra nagar,Police Station,KAMLESH SHARMA,7049108714
+INDORE,Indore,Railway C/R,Police Station,,
+INDORE,Indore,Raoji bazar,Police Station,Arvind Tomar,9479993511
+INDORE,Indore,RPF Station,Police Station,,
+INDORE,Indore,Sadar bazar,Police Station,Shivsingh Yadav,9479993567
+INDORE,Indore,Sanwer,Police Station,chowdhary sir,9479993681
+INDORE,Indore,Sanyogita ganj,Police Station,DS Yevle,9479993415
+INDORE,Indore,Sarafa,Police Station,Sanjay Dubey,9479993530
+INDORE,Indore,Simrol,Police Station,Ashok Upadhyay,9479993655
+INDORE,Indore,Tukoganj,Police Station,Manoj Ratnakar,9479993406
+INDORE,Indore,IN_Vijay nagar,Police Station,Shailendra Shrivastava,9479993476
+INDORE,Indore,Azad Nagar,Out Post Indore,MAHENDRA SINGH,9479993420
+INDORE,Indore,Bhagirathpura,Out Post Indore,JC Malviya,9425400123
+INDORE,Indore,Bombay Bazar,Out Post Indore,,
+INDORE,Indore,Caural,Out Post Indore,MK Raghuwanshi,9479993660
+INDORE,Indore,Chandrawatiganj,Out Post Indore,KP Shukla,9479993686
+INDORE,Indore,Chikmanglore Chauraha,Out Post Indore,,
+INDORE,Indore,Chiman Bag,Out Post Indore,,
+INDORE,Indore,Dargah,Out Post Indore,,
+INDORE,Indore,Dongargaon,Out Post Indore,,
+INDORE,Indore,Gautam Pura,Out Post Indore,,
+INDORE,Indore,Juniindore,Out Post Indore,DIWAKAR SINGH BAGHEL,9479993502
+INDORE,Indore,Kampel,Out Post Indore,,
+INDORE,Indore,Kanadia,Out Post Indore,Sanjay Chaturvedi,7049108613
+INDORE,Indore,Kdavghat,Out Post Indore,Shaikh,9406600519
+INDORE,Indore,Malwa Mill,Out Post Indore,,9479993447
+INDORE,Indore,Mari Mata,Out Post Indore,,
+INDORE,Indore,Mangliya,Out Post Indore,Pandey,9479993676
+INDORE,Indore,Mukeripura,Out Post Indore,,
+INDORE,Indore,MY Hospital,Out Post Indore,Ghate,9425983465
+INDORE,Indore,Sirpur,Out Post Indore,,
+INDORE,Indore,Teenpuliya,Out Post Indore,,
+INDORE,Indore,INOutpost_Vijay Nagar,Out Post Indore,C.S. SOLANKI,7049108600
+INDORE,Indore,Tejaji Nagar,Police Station,shivkant duvy,7079108643
+INDORE,Dhar,Control Room,Control_Room,,7292406708
+INDORE,Dhar,DH_AJK,Police Station,SS Yadav,9425077487
+INDORE,Dhar,Amzera,Police Station,ANITA DEARWAL,9479888882
+INDORE,Dhar,Badnawar,Police Station,MOHAN JAT,9826848184
+INDORE,Dhar,Bagh,Police Station,ANITA,
+INDORE,Dhar,Dahi,Police Station,K. CHOUHAN,8085282223
+INDORE,Dhar,Dhamnod,Police Station,G.P.Dubey 9827351937,9479992294/5
+INDORE,Dhar,Dhar,Police Station,AJIT TIWARI,9425093147
+INDORE,Dhar,Dharampuri,Police Station,Shubhod = 9425322028,9479992272
+INDORE,Dhar,Gandhawani,Police Station,Umesh Tiwari,
+INDORE,Dhar,Kanwan,Police Station,P.P.S. CHOUDHRY,9425354934
+INDORE,Dhar,Kukshi,Police Station,niraj,9425448236
+INDORE,Dhar,Manawar,Police Station,basanat nayak,9425046411
+INDORE,Dhar,Mandawa,Police Station,,
+INDORE,Dhar,Nalchha,Police Station,KESHAV PATIL,9827654594
+INDORE,Dhar,Pithampur,Police Station,GP DUBEY,9827351937
+INDORE,Dhar,Rajod,Police Station,,9826057018
+INDORE,Dhar,Sadalpur,Police Station,BABU LAL PATEL,9826857950
+INDORE,Dhar,Sagour,Police Station,Laxman lovanshi,9479992263
+INDORE,Dhar,Sardarpur,Police Station,MUKESH SINGH KUSHWAH,9425854800
+INDORE,Dhar,Tanda,Police Station,PS RAO,9425125126
+INDORE,Dhar,Tirla,Police Station,NARENDRA SINGH,9425014000
+INDORE,Dhar,Bakaner,Out Post Dhar,NIRAJ BIRTHRE,9406681741
+INDORE,Dhar,Dehari,Out Post Dhar,RANJEET BAGHEL,9424450843
+INDORE,Dhar,Dashi,Out Post Dhar,Salim Khan,9827211221
+INDORE,Dhar,Doutriya,Out Post Dhar,"MANOHER BADODIYA,ASI",9827282139
+INDORE,Dhar,Digthan,Out Post Dhar,,
+INDORE,Dhar,Ghata Billod,Out Post Dhar,ASWIN CHATURVEDI,9826093051
+INDORE,Dhar,Jeerabad,Out Post Dhar,KAMAL DABI,9752368789
+INDORE,Dhar,Kartarkhera,Out Post Dhar,,
+INDORE,Dhar,Kesavi,Out Post Dhar,305 BHERULAL,8349271377
+INDORE,Dhar,Nisarpur,Out Post Dhar,parihar,9827633787
+INDORE,Dhar,Pithampur Sector-1,Out Post Dhar,RAVINDRA MISHRA,9479992231
+INDORE,Dhar,Rajgarh,Out Post Dhar,PATIL SIR,9827654594
+INDORE,Dhar,Umarban,Out Post Dhar,HARISH BHARGAV,8103285247
+INDORE,Khandwa,Control Room,Control_Room,,7332226690
+INDORE,Khandwa,EN_AJK,Police Station,,
+INDORE,Khandwa,Chaigoan Makhan,Police Station,Sharif Khan,9479994713
+INDORE,Khandwa,Dhangoan,Police Station,Jetendra Bhaskar,7049139004
+INDORE,Khandwa,Harsud,Police Station,SL Soniya,9479994721
+INDORE,Khandwa,Jawar,Police Station,Mohan Singh Mourya,9479994715
+INDORE,Khandwa,Khalwa,Police Station,TIaiswaray9685177677,9479994722
+INDORE,Khandwa,Killod,Police Station,SS Badole,9479994723
+INDORE,Khandwa,EN_Kotwali,Police Station,ANIL SHARMA,9826516909
+INDORE,Khandwa,Mandhata,Police Station,BPS Bhadoriya,9479994717
+INDORE,Khandwa,Moghat Road,Police Station,Ravindra Yadav,9479994712
+INDORE,Khandwa,Mundi,Police Station,Ajit Patel,9479994750
+INDORE,Khandwa,Narmada Nagar,Police Station,Aaishwarya Shastri,9479994720
+INDORE,Khandwa,Pandhana,Police Station,Manohar gavli,9479994714
+INDORE,Khandwa,Piplod,Police Station,OP Solanki,9479994716
+INDORE,Khandwa,Bhondwa,Out Post Khandwa,,
+INDORE,Khandwa,Boargoan,Out Post Khandwa,Jagdish Sindhiya,9479994730
+INDORE,Khandwa,Deshgaon,Out Post Khandwa,Rajendra Narwariya,9479994690
+INDORE,Khandwa,Padamnagar,Out Post Khandwa,TI NARVARIYA JI,9479994678
+INDORE,Khandwa,Punasa,Out Post Khandwa,Vijay Singh,9479994757
+INDORE,Khandwa,Roshni,Out Post Khandwa,,9424055390
+INDORE,Khargone,Control Room,Control_Room,NS Ranawat,7282231009
+INDORE,Khargone,WN_AJK,Police Station,Praween Bhuriya,9479995007
+INDORE,Khargone,Balakwada,Police Station,B.C TAMAR,9425074686
+INDORE,Khargone,Balwada,Police Station,SANTOSH MISHRA,9479994941
+INDORE,Khargone,Barud,Police Station,Nana Patil,9479995047
+INDORE,Khargone,Badwaha,Police Station,DK Tiwari,9479995093
+INDORE,Khargone,Bhagwanpura,Police Station,TC Usre,9479995077
+INDORE,Khargone,Bhikangaon,Police Station,Vishveshwar Karil,9479995059
+INDORE,Khargone,Chainpur,Police Station,H P YADAV,9479995086
+INDORE,Khargone,Gogawa,Police Station,M.P. verma,9425977339
+INDORE,Khargone,Karhi,Police Station,R S CHHARI,9479994950
+INDORE,Khargone,Kasrawad,Police Station,Sunil Gupta,9479994974
+INDORE,Khargone,Khargone,Police Station,Chatrapal Singh,9479995025
+INDORE,Khargone,Maheshwar,Police Station,TI rs.chari 9479994965,9479994970
+INDORE,Khargone,Mandleshwar,Police Station,Ramesh Gahlot,9479994956
+INDORE,Khargone,Mangaon,Police Station,Brajesh Malviya,9479995038
+INDORE,Khargone,Oon,Police Station,PRABAL SINGH YADAV,9479995052
+INDORE,Khargone,Sanawad,Police Station,B.L.MEENA,9479995102
+INDORE,Khargone,Ahirkheda,Out Post Khargone,Mukesh Yadav,9479995070
+INDORE,Khargone,Bagod,Out Post Khargone,Ramchandra Choudhri,9479994945
+INDORE,Khargone,Bedia,Out Post Khargone,NANG BANSI JI,9479995073
+INDORE,Khargone,Bishtan,Out Post Khargone,ANNA BAGHLE,9479995076
+INDORE,Khargone,Helapdawa,Out Post Khargone,Bharat Singh,9009584157
+INDORE,Khargone,Jaitapur,Out Post Khargone,Himmat Patel,9479995039
+INDORE,Khargone,Kakrda,Out Post Khargone,NR Solanki,9479994966
+INDORE,Khargone,Katkur,Out Post Khargone,Rajendra Solanki,9479994942
+INDORE,Khargone,Khaltaka,Out Post Khargone,Ramesh Gawle,9479994985
+INDORE,Khargone,Khamkheda,Out Post Khargone,PN Goyal,9479994975
+INDORE,Khargone,Narmadadham,Out Post Khargone,,
+INDORE,Khargone,Segaon,Out Post Khargone,Santosh Kaithwas,9479995053
+INDORE,Jhabua,Control Room,Control_Room,,7392243169
+INDORE,Jhabua,Jhabua,Police Station,Rajesh Singh Baghel,9425480932
+INDORE,Jhabua,JH_AJK,Police Station,,
+INDORE,Jhabua,Kakanwani,Police Station,BIRENDRA KUMAR BARKADE,9009256035
+INDORE,Jhabua,Kalidevi,Police Station,Anis Bamaniya,9617701975
+INDORE,Jhabua,Kalyanpura,Police Station,Anees Khan,9425051051
+INDORE,Jhabua,Machaliya,Police Station,,
+INDORE,Jhabua,Meghnagar,Police Station,Bhoopendra Singh Mourya,9407435618
+INDORE,Jhabua,Petlawad,Police Station,kuvar shivjit singh,7049140389
+INDORE,Jhabua,Raipuriya,Police Station,Sunil Yadav,7869855651
+INDORE,Jhabua,Ranapur,Police Station,T.C.Panwar,9425107336
+INDORE,Jhabua,Thandla,Police Station,Gopal Singh Thakur,9425035218
+INDORE,Jhabua,Antraveliya,Out Post Jhabua,Jitendra Singh Chouhan,9589890501
+INDORE,Jhabua,Bamania,Out Post Jhabua,Kailash Chandra Laadh,9826471435
+INDORE,Jhabua,Chhapri,Out Post Jhabua,,
+INDORE,Jhabua,Harinagar,Out Post Jhabua,Madhavram Sharma,9179498095
+INDORE,Jhabua,Jhaknawda,Out Post Jhabua,Mannalal Lashkari,9425334939
+INDORE,Jhabua,Kalyanpura,Out Post Jhabua,,
+INDORE,Jhabua,Kanjawani,Out Post Jhabua,David Kevat,7389344524
+INDORE,Jhabua,Khawasa,Out Post Jhabua,Sushil chandra Pathak,9425033126
+INDORE,Jhabua,Kundanpur,Out Post Jhabua,Kaloo Singh Parmar,9179713221
+INDORE,Jhabua,Madrani,Out Post Jhabua,43 Fodal Singh,9425970346
+INDORE,Jhabua,Machaliya,Out Post Jhabua,Uday singh Dawar,9993530313
+INDORE,Jhabua,Parwaliya,Out Post Jhabua,Ranveer Singh Shrivastav,8349702727
+INDORE,Jhabua,Pitol,Out Post Jhabua,K.L.Barwade,9165606994
+INDORE,Jhabua,Rambhapur,Out Post Jhabua,Hari Singh Chundawat,9981047611
+INDORE,Jhabua,Sarangi,Out Post Jhabua,Rajkumar Kunsariya,749023605
+INDORE,Jhabua,Umarkot,Out Post Jhabua,Ramji Mishra,8959972156
+INDORE,Alirajpur,Control Room,Control_Room,,7392234333
+INDORE,Alirajpur,AL_AJK,Police Station,,
+INDORE,Alirajpur,Alirajpur,Police Station,rakesh vyas,9479994454
+INDORE,Alirajpur,Ambua,Police Station,Dayaram Maale,9826584281
+INDORE,Alirajpur,Bakhatgarh,Police Station,Rameshchandra Bhaaskare,989
+INDORE,Alirajpur,Bhabra,Police Station,ANTAR SINGH JAMARA,9893979990
+INDORE,Alirajpur,Bori,Police Station,Sajjan Prasad,9179010266
+INDORE,Alirajpur,Chandpur,Police Station,Pisoo singh Daamor,9407022731
+INDORE,Alirajpur,Jobet,Police Station,d.s.purohit-,9425968194
+INDORE,Alirajpur,Kathiwada,Police Station,S.N.Sharma,9893388953
+INDORE,Alirajpur,Nanpur,Police Station,Arjun Singh Maavi,9752618731
+INDORE,Alirajpur,Sandwa,Police Station,D.R.Suryawanshi,9428478641
+INDORE,Alirajpur,Sorwa,Police Station,Maganlal Katara,9424062530
+INDORE,Alirajpur,Udaigarh,Police Station,Jiya ulhaq,9575811925
+INDORE,Alirajpur,Aamkkut,Out Post Alirajpur,Mohan Singh Solanki,9179621031
+INDORE,Alirajpur,Barjhar,Out Post Alirajpur,,
+INDORE,Alirajpur,Chhaktala,Out Post Alirajpur,,
+INDORE,Alirajpur,Foolmal,Out Post Alirajpur,,
+INDORE,Alirajpur,Jhiran,Out Post Alirajpur,,
+INDORE,Alirajpur,Kakrana,Out Post Alirajpur,,
+INDORE,Alirajpur,Kanakakad,Out Post Alirajpur,,
+INDORE,Alirajpur,Khattali,Out Post Alirajpur,,
+INDORE,Alirajpur,Nahtda,Out Post Alirajpur,,
+INDORE,Alirajpur,Para,Out Post Alirajpur,,
+INDORE,Alirajpur,Sejawada,Out Post Alirajpur,,
+INDORE,Alirajpur,Umrali,Out Post Alirajpur,Pema Bhooriya,9926330969
+INDORE,Barwani,Control Room,Control_Room,,7290222631
+INDORE,Barwani,AJK Barwani,Police Station,Amar Singh,9479994805
+INDORE,Barwani,Anjad,Police Station,g.r.varma,9993435789
+INDORE,Barwani,Barwani,Police Station,M K DUBE,9425165843
+INDORE,Barwani,Khetiya,Police Station,BL Verma,9479994901
+INDORE,Barwani,Nagalwadi,Police Station,Sudip Soni,9479994928
+INDORE,Barwani,Niwali,Police Station,Sanjay Rawat,9479994907
+INDORE,Barwani,Pansemal,Police Station,Leela Maroth,9479994814
+INDORE,Barwani,Pati,Police Station,Amit Bhamor,9479994890
+INDORE,Barwani,Rajpur,Police Station,GAHLOD,9485485314
+INDORE,Barwani,Sendhwa city,Police Station,AJAY VARMA,9425318933
+INDORE,Barwani,Sendhwa rural,Police Station,PS Kannoje,9425345931
+INDORE,Barwani,Silawad,Police Station,Rajiv Uike,9479994895
+INDORE,Barwani,Thikari,Police Station,,7049135435
+INDORE,Barwani,Warla,Police Station,Maan Singh,9479994883
+INDORE,Barwani,Bawangaja,Out Post Barwani,,
+INDORE,Barwani,Bijasen,Out Post Barwani,Bhargav,946665348
+INDORE,Barwani,Bokarata,Out Post Barwani,,
+INDORE,Barwani,Chachariya,Out Post Barwani,JC Patidar,9981865419
+INDORE,Barwani,Julwani,Out Post Barwani,Santosh Sisodiya,9981577986
+INDORE,Barwani,Ojhar,Out Post Barwani,RK Chouhan,9893071695
+INDORE,Barwani,Palsood,Out Post Barwani,Ganesh Rawat,
+INDORE,Burhanpur,Control Room,Control_Room,,7325254100
+INDORE,Burhanpur,BU_AJK,Police Station,Narayan Sapkale,9479994653
+INDORE,Burhanpur,Ganpatinaka,Police Station,Shailendra Singh,9479994602
+INDORE,Burhanpur,Khaknar,Police Station,MAHESH SUNAI,9617326507
+INDORE,Burhanpur,BU_Kotwali,Police Station,,
+INDORE,Burhanpur,Lalbagh,Police Station,Kamal Kishor,9479994600
+INDORE,Burhanpur,Nepanagar,Police Station,Mahesh Sunayya,9479994612
+INDORE,Burhanpur,Nimbola,Police Station,Amit Singh Jadoun,9479994645
+INDORE,Burhanpur,BU_Shahpur,Police Station,Vinod Singh,9479994632
+INDORE,Burhanpur,Shikarpura,Police Station,Ajit Tiwari9165042777,9479994542
+INDORE,Burhanpur,Women Help Line,Police Station,,
+INDORE,Burhanpur,Dhoolkot,Out Post Burhan.,Liyakat Mansoori,9479994644
+INDORE,Burhanpur,Nawara,Out Post Burhan.,Lakhanlal Baghel,9479994619
+BALAGHAT,balaghat,BL_AJK,Police Station,Neetu Singh,9479990208
+BALAGHAT,balaghat,Bahela,Police Station,Ajit Singh Bais,9479990068
+BALAGHAT,balaghat,Baihar,Police Station,Ajay Nayar,9752403052
+BALAGHAT,balaghat,Bharweli,Police Station,Vivek Singh Chouhan,9479990027
+BALAGHAT,balaghat,Birsa,Police Station,,
+BALAGHAT,balaghat,Chagur tola,Police Station,KS Dhurve,9479990138
+BALAGHAT,balaghat,Grami (Navegaon),Police Station,,
+BALAGHAT,balaghat,Garhi,Police Station,Aashish Rajput,9479990165
+BALAGHAT,balaghat,Hatta,Police Station,sudhakar toppo,9479990047
+BALAGHAT,balaghat,Katangi,Police Station,Nagendra Pratap,9479550000
+BALAGHAT,balaghat,Kirnapur,Police Station,Animesh Diwedi,9479990064
+BALAGHAT,balaghat,BL_Kotwali,Police Station,Ravi Bhadoriya,9977102007
+BALAGHAT,balaghat,Lalburra,Police Station,Upendra Chari,9479990087
+BALAGHAT,balaghat,Lamta,Police Station,Jalam Singh Maravi,9425855096
+BALAGHAT,balaghat,Lanji,Police Station,ZF Ahmed,9479990044
+BALAGHAT,balaghat,Malajkhand,Police Station,Umrao Singh,9479990168
+BALAGHAT,balaghat,BL_Navegaon,Police Station,Siddharth priyadarshan,9926249420
+BALAGHAT,balaghat,Paraswada,Police Station,Umrao Singh,9009100505
+BALAGHAT,balaghat,Rampaily,Police Station,Devendra Pratap,9407353839
+BALAGHAT,balaghat,Roopjhar,Police Station,Rakesh Singh Bais,8878693524
+BALAGHAT,balaghat,Tirodi,Police Station,Balravi Divedi,9479990108
+BALAGHAT,balaghat,Waraseoni,Police Station,Bhupendra Gulpake,9479990077
+BALAGHAT,balaghat,Bithli,Out Post,Rajesh Yadav,9827009336
+BALAGHAT,balaghat,Charegaon,Out Post,Dipak Yadav,9301072199
+BALAGHAT,balaghat,Dabr,Out Post,Narendra Kulaste,9406516917
+BALAGHAT,balaghat,Deverbeli,Out Post,Rakesh Bharti,9981859271
+BALAGHAT,balaghat,Dhiri,Out Post,,
+BALAGHAT,balaghat,Dora,Out Post,Vijay Sisodiya,9981698622
+BALAGHAT,balaghat,Kaltipur,Out Post,,
+BALAGHAT,balaghat,Khairlanji,Out Post,ramesh bharti,9479990106
+BALAGHAT,balaghat,Kinhi,Out Post,Rajendra Dhurve,9009824037
+BALAGHAT,balaghat,Lodhangi,Out Post,,
+BALAGHAT,balaghat,Macharda,Out Post,KamalSingh Uike,9826864432
+BALAGHAT,balaghat,Mahakepur,Out Post,Sidharth Priyadarshan,8989950589
+BALAGHAT,balaghat,Mukki,Out Post,,
+BALAGHAT,balaghat,Pathri,Out Post,Prakash Chand Patel,9826656055
+BALAGHAT,balaghat,Saletekri,Out Post,Yogendra Dangi,9993809840
+BALAGHAT,balaghat,Sitapala,Out Post,Sumer Singh Jagat,9827317681
+BALAGHAT,balaghat,Sohewani,Out Post,Rajan Uike,7772075174
+BALAGHAT,balaghat,Songudda,Out Post,HariSingh Thakur,9479990186
+BALAGHAT,balaghat,Sulsuli,Out Post,Santosh Singh,9993950395
+BALAGHAT,balaghat,Thema,Out Post,,
+BALAGHAT,balaghat,Ukwa,Out Post,Chagan Singh Baghel,9617226575
+BALAGHAT,Mandla,Control Room,Control_Room,,7642250613
+BALAGHAT,Mandla,ML_AJK,Police Station,SS Uike,9479995220
+BALAGHAT,Mandla,Bhamhni,Police Station,Arvind Tiwari,9425809289
+BALAGHAT,Mandla,ML_Bichhiya,Police Station,RAMESH SAKYA,9479995273
+BALAGHAT,Mandla,Bijadandi,Police Station,ML Ahirwar,9479995303
+BALAGHAT,Mandla,Ghughari,Police Station,CS Chokikar,9479995284
+BALAGHAT,Mandla,Khatia,Police Station,vevek gupta,9479995274
+BALAGHAT,Mandla,ML_Maharajpur,Police Station,Shafiq Khan,9479995235
+BALAGHAT,Mandla,Mandla,Police Station,SS Dhami,9479995261
+BALAGHAT,Mandla,Mawai,Police Station,,9479995279
+BALAGHAT,Mandla,Mohgaon,Police Station,RK Dhariya,9479995291
+BALAGHAT,Mandla,Motinala,Police Station,Shivnath Pratap,8305159616
+BALAGHAT,Mandla,Nainpur,Police Station,anil singhai ti,9425159059
+BALAGHAT,Mandla,Niwas,Police Station,RK tiwari,9479995288
+BALAGHAT,Mandla,Tikariya,Police Station,CHOHAN SIR,
+BALAGHAT,Mandla,Anjaniya,Out Post,Lokendra Singh,9479995250
+BALAGHAT,Mandla,Hirdenagar,Out Post,Rahul Gajbhiye,9479995241
+BALAGHAT,Mandla,Pindrai,Out Post,Rajendra Verma,9752111502
+BALAGHAT,Mandla,Tatri,Out Post,Rajendra Marskole,9479995265
+BALAGHAT,Mandla,Turer,Out Post,Subhash Darshyamkar,9479995248
+CHAMBAL,Datia,DT_AJK,Police Station,,
+CHAMBAL,Datia,Atreta,Police Station,JAGDISH GUPTA,9977570395
+CHAMBAL,Datia,Badoni,Police Station,,
+CHAMBAL,Datia,Basai,Police Station,,
+CHAMBAL,Datia,Bhagvapura,Police Station,,
+CHAMBAL,Datia,Bhander,Police Station,RAVINDRA GARG,7049137557
+CHAMBAL,Datia,Chirula,Police Station,ila tandan,9827720679
+CHAMBAL,Datia,DT_Civilline,Police Station,Rakesh Gupta,9479992642
+CHAMBAL,Datia,Deepar,Police Station,,
+CHAMBAL,Datia,Dheerpura,Police Station,,
+CHAMBAL,Datia,Dursada,Police Station,,
+CHAMBAL,Datia,Guddan,Police Station,DILIP TIWARI,9479992684
+CHAMBAL,Datia,Goraghat,Police Station,SO.,8889945300
+CHAMBAL,Datia,Indergarh,Police Station,B.L. DHUKKARIYA,7049137792
+CHAMBAL,Datia,Jigna,Police Station,santosh sharma,9977552795
+CHAMBAL,Datia,DT_Kotwali,Police Station,R.K SINGH GURJAR,9425482302
+CHAMBAL,Datia,Lanch,Police Station,,
+CHAMBAL,Datia,Pandokhar,Police Station,KULDEEP,9893407723
+CHAMBAL,Datia,Sarsai,Police Station,,
+CHAMBAL,Datia,Sinwal,Police Station,,
+CHAMBAL,Datia,Senodha,Police Station,NARENDRA SHARMA,7049160308
+CHAMBAL,Datia,Sonagir,Police Station,B B S PRIHAR,8435456358
+CHAMBAL,Datia,Tharet,Police Station,RASHID KHAN,9009240100
+CHAMBAL,Datia,Unnao,Police Station,,
+CHAMBAL,Datia,Ratangarhmandir,Out Post Datia,,
+CHAMBAL,Datia,Bichodna,Out Post Datia,,
+CHAMBAL,Datia,Magrai,Out Post Datia,,
+CHAMBAL,Datia,Udina,Out Post Datia,,
+CHAMBAL,Datia,Udina,Out Post Datia,,
+CHAMBAL,Datia,Debhai,Out Post Datia,,
+CHAMBAL,Datia,Cheena,Out Post Datia,,
+CHAMBAL,Bhind,Control Room,Control_Room,,7534244514
+CHAMBAL,Bhind,BD_AJK,Police Station,,
+CHAMBAL,Bhind,Alampur,Police Station,MOHORE SINGH,9425339220
+CHAMBAL,Bhind,Amayan,Police Station,VINOD CHHAVI,9826235403
+CHAMBAL,Bhind,Aswar,Police Station,A.S.TOMAR,
+CHAMBAL,Bhind,Ater,Police Station,RAKESH SHARMA,9425728150
+CHAMBAL,Bhind,Baraso,Police Station,Ganga Singh Kushwah,9926687161
+CHAMBAL,Bhind,Barohi,Police Station,Mahesh singh Jadon,9685530655
+CHAMBAL,Bhind,Bharoli,Police Station,YADAV,9993227764
+CHAMBAL,Bhind,BD_Kotwali,Police Station,Raghvendra Singh,9926748433
+CHAMBAL,Bhind,Dabhoh,Police Station,p.s. thakur,
+CHAMBAL,Bhind,BD_Dehat,Police Station,C.V.S.RAGHUVANSHI,9977722999
+CHAMBAL,Bhind,Endori,Police Station,RATIRAM GURJAR,9009310930
+CHAMBAL,Bhind,Gohad,Police Station,sunil khemariya,9893998230
+CHAMBAL,Bhind,Gohad Chouraha,Police Station,GIRISH- CHOURESHI,9826895269
+CHAMBAL,Bhind,Gormi,Police Station,Ramkumar Ram Bhagat,9926395801
+CHAMBAL,Bhind,Lahar,Police Station,SHIV SINGH,9926215080
+CHAMBAL,Bhind,Malanpur,Police Station,Sher Singh,9977186815
+CHAMBAL,Bhind,Mehgaon,Police Station,raghvendra sg tomer,9425759335
+CHAMBAL,Bhind,Mihona,Police Station,HARI MOHAN SHARMA,9893032517
+CHAMBAL,Bhind,Mou,Police Station,Kushal Singh,9713261734
+CHAMBAL,Bhind,Nayagaon,Police Station,Vaidhraj Parihar,
+CHAMBAL,Bhind,Pawai,Police Station,surendra singh bhadoriya,9826340253
+CHAMBAL,Bhind,Phooph,Police Station,S.S.BHADOURIA,7049161875
+CHAMBAL,Bhind,Rawatpura,Police Station,Mahaveer Prasad,9926217356
+CHAMBAL,Bhind,Raun,Police Station,rakesh chhari,9425878962
+CHAMBAL,Bhind,Rural Kotwali,Police Station,C B S RAGHUWANSHI,9977722999
+CHAMBAL,Bhind,Surpura,Police Station,kp sharma,7049119873
+CHAMBAL,Bhind,Umri,Police Station,dhanendra singh,9425113905
+CHAMBAL,Bhind,Adokhar,Out Post Bhind,,
+CHAMBAL,Bhind,Badkui,Out Post Bhind,,
+CHAMBAL,Bhind,BD_Rampur,Out Post Bhind,,
+CHAMBAL,Bhind,Suhas,Out Post Bhind,,
+CHAMBAL,Bhind,Ratwa,Out Post Bhind,,
+CHAMBAL,Bhind,Jhankeri,Out Post Bhind,,
+CHAMBAL,Bhind,Indurkhi,Out Post Bhind,,
+CHAMBAL,Bhind,Machhand,Out Post Bhind,,
+CHAMBAL,Bhind,Kosad,Out Post Bhind,,
+CHAMBAL,Bhind,Bahawali,Out Post Bhind,,
+CHAMBAL,Bhind,Ajnar,Out Post Bhind,,
+CHAMBAL,Bhind,Laharbusstand,Out Post Bhind,,
+CHAMBAL,Bhind,Rathiankapura,Out Post Bhind,,
+CHAMBAL,Bhind,Bilao,Out Post Bhind,,
+CHAMBAL,Bhind,Akoda,Out Post Bhind,,
+CHAMBAL,Morena,Control Room,Control_Room,,7532234567
+CHAMBAL,Morena,MO_AJK,Police Station,,
+CHAMBAL,Morena,Ambah,Police Station,PARIHAR,9425474926
+CHAMBAL,Morena,Bagchini,Police Station,P.N KARARE,7049115306
+CHAMBAL,Morena,Banmor,Police Station,shailendra singh,9826348868
+CHAMBAL,Morena,Chinnoni,Police Station,sunil sharma,997766617
+CHAMBAL,Morena,MO_Civillines,Police Station,Amit singh,9826396600
+CHAMBAL,Morena,Devgarh,Police Station,,
+CHAMBAL,Morena,Dimani,Police Station,P.M. JAIN,9425488580
+CHAMBAL,Morena,Joura,Police Station,praveen ashthana,9425133798
+CHAMBAL,Morena,Kailaras,Police Station,,7354077773
+CHAMBAL,Morena,MO_Kotwali,Police Station,s.k.upadhaya,7049115368
+CHAMBAL,Morena,Mahua,Police Station,B.M.NAYAK,9685680296
+CHAMBAL,Morena,Matabasaiya,Police Station,UDAY PRATAP SINGH CHOUHAN,9826221955
+CHAMBAL,Morena,Nagra,Police Station,VIRSINGH,9977902600
+CHAMBAL,Morena,Nirar,Police Station,,
+CHAMBAL,Morena,Nurabad,Police Station,NIRANJAN KUMAR UPADHYAY,9753113101
+CHAMBAL,Morena,Pahadgarh,Police Station,ti 7746059301,
+CHAMBAL,Morena,Porsa,Police Station,badam singh,
+CHAMBAL,Morena,MO_Rampur,Police Station,t.i. r.d.moreK,9977975655
+CHAMBAL,Morena,Rithora,Police Station,si np pal,9826905521
+CHAMBAL,Morena,Sabalgarh,Police Station,ASHOK GHANGHRIYA,9425601740
+CHAMBAL,Morena,Saraichola,Police Station,,
+CHAMBAL,Morena,Sihoniyan,Police Station,o p chanderiya,9826746112
+CHAMBAL,Morena,Sumaoli,Police Station,Ghanshyam nagar,9425796185
+CHAMBAL,Morena,Tentra,Police Station,,
+CHAMBAL,Morena,Bandpura,Out Post Morena,,
+CHAMBAL,Morena,Jhundpura,Out Post Morena,,
+CHAMBAL,Morena,Kanhar,Out Post Morena,,
+CHAMBAL,Morena,Karahdam,Out Post Morena,,
+CHAMBAL,Morena,Mirdhan,Out Post Morena,,
+CHAMBAL,Morena,Parikhha,Out Post Morena,,
+CHAMBAL,Morena,Rajhodha,Out Post Morena,JITENDRA SINGH,8435753540
+CHAMBAL,Morena,Zundpura,Out Post Morena,,
+CHAMBAL,Morena,Ziniya,Out Post Morena,,
+CHAMBAL,Morena,MO_Station Road,Police Station,T I -- K K AWASTHI,
+CHAMBAL,Sheopur,Control Room,Control_Room,,7530221534
+CHAMBAL,Sheopur,Agra,Police Station,,
+CHAMBAL,Sheopur,SP_AJK,Police Station,,
+CHAMBAL,Sheopur,Aapda,Police Station,,
+CHAMBAL,Sheopur,Bargnwa,Police Station,,
+CHAMBAL,Sheopur,Baroda,Police Station,Satish sg Chauhan,9826705151
+CHAMBAL,Sheopur,Chilwani,Police Station,,
+CHAMBAL,Sheopur,Dhodar,Police Station,Jagatpalsi9479996039,9893014872
+CHAMBAL,Sheopur,Gashwani,Police Station,,
+CHAMBAL,Sheopur,Karahal,Police Station,ramanand sharma,9425738008
+CHAMBAL,Sheopur,Magrda,Police Station,,
+CHAMBAL,Sheopur,SP_Manpur,Police Station,,9479996093
+CHAMBAL,Sheopur,Ochhapura,Police Station,,
+CHAMBAL,Sheopur,Raghunathpur,Police Station,Satish dubey,8435338872
+CHAMBAL,Sheopur,Seasipura,Police Station,,
+CHAMBAL,Sheopur,Sheopur,Police Station,MUNISH RAJORIYA,9425122609
+CHAMBAL,Sheopur,Veerpur,Police Station,,
+CHAMBAL,Sheopur,SP_Vijaypur,Police Station,b.k.parashar,9926685293
+CHAMBAL,Sheopur,Bawanwas,Out Post Sheopur,,
+CHAMBAL,Sheopur,Durgapuri Manpur,Out Post Sheopur,,
+CHAMBAL,Sheopur,Pandole,Out Post Sheopur,,
+CHAMBAL,Sheopur,Samardha Manpur,Out Post Sheopur,,
+CHAMBAL,Sheopur,Suswara,Out Post Sheopur,,
+GWALIOR,Gwalior,Aaron,Police Station,,
+GWALIOR,Gwalior,AJK Gwalior,Police Station,,
+GWALIOR,Gwalior,Antri,Police Station,UMESH MISHRA,9424371308
+GWALIOR,Gwalior,Bahodapur,Police Station,R.S. PARMAR,9479993120
+GWALIOR,Gwalior,Behat,Police Station,,
+GWALIOR,Gwalior,Belgada,Police Station,,
+GWALIOR,Gwalior,Bhawarpura,Police Station,harish,9406732219
+GWALIOR,Gwalior,Bhitarwar,Police Station,sobha Ram Rai,7049110267
+GWALIOR,Gwalior,Bijauli,Police Station,k.k singh,9425127390
+GWALIOR,Gwalior,Bilauva,Police Station,,
+GWALIOR,Gwalior,Chinnor,Police Station,jitendra tomar,9479992990
+GWALIOR,Gwalior,Dabra,Police Station,KAILASH TRIPATHI,9926468075
+GWALIOR,Gwalior,Ghatigaon,Police Station,vikram singh,9993402333
+GWALIOR,Gwalior,Gijjora,Police Station,,
+GWALIOR,Gwalior,Gola ka mandir,Police Station,umesh yadav,9753595359
+GWALIOR,Gwalior,Gwalior (kila gate),Police Station,SANJAY MISHRA,9425335909
+GWALIOR,Gwalior,Hastinapur,Police Station,mahesh singh tomar,7049110577
+GWALIOR,Gwalior,Hazira,Police Station,J P Bhatt,9926294039
+GWALIOR,Gwalior,Inderganj,Police Station,AMAR SINGH SHIKARWAR,9669542840
+GWALIOR,Gwalior,Janakganj,Police Station,raj kumar sahab,9826210013
+GWALIOR,Gwalior,Jhansi road,Police Station,k.k.jaat,9425127390
+GWALIOR,Gwalior,Kampoo,Police Station,D B S TOMAR,
+GWALIOR,Gwalior,Karahiya,Police Station,,
+GWALIOR,Gwalior,GW_Kotwali,Police Station,S.K.CHATURVEDI,9425454226
+GWALIOR,Gwalior,Madhoganj,Police Station,sanjeev nayan sharma,9425117170
+GWALIOR,Gwalior,GW_Maharajpura,Police Station,B R DWIVEDI,9425735237
+GWALIOR,Gwalior,GW_Mahila thana,Police Station,Rusita Chaturvedi,7049110177
+GWALIOR,Gwalior,Mohana,Police Station,,
+GWALIOR,Gwalior,Morar,Police Station,RATNESH TOMER,9425799100
+GWALIOR,Gwalior,Padav,Police Station,ANIL UPPADHYAY,9425471382
+GWALIOR,Gwalior,Panihar,Police Station,P.N.GOYAL,9424810105
+GWALIOR,Gwalior,Pichhor,Police Station,,
+GWALIOR,Gwalior,Purani chhawani,Police Station,,
+GWALIOR,Gwalior,Thatipur,Police Station,vijay singh tomer,9926261200
+GWALIOR,Gwalior,Tighra,Police Station,TI Anita Mishra,9926290051
+GWALIOR,Gwalior,Univercity,Police Station,jitendra nagaich,7049110522
+GWALIOR,Gwalior,Utila,Police Station,,
+GWALIOR,Gwalior,Bada Kotwali,Out Post Gwalior,,
+GWALIOR,Gwalior,Girawai,Out Post Gwalior,,
+GWALIOR,Gwalior,Hazeera,Out Post Gwalior,ti bhatt==,9926294039
+GWALIOR,Gwalior,Maharajdada,Out Post Gwalior,,
+GWALIOR,Gwalior,Shinde ki Chawni,Out Post Gwalior,,
+GWALIOR,Gwalior,Shuklahari,Out Post Gwalior,,
+GWALIOR,Gwalior,Thatipur Muraar,Out Post Gwalior,,
+GWALIOR,Gwalior,hanuman jang/choraha,Police Station,,9755013259
+GWALIOR,Guna,Control Room,Control_Room,S.D. Sharma,7542251689
+GWALIOR,Guna,Aron,Police Station,Avedhesh pertap singh,9425144441
+GWALIOR,Guna,GU_Vijaypur,Police Station,Rambabu Sharma,9826869569
+GWALIOR,Guna,GU_AJK,Police Station,Hemant Tiwari,9479992433
+GWALIOR,Guna,Bajaranggarh,Police Station,Manoj Mehra,9479992482
+GWALIOR,Guna,Bamori,Police Station,TIMESH CHARI,9479992479
+GWALIOR,Guna,Cantt guna,Police Station,ABHAY PRATAP SINGH,9425144441
+GWALIOR,Guna,Chachoda,Police Station,Rajeev Saxena,9479992521
+GWALIOR,Guna,Dharnawada,Police Station,ananad bajpai,9425339840
+GWALIOR,Guna,Fatehgarh,Police Station,Aanand Vajpai,9479992514
+GWALIOR,Guna,GU_Kotwali,Police Station,,9479992452
+GWALIOR,Guna,Myana,Police Station,chauhan,9425094938
+GWALIOR,Guna,Ps jamner,Police Station,R.B.SHARMA,9826869569
+GWALIOR,Guna,Ps kumbhraj,Police Station,b p chouhan ji,9479992550
+GWALIOR,Guna,Raghogarh,Police Station,balweer singh,
+GWALIOR,Guna,Sirsi,Police Station,Kedarlal Sharma,9479992490
+GWALIOR,Guna,Banshaheda,Out Post Guna,Lakhan Singh,9479992533
+GWALIOR,Guna,Bhamawad,Out Post Guna,Sahdev Tirki,9479992558
+GWALIOR,Guna,Janjali,Out Post Guna,R.D. Kouli,9479992425
+GWALIOR,Guna,Makusdangarh,Out Post Guna,Ramavtar Singh,9826253876
+GWALIOR,Guna,Mrigwas,Out Post Guna,M.L. Pant,9479992552
+GWALIOR,Guna,Padon,Out Post Guna,,
+GWALIOR,Guna,Panwadihat,Out Post Guna,Santosh Singh,9479992542
+GWALIOR,Guna,Ruthiyadi,Out Post Guna,,
+GWALIOR,Guna,Sanai,Out Post Guna,Ravindra Singh,9479992555
+GWALIOR,Guna,Ukawad,Out Post Guna,Uttam Singh,9479992516
+GWALIOR,Guna,Umari,Out Post Guna,Mahesh Singh,9479992481
+GWALIOR,Shivpuri,Control room,Control_Room,,7492234186
+GWALIOR,Shivpuri,SV_AJK,Police Station,DJ Rai,9977945300
+GWALIOR,Shivpuri,Amola,Police Station,ravedar shikarwar,9425436830
+GWALIOR,Shivpuri,Badarwas,Police Station,MK Goutam,9425309921
+GWALIOR,Shivpuri,Bairad,Police Station,ti ANAND,
+GWALIOR,Shivpuri,Bamhori,Police Station,Devendra Singh Jadon,7354512314
+GWALIOR,Shivpuri,Bamorkala,Police Station,Kashiram Kushwah,
+GWALIOR,Shivpuri,Bhonti,Police Station,Jitendra Yadav,7898930920
+GWALIOR,Shivpuri,Chhurrh,Police Station,si r.s.yadav,8962210050
+GWALIOR,Shivpuri,SV_Dehat,Police Station,snjeev tiwari,9479998535
+GWALIOR,Shivpuri,Dinara,Police Station,Parmanand Sharma,9926891500
+GWALIOR,Shivpuri,SV_Gopalpur,Police Station,Santosh Singh Kushwah,9425339180
+GWALIOR,Shivpuri,Govardhan,Police Station,Dindayal Sharma,8959557553
+GWALIOR,Shivpuri,Indargarh,Police Station,Mirza Asif Baig,8989479879
+GWALIOR,Shivpuri,Karera,Police Station,KAILASH BABU ARYA,7049160492
+GWALIOR,Shivpuri,Khaniyadhana,Police Station,ti 9425118703,
+GWALIOR,Shivpuri,Kolaras,Police Station,Abhay Pratap,9479998620
+GWALIOR,Shivpuri,SV_Kotwali,Police Station,R.K. RATHORE,9479998492
+GWALIOR,Shivpuri,Mayapur,Police Station,SIR HUKU SINGH MEENA,9827870172
+GWALIOR,Shivpuri,Narwar,Police Station,DHARENDRA SINGH TOMAR,
+GWALIOR,Shivpuri,Pichore,Police Station,Sunil Shrivastava,9479998728
+GWALIOR,Shivpuri,Pohari,Police Station,rakesh gurjela,9479998572
+GWALIOR,Shivpuri,Rannod,Police Station,PRAMOD SAHU,9039649868
+GWALIOR,Shivpuri,Satanwada,Police Station,Arun Mishra,9826478116
+GWALIOR,Shivpuri,Sehore,Police Station,RAVIDRA SHIKARWAR,9425436830
+GWALIOR,Shivpuri,Sirsod,Police Station,rajenda sharma,7389271600
+GWALIOR,Shivpuri,Subhashpura,Police Station,Jagdish Silavat,9754371948
+GWALIOR,Shivpuri,Surwaya,Police Station,ashok singh kuswaha,9479998565
+GWALIOR,Shivpuri,Tendua,Police Station,ARWIND RAGHUVANSHI,9754055365
+GWALIOR,Shivpuri,Amolapatha,Out Post Shivpuri,Ravindra Singh Sikarwar,8878712186
+GWALIOR,Shivpuri,Amvali,Out Post Shivpuri,,
+GWALIOR,Shivpuri,Badarkha,Out Post Shivpuri,,
+GWALIOR,Shivpuri,Basai,Out Post Shivpuri,,
+GWALIOR,Shivpuri,Bhatnawar,Out Post Shivpuri,Ramdayal,9479998577
+GWALIOR,Shivpuri,Khod,Out Post Shivpuri,Ajaypal Singh,9926604109
+GWALIOR,Shivpuri,Magroni,Out Post Shivpuri,08Ramesh kumar,9479998723
+GWALIOR,Shivpuri,Matatila,Out Post Shivpuri,,
+GWALIOR,Shivpuri,Physical Collage,Out Post Shivpuri,si aradna devei,9479998777
+GWALIOR,Shivpuri,Umari,Out Post Shivpuri,,
+GWALIOR,Ashoknagar,Kotwali ashoknagar,Police Station,ram babu sg sikarwar,9926874107
+GWALIOR,Ashoknagar,Bahadarpur,Police Station,RAMAKANT BHARGAW,
+GWALIOR,Ashoknagar,Chanderi,Police Station,Rambabu Singh,9926874107
+GWALIOR,Ashoknagar,Isagarh,Police Station,vivek sharma,
+GWALIOR,Ashoknagar,Kachnar,Police Station,JAGDISH DHAKAD,"9425760629,916"
+GWALIOR,Ashoknagar,Mungaoli,Police Station,v.s.chouhan,9425300007
+GWALIOR,Ashoknagar,Naisarai,Police Station,N.K.Pancholi,9425097714
+GWALIOR,Ashoknagar,Piprai,Police Station,SHYAM SINGH,9826346395
+GWALIOR,Ashoknagar,Shadora,Police Station,n.k pancholi,
+GWALIOR,Ashoknagar,AJK Ashoknagar,Police Station,Basantrao Gaikwad,9406967221
+GWALIOR,Ashoknagar,Saraskhedi,Out Post Ashok n.,Satyaprakash Verma,9752710205
+GWALIOR,Ashoknagar,Kadwaya,Out Post Ashok n.,Ramvinayak Sikarwar52,9009370671
+GWALIOR,Ashoknagar,Saharai,Out Post Ashok n.,Rambahadur Singh,9826245363
+GWALIOR,Ashoknagar,Malhargarh,Out Post Ashok n.,Hariom Sharma,9425488742
+GWALIOR,Ashoknagar,Rajghat,Out Post Ashok n.,Balram Manghi,9425770984
+GWALIOR,Ashoknagar,Thuban,Out Post Ashok n.,Narendra Singh Bhadoriya,7828993642
+GWALIOR,Ashoknagar,ASOutpost_Vikrampurbari,Out Post Ashok n.,Ashokbabu Sharma,9826509204
+GWALIOR,Ashoknagar,Rajpur,Out Post Ashok n.,Bhoopendra Jaat,9406579904
+GWALIOR,Ashoknagar,Madhogarh,Out Post Ashok n.,,
+GWALIOR,Ashoknagar,Depalkhedi,Out Post Ashok n.,R.K.Surariya,9893373765
+GWALIOR,Ashoknagar,Bhadaun,Out Post Ashok n.,Radheshyam Sharma,9752759415
+GWALIOR,Ashoknagar,Dehat,Police Station,b.p.singh jaat,9479992342
+GWALIOR,Hoshangabad,Control Room,Control_Room,,7574252448
+GWALIOR,Hoshangabad,HO_AJK,Police Station,Nawal Singh,9669087556
+GWALIOR,Hoshangabad,Babai,Police Station,H.L.SHARMA,9479993270
+GWALIOR,Hoshangabad,Bankhedi,Police Station,SMT LAXMI KASHYAP,"9827248250,882"
+GWALIOR,Hoshangabad,Dolairya,Police Station,K.S. Chandel,9479993274
+GWALIOR,Hoshangabad,Itarsi,Police Station,mahendra singh chohan,9479993312
+GWALIOR,Hoshangabad,Kesla,Police Station,MADAN LAL PAWAR,9752218964
+GWALIOR,Hoshangabad,HO_Kotwali,Police Station,MUKATI JI,9479993261
+GWALIOR,Hoshangabad,Pachmarhi,Police Station,Girish Khare,9425158831
+GWALIOR,Hoshangabad,Pathrota,Police Station,pp mishra,9479993345
+GWALIOR,Hoshangabad,Pipariya,Police Station,V.K. SHARMA,9425166096
+GWALIOR,Hoshangabad,Rampurgurra,Police Station,Rajendra Shukla,9479993330
+GWALIOR,Hoshangabad,Seonimalwa,Police Station,AJAY DUEBY,9479993284
+GWALIOR,Hoshangabad,Shivpur,Police Station,R.A. Tiwari,9479993295
+GWALIOR,Hoshangabad,Sohagpur,Police Station,Mahendra Singh Chouhan,9479993232
+GWALIOR,Hoshangabad,Tawanagar,Police Station,Amit Bhawsar,9406508994
+GWALIOR,Hoshangabad,Bagar tawa,Out Post Hosh.,,
+GWALIOR,Hoshangabad,Banpura,Out Post Hosh.,,8085460185
+GWALIOR,Hoshangabad,Matkulee,Out Post Hosh.,,
+GWALIOR,Hoshangabad,Newyarditarsi,Out Post Hosh.,,
+GWALIOR,Hoshangabad,Securitypapermill,Out Post Hosh.,,
+GWALIOR,Hoshangabad,Semariharchand,Out Post Hosh.,rajeshawari mishra,9893602735
+GWALIOR,Hoshangabad,Sondhia,Out Post Hosh.,,
+GWALIOR,Hoshangabad,Umardha,Out Post Hosh.,,
+GWALIOR,Hoshangabad,Dehat,Police Station,Shri. H.C. PANCHAL,9827595487
+GWALIOR,Hoshangabad,GRP_Itarsi,LocalStation,t i dilip gangradey,
+GWALIOR,Raisen,Control Room,Control_Room,,7482223206
+GWALIOR,Raisen,RS_AJK,Police Station,NK Dixit,9479996722
+GWALIOR,Raisen,Bamori,Police Station,Ramdeen Parihar,9893072293
+GWALIOR,Raisen,Bareli,Police Station,MANOJ SINGH,9425693812
+GWALIOR,Raisen,Bari,Police Station,Umashankar Tiwari,9893372860
+GWALIOR,Raisen,Begumganj,Police Station,Arvind Raghuvanshi,9425097745
+GWALIOR,Raisen,Bharkach,Police Station,r.s.yadav,9479996628
+GWALIOR,Raisen,Dehgaon,Police Station,Shivram Yadav,8223094114
+GWALIOR,Raisen,RS_Deori,Police Station,giish Dubey,9425660473
+GWALIOR,Raisen,Gairatganj,Police Station,S.S. Patel,9425300024
+GWALIOR,Raisen,Mandideep,Police Station,N.S. Rathor,9425013061
+GWALIOR,Raisen,Noorganj,Police Station,Vishnudutt mishra,9479996711
+GWALIOR,Raisen,Obedullaganj,Police Station,Mahendra Meena,9826016961
+GWALIOR,Raisen,Raisen,Police Station,Jagdish Singh Sidhu,9406951315
+GWALIOR,Raisen,Salamatpur,Police Station,J.P. Rai,9425374933
+GWALIOR,Raisen,Sanchi,Police Station,anuruddh gaur,9425674307
+GWALIOR,Raisen,Silwani,Police Station,Bhartendu Sharma,9826558001
+GWALIOR,Raisen,Sultanganj,Police Station,PB Singh,9826020740
+GWALIOR,Raisen,Sultanpur,Police Station,Ajay Rathor,9826349679
+GWALIOR,Raisen,Udaipura,Police Station,k.k. bhargawa,9425006085
+GWALIOR,Raisen,Umraoganj,Police Station,Dinesh Pratap Singh,9425374837
+GWALIOR,Raisen,Barkheda,Out Post Raisen,Dashrath Singh,9424402814
+GWALIOR,Raisen,Chhater,Out Post Raisen,,
+GWALIOR,Raisen,Chiklod,Out Post Raisen,Dharmendra Dubey,9893457488
+GWALIOR,Raisen,Deevanganj,Out Post Raisen,9981329342,
+GWALIOR,Raisen,Garhi,Out Post Raisen,Sukhdev Singh,9425610437
+GWALIOR,Raisen,Goharganj,Out Post Raisen,M.P. Thakkar,9425366246
+GWALIOR,Raisen,Jethari,Out Post Raisen,Narendra Pandey,9893248671
+GWALIOR,Raisen,Kharwai,Out Post Raisen,Kamal Singh Rajput,9479996551
+GWALIOR,Raisen,Naktara,Out Post Raisen,Kamal Singh Meena,9926510638
+GWALIOR,Harda,Control Room,Control_Room,,7577224713
+GWALIOR,Harda,Harda,Police Station,UMASHANKER TIWARI,9479993150
+GWALIOR,Harda,HA_AJK,Police Station,Arun Yogi,9425494007
+GWALIOR,Harda,Chhipabad,Police Station,MOHAN PATEL,9826333001
+GWALIOR,Harda,Handia,Police Station,MAYA SINGH,9425036851
+GWALIOR,Harda,Rehatgaon,Police Station,Ramesh Piplodiya,9479993195
+GWALIOR,Harda,Siroli,Police Station,ROHIT KATHAWA,"9479993170,"
+GWALIOR,Harda,Timarni,Police Station,Ramsnehi Chouhan,9479993201
+GWALIOR,Betul,Control Room,Control_Room,,7141232300
+GWALIOR,Betul,BE_AJK,Police Station,Vimla Choudhri,9479990382
+GWALIOR,Betul,Amla,Police Station,Vikram Rajak,9479990278
+GWALIOR,Betul,Athner,Police Station,d.s. chohan,9479990298
+GWALIOR,Betul,Betul,Police Station,pankaj tyagi,9479990217
+GWALIOR,Betul,Betulbazar,Police Station,pankaj tyagi,9826732888
+GWALIOR,Betul,Bhainsdehi,Police Station,SASHI BHUSHAN RAGHUWANSHI,9479990289
+GWALIOR,Betul,Bijadehi,Police Station,R.R. Mujalde,9479990369
+GWALIOR,Betul,Bodkhi,Police Station,dhurve jee,9424635102
+GWALIOR,Betul,Chicholi,Police Station,ti jayant,9479990248
+GWALIOR,Betul,Chopna,Police Station,b.l.uike,9479990359
+GWALIOR,Betul,Jhallar,Police Station,H.Y.KHAN,9479990237
+GWALIOR,Betul,Mohda,Police Station,K.L. Chouhan,9479990266
+GWALIOR,Betul,Multai,Police Station,s.k singh,9407867788
+GWALIOR,Betul,Ranipur,Police Station,,
+GWALIOR,Betul,Saikheda,Police Station,dp suryavansi,9302316122
+GWALIOR,Betul,Sarni,Police Station,Anup Singh Nain,9479990329
+GWALIOR,Betul,BE_Shahpur,Police Station,Jyant Aglave,
+GWALIOR,Betul,Betulganj,Out Post Betul,,
+GWALIOR,Betul,Bhimpur,Out Post Betul,,
+GWALIOR,Betul,Bhoura,Out Post Betul,B.S.TOMAR,975368716
+GWALIOR,Betul,Damjeepura,Out Post Betul,Keshav Singh,9479990261
+GWALIOR,Betul,Dunawa,Out Post Betul,JADISH SINGH,9479990268
+GWALIOR,Betul,Ghoradongari,Out Post Betul,abhdesh tivvari,9425670171
+GWALIOR,Betul,Masod,Out Post Betul,si vikash kapish sir,9630699688
+GWALIOR,Betul,Pathakeda,Out Post Betul,yadav -9479990330,7049135664
+GWALIOR,Betul,Patan,Out Post Betul,,9826779688
+GWALIOR,Betul,Pader,Out Post Betul,Jugal Kishore,9424461806
+GWALIOR,Betul,Bordehi,Police Station,s i maskole,9479667869
+JABALPUR,Jabalpur,Control Room Omti,Police Station,Ishapanth,9479994051
+JABALPUR,Jabalpur,Control Room Kotwali,Police Station,Sushil Chouhan,9479994041
+JABALPUR,Jabalpur,Adhartal,Police Station,Sanjay Sharma,9425045415
+JABALPUR,Jabalpur,JA_AJK,Police Station,,
+JABALPUR,Jabalpur,Bhargawan,Police Station,,
+JABALPUR,Jabalpur,Barela,Police Station,Akhand Pratap,9424329282
+JABALPUR,Jabalpur,Bargi,Police Station,Purshottam Pandey,9479994028
+JABALPUR,Jabalpur,Belbag,Police Station,spsingh baghel,9479994052
+JABALPUR,Jabalpur,Belkheda,Police Station,,9893451790
+JABALPUR,Jabalpur,Bhedaghat,Police Station,shushmita ji,9827220710
+JABALPUR,Jabalpur,Cantt,Police Station,Arvind Choube,9479994073
+JABALPUR,Jabalpur,Chargaon,Police Station,rajendra bhagri,9479994074
+JABALPUR,Jabalpur,JA_Civilline,Police Station,PRAFULL SHRIWASTAV,9479994053
+JABALPUR,Jabalpur,Garha,Police Station,BHARAT SINGH RAJPUT,9425158591
+JABALPUR,Jabalpur,Ghamapur,Police Station,Susheel Kumar Chauhan,9425559140
+JABALPUR,Jabalpur,Gohalpur,Police Station,TI Vipin 9424306362,
+JABALPUR,Jabalpur,Gorakhpur,Police Station,HRPandey,9479994071
+JABALPUR,Jabalpur,Hanumantal,Police Station,P.K. JAIN,9479994082
+JABALPUR,Jabalpur,Katangi,Police Station,PURSOTAM PANDAY,9425188194
+JABALPUR,Jabalpur,Khamaria,Police Station,Rakesh Tiwari,9479994063
+JABALPUR,Jabalpur,JA_Kotwali,Police Station,RAMNARESH YADAV,9479994041
+JABALPUR,Jabalpur,Kundam,Police Station,Ravindra Kumar,9425637749
+JABALPUR,Jabalpur,Lardgang,Police Station,Virendra Prakash,9479994042
+JABALPUR,Jabalpur,Madanmahal,Police Station,MADHUR PATERIYA,9479994043
+JABALPUR,Jabalpur,JA_Mahila thana,Police Station,laxmi,9479993844
+JABALPUR,Jabalpur,Majhagwa,Police Station,PURSOTTAM PANDEY,9479994114
+JABALPUR,Jabalpur,Majholi,Police Station,ARVIND KUMAR JAIN,9425425894
+JABALPUR,Jabalpur,Omti,Police Station,INDRA MANI,9479994051
+JABALPUR,Jabalpur,Panagar,Police Station,rajesh dubey,9425635092
+JABALPUR,Jabalpur,Patan,Police Station,Jiya Khursheed Khan,9425185704
+JABALPUR,Jabalpur,Ranjhi,Police Station,Anil Mourya,9479994061
+JABALPUR,Jabalpur,JA_Shahpura,Police Station,sobhana mishra,9425384570
+JABALPUR,Jabalpur,JA_Sihora,Police Station,Sanjay Shukla,9425801497
+JABALPUR,Jabalpur,Baghraji,Out Post Jabalpur,Mihilal Paraste,9753669015
+JABALPUR,Jabalpur,Bailkhadu,Out Post Jabalpur,MOHD. SAMEER,9993794601
+JABALPUR,Jabalpur,Bargidam,Out Post Jabalpur,Yogendra Vajpai,9755896301
+JABALPUR,Jabalpur,Bus Stand,Out Post Jabalpur,Pradeep dubey,9425159493
+JABALPUR,Jabalpur,Chauthapul,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Court,Out Post Jabalpur,,
+JABALPUR,Jabalpur,District Court,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Galgala,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Garhabazar,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Gorabazar,Out Post Jabalpur,B.D DWIVEDI,9425465123
+JABALPUR,Jabalpur,Goshalpur,Out Post Jabalpur,Yakoob Khan,9479994103
+JABALPUR,Jabalpur,Gwarighat,Out Post Jabalpur,NEHRU KHANDDASE,9425484593
+JABALPUR,Jabalpur,Gournaka,Out Post Jabalpur,Nilesh Dohre,9926271488
+JABALPUR,Jabalpur,High Court,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Indrana,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Khitola,Out Post Jabalpur,Antram Choudhri,9893145559
+JABALPUR,Jabalpur,Marhotal,Out Post Jabalpur,SABANA PARVEZ,9425447549
+JABALPUR,Jabalpur,MadanMahal,Out Post Jabalpur,MADHUR PATERIYA,9479994043
+JABALPUR,Jabalpur,Madhatal,Out Post Jabalpur,PARVEZ MADAM,9425357250
+JABALPUR,Jabalpur,Medical,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Niwarganj,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Nodra,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Patenbusstand,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Premsagar,Out Post Jabalpur,R.Sujan Aladi,9009303998
+JABALPUR,Jabalpur,Polipathar,Out Post Jabalpur,,
+JABALPUR,Jabalpur,Outpost_Rampur,Out Post Jabalpur,R.N. Sinha,9406739265
+JABALPUR,Jabalpur,Silondi,Out Post Jabalpur,,
+JABALPUR,Jabalpur,JAOutpost_Vijaynagar,Out Post Jabalpur,rakesh tivari,9479993936
+JABALPUR,Jabalpur,Yadavcolony,Out Post Jabalpur,arna dwivedi,9324578787
+JABALPUR,Jabalpur,Ukhri,Out Post Jabalpur,ASI LAL JI MISHRA,8989021566
+JABALPUR,Katni,Control Room,Control_Room,,7622230412
+JABALPUR,Katni,KA_AJK,Police Station,TI== PRAJAPATI,
+JABALPUR,Katni,Badwara,Police Station,AJAY SINGH,9827280596
+JABALPUR,Katni,Bahoriband,Police Station,MUKESH ABITRA,9754019111
+JABALPUR,Katni,Barhi,Police Station,SANTOSH NIGAM,9425185543
+JABALPUR,Katni,Dhimarkheda,Police Station,sekh riyaj,9479994274
+JABALPUR,Katni,KA_GRP,Police Station,,
+JABALPUR,Katni,Katni,Police Station,Shashikant Shukla,9425427417
+JABALPUR,Katni,KA_Kotwali,Police Station,shasikant shukla,9425427417
+JABALPUR,Katni,Kuthla,Police Station,B.M. SHUKLA,7049140925
+JABALPUR,Katni,Kymore,Police Station,AKHIL VERMA,9425147868
+JABALPUR,Katni,Madhavnagar,Police Station,MUKESH KHAMPARIYA,9479994227
+JABALPUR,Katni,Rithi,Police Station,TI,
+JABALPUR,Katni,Sleemnabad,Police Station,b m sukhla,8889184839
+JABALPUR,Katni,Tikuri,Police Station,,
+JABALPUR,Katni,Umariyapan,Police Station,,9826277700
+JABALPUR,Katni,Vijayraghavgarh,Police Station,DILIP PANDEY,9479994282
+JABALPUR,Katni,Bilheri,Out Post Katni,,
+JABALPUR,Katni,Bus Stand,Out Post Katni,,
+JABALPUR,Katni,Civil Line,Out Post Katni,,
+JABALPUR,Katni,Government Hostel Katni,Out Post Katni,,
+JABALPUR,Katni,Jhara Tikuriya,Out Post Katni,,
+JABALPUR,Katni,Khitoli,Out Post Katni,si. priyanka kewat,9827677072
+JABALPUR,Katni,Mandi,Out Post Katni,,
+JABALPUR,Katni,Nadipar,Out Post Katni,,
+JABALPUR,Katni,Niwar,Out Post Katni,,
+JABALPUR,Katni,Purani Basti,Out Post Katni,,
+JABALPUR,Katni,Saliya,Out Post Katni,,
+JABALPUR,Katni,Silodi,Out Post Katni,,
+JABALPUR,Katni,NKJ(New Katni Junction),Police Station,i.d. duivedi,
+JABALPUR,Narsinghpur,Control Room,Control_Room,,7792232163
+JABALPUR,Narsinghpur,AJK Narsinghpur,Police Station,BABARIYA,7415514510
+JABALPUR,Narsinghpur,Chichali,Police Station,amit koli,9479996351
+JABALPUR,Narsinghpur,Gadarwada,Police Station,shailesh mishra,9425154176
+JABALPUR,Narsinghpur,Gotegaon,Police Station,Rakeh Tiwari,9425152278
+JABALPUR,Narsinghpur,Kareli,Police Station,umesh tivari,9425853344
+JABALPUR,Narsinghpur,Mungwani,Police Station,C.M.Shukla,9479996316
+JABALPUR,Narsinghpur,Narsinghpur,Police Station,R. K. Gautam,9479996289
+JABALPUR,Narsinghpur,Paloha,Police Station,Ashok Dubey,9479996299
+JABALPUR,Narsinghpur,Saikheda,Police Station,RAGVENDRA SINGH CHOHAN,9479996329
+JABALPUR,Narsinghpur,Suataal,Police Station,s.s.jharia,9425468756
+JABALPUR,Narsinghpur,Tendukheda,Police Station,UMESH TIWARI,9425853344
+JABALPUR,Narsinghpur,Themi,Police Station,O.P.Sharma,9479996287
+JABALPUR,Narsinghpur,Amngaon,Out Post Narsing.,K.N. Garg,9425420492
+JABALPUR,Narsinghpur,Barmaan,Out Post Narsing.,Op sharma,9425845426
+JABALPUR,Narsinghpur,Cheechli,Out Post Narsing.,amit kumar,9479996351
+JABALPUR,Narsinghpur,Gadarwaratown,Out Post Narsing.,Sant kumar mishra,9407059199
+JABALPUR,Narsinghpur,Gotitoriya,Out Post Narsing.,,
+JABALPUR,Narsinghpur,Jhoteshwar,Out Post Narsing.,R.N. Sharma,9479996323
+JABALPUR,Narsinghpur,Kandeltown,Out Post Narsing.,,
+JABALPUR,Narsinghpur,Nivari,Out Post Narsing.,Somkumwar,9479996297
+JABALPUR,Narsinghpur,Stationganj,Out Post Narsing.,,
+JABALPUR,Narsinghpur,Station Narsinghpur,Out Post Narsing.,Raman Singh,9479996297
+JABALPUR,Narsinghpur,Saalechoka,Out Post Narsing.,bacchan mishra,9425161393
+JABALPUR,Narsinghpur,NAOutpost_Sihora,Out Post Narsing.,Pannalal Pal,9424734261
+JABALPUR,Narsinghpur,Singhpur,Out Post Narsing.,Basant Sharma,9479996298
+JABALPUR,Chindwara,Control Room,Control_Room,,7162244888
+JABALPUR,Chindwara,CN_AJK,Police Station,,
+JABALPUR,Chindwara,Amarwara,Police Station,Amarwara,9479991561
+JABALPUR,Chindwara,Batkakhapa,Police Station,Anand Rao,9479991596
+JABALPUR,Chindwara,Bichhua,Police Station,Satish patel,9479991547
+JABALPUR,Chindwara,Chand,Police Station,J.L. Varme,9479991580
+JABALPUR,Chindwara,Chandametta,Police Station,M L SHARMA,9425389249
+JABALPUR,Chindwara,Chaurai,Police Station,A.P. DIWEDI,9479991586
+JABALPUR,Chindwara,Damua,Police Station,M.P. Maravi,9479991672
+JABALPUR,Chindwara,CN_GRP,Police Station,,
+JABALPUR,Chindwara,Harrai,Police Station,Surendra Singh,9479991574
+JABALPUR,Chindwara,Junnardev,Police Station,R.K. Gupta,9479991660
+JABALPUR,Chindwara,CN_Kotwali,Police Station,t.i. dinesh ji,9424398000
+JABALPUR,Chindwara,Kundipura,Police Station,ANIL PANT,9479991630
+JABALPUR,Chindwara,Lawaghogari,Police Station,DC Jharia,9479991656
+JABALPUR,Chindwara,Lodhikheda,Police Station,Ajay mishra,9479991518
+JABALPUR,Chindwara,Mahuljhir,Police Station,V.C. Jhariya,9479991688
+JABALPUR,Chindwara,Mohgaon,Police Station,Bhagwan Singh,9479991555
+JABALPUR,Chindwara,Mohkhed,Police Station,ANIL SHUKLA,9479991643
+JABALPUR,Chindwara,CN_Navegaon,Police Station,Kewal Singh,9479991699
+JABALPUR,Chindwara,Pandurna,Police Station,B.B. Sharma,9479991534
+JABALPUR,Chindwara,Parasia,Police Station,k k verma,9407010774
+JABALPUR,Chindwara,Saunsar,Police Station,R.n. tripathi,9479991526
+JABALPUR,Chindwara,Tamia,Police Station,Mukesh Tiwari,9479991681
+JABALPUR,Chindwara,Umreth,Police Station,arvind tiwari,9479991732
+JABALPUR,Chindwara,Ambada,Out Post Chind.,Ramesh Kourav,9479991663
+JABALPUR,Chindwara,Badchicholi,Out Post Chind.,Yudhishthir Awasthi,9479991537
+JABALPUR,Chindwara,Badkundi,Out Post Chind.,Suresh Patel,9479991723
+JABALPUR,Chindwara,Daramtekri,Out Post Chind.,R R DUBEY,9669269286
+JABALPUR,Chindwara,Delakhari,Out Post Chind.,Balram Dubey,9407009325
+JABALPUR,Chindwara,Dhanora,Out Post Chind.,Shivnarayan,9479991598
+JABALPUR,Chindwara,Dungoriya,Out Post Chind.,Chandan Singh,9479991662
+JABALPUR,Chindwara,Hiverkhedi,Out Post Chind.,J.M. Sanodia,9479991589
+JABALPUR,Chindwara,Jhirpa,Out Post Chind.,,
+JABALPUR,Chindwara,Jhotkala,Out Post Chind.,,
+JABALPUR,Chindwara,Khamarpani,Out Post Chind.,Mahendra Mishra,9479991548
+JABALPUR,Chindwara,Nadnwadi,Out Post Chind.,R.B. Mishra,9425385376
+JABALPUR,Chindwara,Newtone,Out Post Chind.,R.R. Dubey,9479991713
+JABALPUR,Chindwara,Piplanarayanwar,Out Post Chind.,Ravindra Kumar,9479991519
+JABALPUR,Chindwara,Rawanwada,Out Post Chind.,H.S. Gour,
+JABALPUR,Chindwara,Sanvari,Out Post Chind.,Mahesh Ahirwar,9479991653
+JABALPUR,Chindwara,Singhori,Out Post Chind.,Balwant Singh,9479991563
+JABALPUR,Chindwara,Umarnala,Out Post Chind.,Anup Dubey,9479991644
+JABALPUR,Chindwara,Dehat,Police Station,KP MISHRA,9425892146
+JABALPUR,Chindwara,badkuhi,Out_Post,J M SANODIHA,7049129619
+JABALPUR,Seoni,Control Room,Control_Room,,7692220955
+JABALPUR,Seoni,AJK Seoni,Police Station,Sanjay Bais,9479998009
+JABALPUR,Seoni,Ari,Police Station,Narmada Sindram,9479998063
+JABALPUR,Seoni,Bandol,Police Station,ravi gupta,9479998033
+JABALPUR,Seoni,Barghat,Police Station,Bhagat Singh Gothariya,9479998061
+JABALPUR,Seoni,Chhapara,Police Station,RAMDAS BARTI,7049132953
+JABALPUR,Seoni,Dhanora,Police Station,RS UIKEY,9479998044
+JABALPUR,Seoni,Dhuma,Police Station,L.S. JHARIYA,9479998054
+JABALPUR,Seoni,Ghansore,Police Station,C.K.Tiwari,9479998052
+JABALPUR,Seoni,Kanhiwara,Police Station,DD Baragi,9479998042
+JABALPUR,Seoni,Keolari,Police Station,M.A. QURESHI,9479998041
+JABALPUR,Seoni,Kindrai,Police Station,R.S.UIKY,9479998055
+JABALPUR,Seoni,Kurai,Police Station,SHIV RAJ SG,9479998062
+JABALPUR,Seoni,Lakhnadon,Police Station,D.S Thakur,9479998051
+JABALPUR,Seoni,Lakhnwara,Police Station,Sanjeev k. Uikey,9479998032
+JABALPUR,Seoni,Seoni,Police Station,SHRI Navin Jain,7049132701/2
+JABALPUR,Seoni,Ugli,Police Station,KRANTI KUMAR BRMHE,9479998043
+JABALPUR,Seoni,Bhimgarh,Out Post Seoni,G.P SHARMA,9479971997
+JABALPUR,Seoni,Chhenta,Out Post Seoni,Ravi Gupta,9479998030
+JABALPUR,Seoni,Khairapalari,Out Post Seoni,,
+JABALPUR,Seoni,Sanwara,Out Post Seoni,Jitendra Dohre,9479998047
+SHAHDOL,Shahdol,Amlai,Police Station,Devesh Pathak,9425466022
+SHAHDOL,Shahdol,Beohari,Police Station,arun kumar padey,9425465799
+SHAHDOL,Shahdol,Budhar,0,,9479998239
+SHAHDOL,Shahdol,Deolondh,Police Station,r.k mishra 9425177944,7049161739
+SHAHDOL,Shahdol,Dhanpuri,0,Satish Diwedi,9479998206
+SHAHDOL,Shahdol,Gohparu,Police Station,GULAB SG,7389560605
+SHAHDOL,Shahdol,Jaisinghnagar,0,mangal singh,9479998184
+SHAHDOL,Shahdol,Jaitpur,0,TI UMESH 9589509392,9589509392
+SHAHDOL,Shahdol,SH_Kotwali,0,rajesh chandra mishra,9479998164
+SHAHDOL,Shahdol,Sidhi,0,M.P.Choukikar,9425645126
+SHAHDOL,Shahdol,Khairha,Out Post Shahdol,S.B.SINGH CHANDEL,8463845846
+SHAHDOL,Shahdol,Darshila,Out Post Shahdol,umed sg,7049144213
+SHAHDOL,Shahdol,Control Room,Control_Room,,7652245898
+SHAHDOL,Shahdol,Shivpur,Police Station,,9424775559
+SHAHDOL,Shahdol,Sohagpur,Police Station,BHUPENDR SINGH,9425179447
+SHAHDOL,Shahdol,GRP Thana,Police Station,kasyap,9479994162
+SHAHDOL,Umaria,Control Room,Control_Room,,7653222710
+SHAHDOL,Umaria,UM_AJK,Police Station,Chhoteraja Patel,9425436790
+SHAHDOL,Umaria,Chandia,Police Station,manjhi,7049145342
+SHAHDOL,Umaria,Indwar,Police Station,si B D Singh,7049145359
+SHAHDOL,Umaria,UM_Manpur,Police Station,Shringesh Rajpoot,7898445731
+SHAHDOL,Umaria,Nowrozabad,Police Station,m.r.kakodiya,7049145447
+SHAHDOL,Umaria,Pali,Police Station,Hemant sharma,7049145465
+SHAHDOL,Umaria,Umaria,Police Station,ravindra duivedi,9424704666
+SHAHDOL,Umaria,Amarpur,Out Post Umariya,Baboolal Singh,9753010315
+SHAHDOL,Umaria,Bilaspur,Out Post Umariya,ASI PRAJAPATI,9424334532
+SHAHDOL,Umaria,UM_Kotwali,Police Station,RAVENDRA DWIVEDI,7049145286
+SHAHDOL,Anuppur,Control Room,Control_Room,,7659222534
+SHAHDOL,Anuppur,AP_AJK,Police Station,Santosh Vanshkaar,9479998156
+SHAHDOL,Anuppur,Amarkantak,Police Station,KRISHNA CHOUHAN,"9479998096,"
+SHAHDOL,Anuppur,Bhalumada,Police Station,Hemant Sharma,9479998112
+SHAHDOL,Anuppur,Bijuri,Police Station,TI == 9424349484,9407012581
+SHAHDOL,Anuppur,Chachai,Police Station,si riyas khan,9479998090
+SHAHDOL,Anuppur,Jaithari,Police Station,R.K.Mishra= 7722834581,8878685242
+SHAHDOL,Anuppur,Karanpathar,Police Station,D.K.Dahiya--9479998079,9907018262
+SHAHDOL,Anuppur,Kotma,Police Station,c.r.patel,9425436790
+SHAHDOL,Anuppur,AP_Kotwali,Police Station,chhote raja patel,9425436790
+SHAHDOL,Anuppur,Rajendragram,Police Station,H S SHUKLA,9425471574
+SHAHDOL,Anuppur,Ramnagar,Out Post Anuppur,Swapnil das,9479998147
+SHAHDOL,Dindori,Control Room,Control_Room,,7644234188
+SHAHDOL,Dindori,DI_AJK,Police Station,,
+SHAHDOL,Dindori,Bijag,Police Station,tomar,7049143688
+SHAHDOL,Dindori,Dindori,Police Station,hemant barvee,9425043460
+SHAHDOL,Dindori,Karnjiya,Police Station,S N Singh,9993531004
+SHAHDOL,Dindori,Samnapur,Police Station,SAJJAN SINGH PAREHAR,7389180503
+SHAHDOL,Dindori,DI_Shahpur,Police Station,T S GAUTAM,9425182199
+SHAHDOL,Dindori,DI_Shahpura,Police Station,Shri Anil patel,9425478422
+SHAHDOL,Dindori,Amarpur,Out Post Dindori,Dheraj raj,9981131960
+SHAHDOL,Dindori,DI_Bichhiya,Out Post Dindori,Shri Virendra Sharma,9479995172
+SHAHDOL,Dindori,Gadhasarai,Out Post Dindori,N/A,N/A
+SHAHDOL,Dindori,Gopalpur,Out Post Dindori,,
+SHAHDOL,Dindori,Medhawanee,Out Post Dindori,,
+SHAHDOL,Dindori,DIOutpost_Vikrampurbari,Out Post Dindori,Shri Shourbh Batham,9425787049
+UJAIN,Ujain,UJ_AJK,Police Station,,
+UJAIN,Ujain,Badnagar,Police Station,R.K. NAIN,9993538964
+UJAIN,Ujain,Bhatpachlana,Police Station,,
+UJAIN,Ujain,Bherugarh,Police Station,SI PRASANT SINGH,
+UJAIN,Ujain,Biralgarm,Police Station,f b bais,9407406801
+UJAIN,Ujain,Chimanganj,Police Station,o.p mishra,9977100100
+UJAIN,Ujain,Dewasgate,Police Station,,
+UJAIN,Ujain,Ghatia,Police Station,M.S. RAGHUVANSI,9926354345
+UJAIN,Ujain,UJ_GRP,Police Station,,
+UJAIN,Ujain,Ingoria,Police Station,t.i p.l.yadav,9479999091
+UJAIN,Ujain,Jharda,Police Station,PRSANT YADAV,
+UJAIN,Ujain,Jiwajiganj,Police Station,,
+UJAIN,Ujain,Kaytha,Police Station,,
+UJAIN,Ujain,Khachrod,Police Station,,
+UJAIN,Ujain,Kharakua,Police Station,,
+UJAIN,Ujain,UJ_Kotwali,Police Station,RM SHUKLA,9425008950
+UJAIN,Ujain,Madhavnagar,Police Station,R.K.SINGH,8959061111
+UJAIN,Ujain,Mahakal,Police Station,s.p. sharma,8435251399
+UJAIN,Ujain,Mahidpur,Police Station,MANISH DUBEY,9479998132
+UJAIN,Ujain,Mahidpur Road,Police Station,,
+UJAIN,Ujain,UJ_Mahila Thana,Police Station,,9425485114
+UJAIN,Ujain,Makdon,Police Station,,
+UJAIN,Ujain,Nagda,Police Station,gopal parmar,9425442155
+UJAIN,Ujain,Narwar,Police Station,,
+UJAIN,Ujain,Neelganga,Police Station,MS PARMAR,9425332306
+UJAIN,Ujain,Officer Mess,Police Station,,
+UJAIN,Ujain,Raghavi,Police Station,dilwal,
+UJAIN,Ujain,Tarana,Police Station,manoj dubey,
+UJAIN,Ujain,Unhel,Police Station,,
+UJAIN,Ujain,Birlagram,Out Post,G.P Dubey,9827351937
+UJAIN,Ujain,Chapakheda,Out Post,,
+UJAIN,Ujain,Mahakaltemple,Out Post,,
+UJAIN,Ujain,Nanakheda,Out Post,vivek kanoria,8085416067
+UJAIN,Ujain,Panvihar,Out Post,r.s.kushvvaha,7049118135
+UJAIN,Shajapur,Control Room,Control_Room,,7364227100
+UJAIN,Shajapur,SJ_AJK,Police Station,,
+UJAIN,Shajapur,Akodia,Police Station,Bihari Singh,9479998443
+UJAIN,Shajapur,Badodiya,Police Station,naval kishore yadav,9479998430
+UJAIN,Shajapur,Berchha,Police Station,m.r. khan,9479998330
+UJAIN,Shajapur,Kalapipal,Police Station,M.S. CHOHAN,9479998420
+UJAIN,Shajapur,Maksi,Police Station,Mahesh Bhargav,9479998490
+UJAIN,Shajapur,Momanbarodia,Police Station,ramesh kalthia,9479998407
+UJAIN,Shajapur,Salsalai,Police Station,MS Thakur,9479998450
+UJAIN,Shajapur,Shajapur,Police Station,MISHRA JI,9479998390
+UJAIN,Shajapur,Shujalpur,Police Station,s d joshi,9479998410
+UJAIN,Shajapur,Sundarsi,Police Station,Mansingh Parihar,9479998343
+UJAIN,Shajapur,Badagaon,Out Post,Prahlad Singh,9479998377
+UJAIN,Shajapur,Bijanagari,Out Post,Vijay ShuklA,8964843479
+UJAIN,Shajapur,Gulana,Out Post,BL Samwle,9479998455
+UJAIN,Shajapur,Londiya,Out Post,,
+UJAIN,Shajapur,Piplonkala,Out Post,VC Jha,9479998466
+UJAIN,Shajapur,Polaikala,Out Post,Chatrasal Singh,9479998436
+UJAIN,Shajapur,Pratilavad,Out Post,,
+UJAIN,Shajapur,Shujapurmandi,Out Post,SN Gupta,9479998416
+UJAIN,Shajapur,Sunera,Out Post,AS Pawar,9479998391
+UJAIN,Shajapur,Tilawad,Out Post,RK Pandey,9424546823
+UJAIN,Neemuch,Control Room,Control_Room,,7423228000
+UJAIN,Neemuch,Badhana,Police Station,Brajesh Mishra,9424004848
+UJAIN,Neemuch,Jawad,Police Station,Piyush Charls,9425108554
+UJAIN,Neemuch,Jiran,Police Station,KAMLESH SINGAR,9755555137
+UJAIN,Neemuch,Kukdeshwar,Police Station,H.L. THAKUR,7049142189
+UJAIN,Neemuch,Manasa,Police Station,M.L. Parmar,9617798639
+UJAIN,Neemuch,Neemuch Cantt,Police Station,ANIRUDH WADHIYA,9479995472
+UJAIN,Neemuch,Rampura,Police Station,S.S. Rathor,9993936129
+UJAIN,Neemuch,Ratangarh,Police Station,R.C. Goud,9826878191
+UJAIN,Neemuch,Singoli,Police Station,P.S. Bhadori,9926226007
+UJAIN,Neemuch,Deekan,Out Post,Mohan Singh,9424872542
+UJAIN,Neemuch,Jat,Out Post,H.S. Sengar,N/A
+UJAIN,Neemuch,Kanjada,Out Post,G.L. Bhuria,9479995526
+UJAIN,Neemuch,Nayagaon,Out Post,Sengar,9981598795
+UJAIN,Neemuch,Neema City,Police Station,SIVE KUMAR YADAV,8719823477
+UJAIN,Mandsure,Control Room,Control_Room,,7422220500
+UJAIN,Mandsure,Afzalpur,Police Station,N.S. Suryawanshi,9479995407
+UJAIN,Mandsure,MS_AJK,Police Station,,
+UJAIN,Mandsure,Bhanpura,Police Station,K.S. Kushwah,9479995430
+UJAIN,Mandsure,Bhaugarh,Police Station,Abhibav Shukla,9479995374
+UJAIN,Mandsure,Garoth,Police Station,Vijay Choudhri 9479995418,7049132059
+UJAIN,Mandsure,Ghandisagar,Police Station,B.L.SOLANKI,9329324009
+UJAIN,Mandsure,MS_Kotwali,Police Station,Ratnesh Mishra,9479995319
+UJAIN,Mandsure,Malhargarh,Police Station,Laxmansingh Gurjar,9479995382
+UJAIN,Mandsure,Nahargarh,Police Station,P.C. Chouhan,9479995402
+UJAIN,Mandsure,Narayangarh,Police Station,K.S. Rawat,9479995369
+UJAIN,Mandsure,Pipliyamandi,Police Station,B.S. Solanki,9479995363
+UJAIN,Mandsure,Shyamgarh,Police Station,D.V.S. Chouhan,9479995441
+UJAIN,Mandsure,Sitamau,Police Station,S.K. Dudhi,9479995390
+UJAIN,Mandsure,Suwasra,Police Station,O.S. Thakur,9479995413
+UJAIN,Mandsure,Yashoverdhan nagar,Police Station,Kishore Patanwala,9479995351
+UJAIN,Mandsure,Bhensoda Mandi,Out Post,G.P. Sharma,9479995439
+UJAIN,Mandsure,Chandwasa,Out Post,Samrath Seenam,9479995443
+UJAIN,Mandsure,Daloda,Out Post,Y.R. Sen,9479995375
+UJAIN,Mandsure,Satakhedi,Out Post,asi rajoriya,9406970144
+UJAIN,Mandsure,Nai Awadi,Police Station,G L Biloniya,9425369055
+UJAIN,dewas,Control Room,Control_Room,,7272220700
+UJAIN,dewas,DE_AJK,Police Station,,
+UJAIN,dewas,Bagli,Police Station,J.R. Joomnani,9977924910
+UJAIN,dewas,Bank Note Press,Police Station,R.D.Mishra,9479991956
+UJAIN,dewas,Barotha,Police Station,,
+UJAIN,dewas,Bhauransa,Police Station,RAM MOORTI,9479991985
+UJAIN,dewas,Hatpipliya,Police Station,sanjay mandloi,9425939530
+UJAIN,dewas,Industrial Area,Police Station,Bharat Bhooshan Sharma,9479992018
+UJAIN,dewas,Kannod,Police Station,RAHUL SHARMA,9479992050
+UJAIN,dewas,Kantafoda,Police Station,Rakesh Sankhwaar,9479992075
+UJAIN,dewas,Khategaon,Police Station,Tehzeeb kaaji,9425141044
+UJAIN,dewas,DE_Kotwali,Police Station,Bhoopendra Singh,7049101025
+UJAIN,dewas,Nemawar,Police Station,RAKESH JI,8889946799
+UJAIN,dewas,Pipalrawa,Police Station,prem singh bhadoriya,9424056103
+UJAIN,dewas,Satwas,Police Station,Sanjay Mandloi,9425939530
+UJAIN,dewas,Sonkatch,Police Station,K.C.Malviya,9479992047
+UJAIN,dewas,Tokkhurd,Police Station,Saligram Pawar,9479991993
+UJAIN,dewas,Udaynagar,Police Station,,
+UJAIN,dewas,Women Center,Police Station,,
+UJAIN,dewas,Balon,Out Post,R.U.Mansoori,9977648151
+UJAIN,dewas,Choubaradhira,Out Post,Nandram Baghela,7566450231
+UJAIN,dewas,Doubat,Out Post,,
+UJAIN,dewas,Harangaon,Out Post,J.S.Parmar,9617425186
+UJAIN,dewas,Jeeyagaon,Out Post,K.C.Khatri,9009039184
+UJAIN,dewas,Kamlapur,Out Post,,
+UJAIN,dewas,Newri,Out Post,,9425984781
+UJAIN,dewas,Tonk Kalan,Out Post,Radheshyam Sharma,9826292556
+UJAIN,dewas,Vijayganj Mandi,Out Post,Nayan Singh,9479991962
+UJAIN,Agar,Agar,Police Station,DS Ranawat,9479998460
+UJAIN,Agar,Barod,Police Station,PD nayak,9479998470
+UJAIN,Agar,Kanad,Police Station,Pradeep Rajoriya,9479998480
+UJAIN,Agar,Nalkheda,Police Station,US Tiwari,9479998374
+UJAIN,Agar,Soyatkala,Police Station,RR Sengar,9479998380
+UJAIN,Agar,Susner,Police Station,VS Karosiya,9479998363
+UJAIN,Ratlam,Control Room,Control_Room,,7412270473
+UJAIN,Ratlam,RL_AJK,Police Station,,
+UJAIN,Ratlam,Alote,Police Station,Y.S.THAKUR,
+UJAIN,Ratlam,Barawada,Police Station,Tezmal Pawar,7049162264
+UJAIN,Ratlam,Bajna,Police Station,Y.S. Chouhan,9993934003
+UJAIN,Ratlam,Barkheda,Police Station,Ravindra Bariya,9589024888
+UJAIN,Ratlam,Bilpank,Police Station,RC.KOLI,9425480993
+UJAIN,Ratlam,RL_GRP,Police Station,,
+UJAIN,Ratlam,Industrial Area Ratlam,Police Station,O.P.SHARMA,9827624724
+UJAIN,Ratlam,Industrial Area Jaora,Police Station,ANIL YADAV,9425483718
+UJAIN,Ratlam,Jaora City,Police Station,Ajay Saarwan,9425083977
+UJAIN,Ratlam,Kalukheda,Police Station,m.s.katara,7049162263
+UJAIN,Ratlam,RL_Mahila thana,Police Station,JYOTI SOLANKI,9425971046
+UJAIN,Ratlam,Manak Chowk,Police Station,R C KOLI,7049127949
+UJAIN,Ratlam,Namli,Police Station,Ashutosh Mishra,9893951857
+UJAIN,Ratlam,Piploda,Police Station,O.P. Sharma,9827624724
+UJAIN,Ratlam,Raoti,Police Station,F.S. Singh,9826535931
+UJAIN,Ratlam,Ringnod,Police Station,I.K. Jain,9424035608
+UJAIN,Ratlam,Sailana,Police Station,B.R. Chouhan,9926477715
+UJAIN,Ratlam,Sarvan,Police Station,R.N. Parihar,9770440587
+UJAIN,Ratlam,Shivgarh,Police Station,J.S. Mandloi,9826104002
+UJAIN,Ratlam,Station road / Do batti,Police Station,Rajesh Singh,9425492165
+UJAIN,Ratlam,Tal,Police Station,Suresh Balraj,9425460458
+UJAIN,Ratlam,Ashawati,Out Post,Shambhu singh,9479997061
+UJAIN,Ratlam,Bangrod,Out Post,SI- VRUN TIWARI,8869
+UJAIN,Ratlam,Berda,Out Post,,
+UJAIN,Ratlam,Bhojakehdi,Out Post,G.S. Kushwah,9753338314
+UJAIN,Ratlam,Birmawal,Out Post,Jagdish Hada,9993800367
+UJAIN,Ratlam,Chandragarh,Out Post,,
+UJAIN,Ratlam,Dhodhar,Out Post,d.l. solanki,9424593134
+UJAIN,Ratlam,Hatpipalia,Out Post,R.N. Sisodia,8224834500
+UJAIN,Ratlam,Hussaintekri,Out Post,sisodiya,7049127671
+UJAIN,Ratlam,Kanadia,Out Post,Premchand Verma,9926020415
+UJAIN,Ratlam,Kharwakala,Out Post,umashankar yadav,8461978761
+UJAIN,Ratlam,Mawata,Out Post,S.L. Yadav,9479997067
+UJAIN,Ratlam,Salokhedi,Out Post,Ayyub Khan,9977525765
+UJAIN,Ratlam,Sarvan,Out Post,,
+UJAIN,Ratlam,Sarsi,Out Post,S.S. Gour,9425441161
+UJAIN,Ratlam,Shukheda,Out Post,Dalpat Singh,9993800367
+UJAIN,Ratlam,Virmawal,Out Post,,
+REWA,Rewa,RE_AJK,Police Station,Susheela Verma,9425357409
+REWA,Rewa,Anantpur,Police Station,a.p singh,9425177428
+REWA,Rewa,Antraila,Police Station,RAM VISHWAS VERMA,9179916038
+REWA,Rewa,Baikuntpur,Police Station,S. K SHARMA,9425179949
+REWA,Rewa,Chakghat,Police Station,S.B. SINGH,9479997210
+REWA,Rewa,Chohrata,Police Station,Anil sahab,9425076492
+REWA,Rewa,RE_Civilline,Police Station,Rajendra Mohan divedi,9425483834
+REWA,Rewa,Dabhora,Police Station,RAJENDRA BAGHEL,9755154943
+REWA,Rewa,Garh,Police Station,ASHARAM GOUTAM,7049122845
+REWA,Rewa,Govindghar,Police Station,S.S.RAJPOOT,9977114567
+REWA,Rewa,Gurh,Police Station,SANTOSH SINGH,9479997199
+REWA,Rewa,Hanumana,Police Station,deepak parasar,9479997295
+REWA,Rewa,Janeh,Police Station,v.r.singh,
+REWA,Rewa,Jawa,Police Station,H.L.Choudhary,7049122788
+REWA,Rewa,RE_Kotwali,Police Station,,8989582195
+REWA,Rewa,Laur,Police Station,B.N.Dwivedi,9993338975
+REWA,Rewa,RE_Mahila thana,Police Station,Nisha Mishra,9407061143
+REWA,Rewa,Manganwa,Police Station,SUDHEER SHRIVASTAV,7049122712
+REWA,Rewa,Mauganj,Police Station,shailendra =7049122865,7049122870
+REWA,Rewa,Naigharhi,Police Station,SHAILANDRA SHARMA,9691404428
+REWA,Rewa,Panwar,Police Station,k.l.sakya,9691896030
+REWA,Rewa,Raipurkar,Police Station,UB Singh,9993534900
+REWA,Rewa,Sagra,Police Station,ROSHNI JAIN,8819827742
+REWA,Rewa,Semria,Police Station,darmesh dixit ji,9479997250
+REWA,Rewa,RE_Shahpur,Police Station,R L CHOUDHARI,9617125875
+REWA,Rewa,Sirmour,Police Station,LP YADAV,9754817781
+REWA,Rewa,Sohagi,Police Station,rajendra mohan dubey,9630167100
+REWA,Rewa,University,Police Station,A.P.Singh,
+REWA,Rewa,Bheer,Out Post Rewa,,
+REWA,Rewa,Birpur,Out Post Rewa,,
+REWA,Rewa,Busstand,Out Post Rewa,,
+REWA,Rewa,REOutpost_Chachai,Out Post Rewa,,
+REWA,Rewa,Gadi,Out Post Rewa,RAM SUSHEEL PANDEY,9981518125
+REWA,Rewa,Hadahai,Out Post Rewa,RAMSHARAN SHARMA,9685127490
+REWA,Rewa,Hata,Out Post Rewa,,
+REWA,Rewa,Judwani,Out Post Rewa,,
+REWA,Rewa,Khathhari,Out Post Rewa,BRIJ RAJ SG,9165813737
+REWA,Rewa,Lalgaon,Out Post Rewa,B.N.divedi,7049122725
+REWA,Rewa,Manikwar,Out Post Rewa,rajendra singh,9907807333
+REWA,Rewa,Nowasata,Out Post Rewa,narendar singh tomar,8989618111
+REWA,Rewa,Raghunathgang,Out Post Rewa,Arjun Simaliya,9752129603
+REWA,Rewa,Saman,Out Post Rewa,Trivendra Triwedi,9229601486
+REWA,Rewa,Senouri,Out Post Rewa,INDRA BAHADUR,9575382773
+REWA,Rewa,Outpost_Shahpur,Out Post Rewa,PRAJAPATI,9753939694
+REWA,Rewa,Shivpurva,Out Post Rewa,,
+REWA,Rewa,Teonthar,Out Post Rewa,,9479997206
+REWA,Rewa,Devtalab,Police Station,p.n. dwivedi,9993338975
+REWA,Rewa,Mahila Help line,Police Station,,
+REWA,Satna,Control Room,Control_Room,,7672223100
+REWA,Satna,ST_AJK,Police Station,Vijay Pratap Singh,9479997708
+REWA,Satna,Amarpatan,Police Station,YASWANT GOYAL,
+REWA,Satna,Amdara,Police Station,Ajay Singh,9479997835
+REWA,Satna,Badera,Police Station,RAMAYANA PERSAD MISRA,9425427673
+REWA,Satna,Baraundha,Police Station,Satish Tiwari,9479997890
+REWA,Satna,ST_Civilline,Police Station,Rahul Kumar,9462057751
+REWA,Satna,Dharkundi,Police Station,Madhav Singh,9479997711
+REWA,Satna,Jaitwara,Police Station,G K TIWARI,9425035589
+REWA,Satna,Jasso,Police Station,R.K.Jaiswal,9407024058
+REWA,Satna,Kolgawan,Police Station,Anil Vajpayi,9425432333
+REWA,Satna,Kothi,Police Station,SHIVNANDAN SINGH KUMHARE,9479997813
+REWA,Satna,ST_Kotwali,Police Station,sm upadhdhyam,7049124155
+REWA,Satna,ST_Mahila thana,Police Station,HIMANCHAL SHUKLA,9425841861
+REWA,Satna,Maihar,Police Station,RB Sharma,9479997817 /942
+REWA,Satna,Majhgawan,Police Station,Surendra SINGH,9479997688
+REWA,Satna,Nagod,Police Station,akhand pratap sg patel,9424329282
+REWA,Satna,Nayagawan,Police Station,Maneesh Tirpathi,8120334545
+REWA,Satna,Ramnagar,Police Station,dhirendra singh,9926228377
+REWA,Satna,ST_Rampur,Police Station,Avinesh divedi,9425867474
+REWA,Satna,Shabhapur,Police Station,C.G. Diwedi,9425184464
+REWA,Satna,Singhpur,Police Station,SURENDRA SINGH,9752182053
+REWA,Satna,Tala,Police Station,SUNDRESH MARAVI,8085449656
+REWA,Satna,Uchehara,Police Station,RAGHUVEER SINGH RAJPOOT,9425455111
+REWA,Satna,Birhulibabupur,Out Post Satna,,
+REWA,Satna,Kotar,Out Post Satna,MD AJAD KHAN,9179636244
+REWA,Satna,Maashardadevi,Out Post Satna,,
+REWA,Satna,Mankahari,Out Post Satna,RB Singh,9425176831
+REWA,Satna,Parasmaniya,Out Post Satna,Ramkishor Tiwari,7879970551
+REWA,Satna,Ramvan,Out Post Satna,Baijnath Singh,9630261565
+REWA,Satna,Sohawal,Out Post Satna,UP Tiwari,9479997744
+REWA,Satna,,,,
+REWA,Satna,Control Room,Control_Room,,7822251600
+REWA,Satna,SI_AJK,Police Station,SHRI K R KARPETI,9424959384
+REWA,Satna,Amiliya,Police Station,PRABHA KIRAN,9589464649-si s
+REWA,Satna,Bahari,Police Station,S.P Singh Bisen,9752580016
+REWA,Satna,Churahat,Police Station,j p patel sir,8966939181
+REWA,Satna,Kamarji,Police Station,D.P. MISHRA,8462829179
+REWA,Satna,SI_Kotwali,Police Station,TI,
+REWA,Satna,Kusmi,Police Station,asi. p.l. pandiya,7049144874
+REWA,Satna,Majhauli,Police Station,Mahendra sg chauhan,9479998817
+REWA,Satna,Rampurnaikin,Police Station,shivadhar Upadhyay,9479998859
+REWA,Satna,Bamhni,Out Post Sidhi,R.L.SHARMA,9993063547
+REWA,Satna,Jamhori,Out Post Sidhi,sher ali khan,
+REWA,Satna,Khaddi,Out Post Sidhi,NAGENDRA YADAV,
+REWA,Satna,Madwas,Out Post Sidhi,nirwikara Mishra,9893908102
+REWA,Satna,Pathraula,Out Post Sidhi,UMA SHANKAR MISHRA,9424682334
+REWA,Satna,Pipraw,Out Post Sidhi,SHIV KUMAR TIWARI,8966892121
+REWA,Satna,Simariya,Out Post Sidhi,baldev singh,9179913309
+REWA,Singroli,Control Room,Control_Room,,7805234700
+REWA,Singroli,SN_AJK,Police Station,,
+REWA,Singroli,Berganwa,Police Station,"TI-NARENDRA,,7049133914",9755539920
+REWA,Singroli,Chitarangi,Police Station,TI.r.s.bhadouria,7049133919
+REWA,Singroli,Dewsar/jiyawan,Police Station,DEEPAK PARASAR,9425493909
+REWA,Singroli,Gadwa,Police Station,BN divedi,8827173333
+REWA,Singroli,Mada,Police Station,D.R.BARKHADY,9300226299
+REWA,Singroli,Morba,Police Station,gosvami,9926064100
+REWA,Singroli,Sarai,Police Station,Dinesh JATAV,9425389877
+REWA,Singroli,Vindhyanagar,Police Station,R..P MISHRA JI,7049133918
+REWA,Singroli,Waidhan,Police Station,SHRI R P SINGH,9425344912
+REWA,Singroli,Bandhoura,Out Post Singroli,,
+REWA,Singroli,Barka,Out Post Singroli,a.s.i indrpal varma,9424669316
+REWA,Singroli,Jayant,Out Post Singroli,,
+REWA,Singroli,Kundwar,Out Post Singroli,,
+REWA,Singroli,Naudihwa,Out Post Singroli,,
+REWA,Singroli,Nigri,Out Post Singroli,,
+REWA,Singroli,Niwas,Out Post Singroli,R.P.MISHRA,7389481372
+REWA,Singroli,Sasan,Out Post Singroli,,
+REWA,Singroli,Tingurhi,Out Post Singroli,MARAVI,7049133950
+SAGAR,Sagar,Agasoud,Police Station,,
+SAGAR,Sagar,SG_AJK,Police Station,,
+SAGAR,Sagar,Baheriya,Police Station,LAXMAN SING ANURAGI,9425164593
+SAGAR,Sagar,Bahrol,Police Station,M.K. VERMA,9479994796
+SAGAR,Sagar,Banda,Police Station,dilip shrivastav,9425150689
+SAGAR,Sagar,Bandri,Police Station,R S Rajput,7049117029
+SAGAR,Sagar,Baraitha,Police Station,,
+SAGAR,Sagar,Bhangarh,Police Station,JASBANT MEENA,7697372608
+SAGAR,Sagar,Bina,Police Station,ANIL KUMAR GUPTA,9617174246
+SAGAR,Sagar,Binaika,Police Station,SANTOSH JAMRA,9753431367
+SAGAR,Sagar,Cantonment sagar,Police Station,ashok shukla,9479997583
+SAGAR,Sagar,Chhanbila,Police Station,,9425742261
+SAGAR,Sagar,SG_Civilline,Police Station,Sahjad Singh,9479997601
+SAGAR,Sagar,SG_Deori,Police Station,ASHOK SHRIVASTAV,9425056035
+SAGAR,Sagar,Garhakota,Police Station,arvind dubey,9425169727
+SAGAR,Sagar,Gopalganj,Police Station,dharmendra,9425464325
+SAGAR,Sagar,Gourjhamar,Police Station,MAHENDER JAGET,9893589062
+SAGAR,Sagar,SG_GRP,Police Station,,9981452345
+SAGAR,Sagar,Jaisinagar,Police Station,S.K. GOSWAMI,9329871019
+SAGAR,Sagar,Kesli,Police Station,HIMANSHU CHOUBE,9993170980
+SAGAR,Sagar,Khimlasa,Police Station,PRAKAS PRABHALE,9893436230
+SAGAR,Sagar,Khurai,Police Station,RP RAWAT,9479997428
+SAGAR,Sagar,SG_Kotwali,Police Station,PRASANT KUMAR MISHRA,9407808282
+SAGAR,Sagar,SG_Maharajpur,Police Station,,
+SAGAR,Sagar,SG_Mahila thana,Police Station,,9425485114
+SAGAR,Sagar,Malthone,Police Station,TI,9425363735
+SAGAR,Sagar,Moti nagar,Police Station,S.K. SHARMA,9425095630
+SAGAR,Sagar,Naryaoli,Police Station,SI RAJPOOT,
+SAGAR,Sagar,Padmakarnagar,Police Station,ARUN SONI,9755430720
+SAGAR,Sagar,Rahatgarh,Police Station,VIJAY AMBHORE,
+SAGAR,Sagar,Rehli,Police Station,vidyadhar pandey,9425899733
+SAGAR,Sagar,Sanodha,Police Station,B.P.DWIVEDI,9425878321
+SAGAR,Sagar,Shahgarh,Police Station,Omkar das tandiya,7049117128
+SAGAR,Sagar,Surkhi,Police Station,V.S. CHOUHAN,9893686309
+SAGAR,Sagar,Vinayka,Police Station,,
+SAGAR,Sagar,Adawan,Out Post,,
+SAGAR,Sagar,Ata,Out Post,,
+SAGAR,Sagar,Baleh,Out Post,,
+SAGAR,Sagar,Bajaria,Out Post,,
+SAGAR,Sagar,Bara,Out Post,BRIJESH KUMAR,9993499663
+SAGAR,Sagar,Barodiya,Out Post,,
+SAGAR,Sagar,Beshra,Out Post,,
+SAGAR,Sagar,Bilahara,Out Post,chauhan sir,9893686309
+SAGAR,Sagar,Chhotibajaria,Out Post,,
+SAGAR,Sagar,Dalpatpur,Out Post,harishankar tiwari-asi,9584971572
+SAGAR,Sagar,Dhana,Out Post,BS Chauhan,9424427286
+SAGAR,Sagar,Goograkhurd,Out Post,,
+SAGAR,Sagar,Hirapur,Out Post,,
+SAGAR,Sagar,Jaruakhera,Out Post,,
+SAGAR,Sagar,Jodhsirchopi,Out Post,,
+SAGAR,Sagar,Kanjiya,Out Post,,
+SAGAR,Sagar,Karrapur,Out Post,,
+SAGAR,Sagar,Mandi Bamora,Out Post,,7389189500
+SAGAR,Sagar,Nai Basti,Out Post,,
+SAGAR,Sagar,Padmakar Nagar,Out Post,,
+SAGAR,Sagar,Sanichari,Out Post,,7049117196
+SAGAR,Sagar,SGOutpost_Sihora,Out Post,,
+SAGAR,Sagar,Sesai,Out Post,,
+SAGAR,Sagar,Outpost_Shahpur,Out Post,,
+SAGAR,Sagar,Tada,Out Post,,
+SAGAR,Sagar,Ujnet,Out Post,,
+SAGAR,Sagar,SG_Cant,Police Station,ASHok sukla,9479997583
+SAGAR,chatarpur,Control Room,Control_Room,,7682243501
+SAGAR,chatarpur,CT_AJK,Police Station,,
+SAGAR,chatarpur,Alipura,Police Station,SURENDRA PRASAD DONERIYA,9479991199
+SAGAR,chatarpur,Badamalehara,Police Station,,
+SAGAR,chatarpur,Bajna,Police Station,L.L. JAISWAL,9479991053
+SAGAR,chatarpur,Bamitha,Police Station,ZY KHAN,9425336433
+SAGAR,chatarpur,Bamnaura,Police Station,,
+SAGAR,chatarpur,Banshiya,Police Station,Manoj singh jadone,7049120769
+SAGAR,chatarpur,Bhagwa,Police Station,FAROOQI,7898789964
+SAGAR,chatarpur,Bijawar,Police Station,SMILE KHAN,7049121018
+SAGAR,chatarpur,Buxwaha,Police Station,A.K. PANDEY JI,9827379247
+SAGAR,chatarpur,Chandla,Police Station,A K PANDEY,
+SAGAR,chatarpur,Chhatarpur,Police Station,k.s.thakur,9425895756
+SAGAR,chatarpur,CT_Civilline,Police Station,omkar tiWari,9479991173
+SAGAR,chatarpur,Garhimalehara,Police Station,CHANDEL,9479991201
+SAGAR,chatarpur,Gaurihar,Police Station,pateriya ji,9479991200
+SAGAR,chatarpur,Goyra,Police Station,si == vikram singh,
+SAGAR,chatarpur,Gulganj,Police Station,,
+SAGAR,chatarpur,Harpalpur,Police Station,TRIPATHI SIR,9826082793
+SAGAR,chatarpur,Hinauta,Police Station,,
+SAGAR,chatarpur,Ishanagar,Police Station,ANAND SG PARIHAR,9425473572
+SAGAR,chatarpur,Jujharnagar,Police Station,,
+SAGAR,chatarpur,Khajuraho,Police Station,k.g.shukla sahab,9755258803
+SAGAR,chatarpur,Kishangarh,Police Station,TI,
+SAGAR,chatarpur,Lavkushnagar/Loundi,Police Station,KAMLESH KUMAR SAHU,9752465021
+SAGAR,chatarpur,Loundi,Police Station,kamal sahu,7049120440
+SAGAR,chatarpur,CT_Maharajpur,Police Station,SHEJAAD SINGH,9425158787
+SAGAR,chatarpur,Matgunwa,Police Station,DUVEDI JI,9685108163
+SAGAR,chatarpur,Nowgoan,Police Station,D D AJAD,9479991211
+SAGAR,chatarpur,Orchharoad,Police Station,DILIP PANDEY,9425474200
+SAGAR,chatarpur,Pipat,Police Station,ramsingh,9993189307
+SAGAR,chatarpur,Prakashbamhauri,Police Station,karan singh,9589309201
+SAGAR,chatarpur,Paryatan Khajuraho,Police Station,,
+SAGAR,chatarpur,Rajnagar,Police Station,,9425006045
+SAGAR,chatarpur,Sarwai,Police Station,R C CHATURVEDI,9993888698
+SAGAR,chatarpur,Satai,Police Station,RAMAKANT MISHRA,9893086826
+SAGAR,chatarpur,Shahgarh,Police Station,j k singh,9424737351
+SAGAR,chatarpur,Turism Khajuraho,Police Station,,
+SAGAR,chatarpur,Akona,Out Post,,
+SAGAR,chatarpur,Atkohan,Out Post,KESHRI PRASHD KETHA,9993215957
+SAGAR,chatarpur,Bachhon,Out Post,,
+SAGAR,chatarpur,Bhagwa,Out Post,FAROOQI,7898789964
+SAGAR,chatarpur,Bamhorishala,Out Post,,
+SAGAR,chatarpur,Chandranagar,Out Post,,
+SAGAR,chatarpur,Garroli,Out Post,,
+SAGAR,chatarpur,Ghuwara,Out Post,BHAGWAT SINGH,7049121168
+SAGAR,chatarpur,Dhuwara,Out Post,,
+SAGAR,chatarpur,Jatashankardham,Out Post,,
+SAGAR,chatarpur,Kakunpura,Out Post,,
+SAGAR,chatarpur,Karee,Out Post,,
+SAGAR,chatarpur,Kherakala,Out Post,,
+SAGAR,chatarpur,Kuri,Out Post,,
+SAGAR,chatarpur,Lugasi,Out Post,SUDHAKER SINGH,8435255854
+SAGAR,chatarpur,Maharajganj,Out Post,,
+SAGAR,chatarpur,Nanagiri,Out Post,,
+SAGAR,chatarpur,Padariya,Out Post,GULJAR KHAN,9752453746
+SAGAR,chatarpur,Pahra,Out Post,,
+SAGAR,chatarpur,Pathakeda,Out Post,,
+SAGAR,chatarpur,Ramtoriya,Out Post,,
+SAGAR,chatarpur,Ranital,Out Post,,
+SAGAR,chatarpur,Saidhpa,Out Post,choki prabhari(sendpa),9893583300
+SAGAR,chatarpur,Silon,Out Post,,
+SAGAR,Panna,Control Room,Control_Room,,7732252031
+SAGAR,Panna,Ajaygarh,Police Station,Arvind Singh Dangi,9479996385
+SAGAR,Panna,PA_AJK,Police Station,DSP II BK Arya,9479996421
+SAGAR,Panna,Amanganj,Police Station,S.S. BAGHEL,9424399000
+SAGAR,Panna,Brijpur,Police Station,,7049142835/ 704
+SAGAR,Panna,Devendra nagar,Police Station,Raghvendra Diwedi,9479996515
+SAGAR,Panna,Dharampur,Police Station,BS RATHOUR,9926449448
+SAGAR,Panna,Gunour,Police Station,Sudama Prasad Shukla,9406958917
+SAGAR,Panna,PA_Kotwali,Police Station,k.k. khaneja,7049142612
+SAGAR,Panna,Madla,Police Station,Komal Prasad Sen,9479996422
+SAGAR,Panna,Pawai,Police Station,Arun soni,9479996494
+SAGAR,Panna,Raipura,Police Station,Sudhir Kumar bagi,7049142745
+SAGAR,Panna,Sahanagar,Police Station,Raghunath Khatarkar,9479996434
+SAGAR,Panna,Saleha,Police Station,vinod karkare,9479996477
+SAGAR,Panna,Simariya,Police Station,jagdish sg dhakad,9479996414 ti
+SAGAR,Panna,Sunwani,Police Station,MD Tiwari,9425451137
+SAGAR,Panna,Barachh,Out Post Panna,babita,9479996466
+SAGAR,Panna,Chandora,Out Post Panna,Ramesh Singh,9009609041
+SAGAR,Panna,Hanumatpur,Out Post Panna,RJ Tiwari,9754026751
+SAGAR,Panna,Harduakhamaria,Out Post Panna,Ashok Diwedi,9479996404
+SAGAR,Panna,Kakarahati,Out Post Panna,C.L.AHIRWAR,"9993268304,947"
+SAGAR,Panna,Kalada,Out Post Panna,Arjun singh,9770713998
+SAGAR,Panna,Khori,Out Post Panna,Narayan Das Tiwari,9584615285
+SAGAR,Panna,Lalariya,Out Post Panna,,
+SAGAR,Panna,Maghgawan,Out Post Panna,Riyaz Khan,9479996423
+SAGAR,Panna,Mahewa,Out Post Panna,LL Sharma,9479996512
+SAGAR,Panna,Mohendra,Out Post Panna,DEEPAK CHOUHAN,
+SAGAR,Panna,Nadrha,Out Post Panna,SD Singh,9179057094
+SAGAR,Panna,Paharikhera,Out Post Panna,Shashishekhar Pandey,9179602312
+SAGAR,Panna,Shtabsingh,Out Post Panna,,
+SAGAR,Panna,Veera,Out Post Panna,Jagmohan Singh,9479996390
+SAGAR,Panna,Vori,Out Post Panna,h l prajapati,9479996447
+SAGAR,Tikamgarh,Control Room,Control_Room,,7683245400
+SAGAR,Tikamgarh,TI_AJK,Police Station,Shri Ramprasad Ahirwar,9479991334
+SAGAR,Tikamgarh,Badagao,Police Station,Shri laloo prasad Ahirwar,9479991380
+SAGAR,Tikamgarh,Baldevgarh,Police Station,AJIT SINGH CHOHAN,9425131267
+SAGAR,Tikamgarh,Budera,Police Station,M S SENGAR,9479991380
+SAGAR,Tikamgarh,Digora,Police Station,rajendra singh,8085250404
+SAGAR,Tikamgarh,Jatara,Police Station,Shri Murli Manohar Sharma,9479991344
+SAGAR,Tikamgarh,Jeron,Police Station,SI -- VIJAY DEVDA,7049129414
+SAGAR,Tikamgarh,Khargapur,Police Station,PRAMOD CHATURVEDI,9826291150
+SAGAR,Tikamgarh,TI_Kotwali,Police Station,,
+SAGAR,Tikamgarh,Kudeela,Police Station,sanjay choksey,9753328800
+SAGAR,Tikamgarh,Lidhoura,Police Station,DILIP PANDEY,9425474200
+SAGAR,Tikamgarh,Mohangarh,Police Station,MANSARAM BAGHEL,9479991466
+SAGAR,Tikamgarh,Niwari,Police Station,Shri Balveer Singh Gour,9479991471
+SAGAR,Tikamgarh,Orchha,Police Station,Shri Munna Baboo Tiwari,9479991502
+SAGAR,Tikamgarh,Palera,Police Station,VISHWAKARMA,9479991453
+SAGAR,Tikamgarh,Prithvipur,Police Station,PRAMOD CHATURVEDI,9826291150
+SAGAR,Tikamgarh,Sendri,Police Station,BAIJ NATH SHARMA,9165142893
+SAGAR,Tikamgarh,Simra,Police Station,B S THAKUR,9893174924
+SAGAR,Tikamgarh,Teharka,Police Station,Bhagwaandas Ahirwar,9479991359
+SAGAR,Tikamgarh,Astone,Out Post Tikam.,Tek Singh,7389176933
+SAGAR,Tikamgarh,Bamborikala,Out Post Tikam.,Shri Shiv Narayan Singh,9685934134
+SAGAR,Tikamgarh,Chakarpur,Out Post Tikam.,Surendra Singh Yadav,9479991500
+SAGAR,Tikamgarh,Chandera,Out Post Tikam.,Dadan Prasad Sharma,9981682718
+SAGAR,Tikamgarh,TI_Deori,Out Post Tikam.,Aachelal Koundar,8878072012
+SAGAR,Tikamgarh,Dewarda,Out Post Tikam.,b r tiviari,9981032306
+SAGAR,Tikamgarh,Kanera,Out Post Tikam.,Avdesh Pratap Singh Parihar,9479991431
+SAGAR,Tikamgarh,Khajri,Out Post Tikam.,Habib Khan,9479991455
+SAGAR,Tikamgarh,Khiriya,Out Post Tikam.,Roop Singh Thakur,9575870525
+SAGAR,Tikamgarh,Narainaka,Out Post Tikam.,Shri Mahendra Gautam,9479991497
+SAGAR,Tikamgarh,Taricharkala,Out Post Tikam.,baheed khan,
+SAGAR,Damoh,Control Room,Control_Room,,7812222755
+SAGAR,Damoh,DM_AJK,Police Station,,
+SAGAR,Damoh,Bhatiyagarh,Police Station,TI rakesh tiwari,9479991790
+SAGAR,Damoh,Bardiyagarh,Police Station,,
+SAGAR,Damoh,Chaohata,Police Station,,
+SAGAR,Damoh,Damoh dehat,Police Station,rajendra tiwari,9479991770
+SAGAR,Damoh,Gaisabad,Police Station,s.k.dvivedi,9479991830 /
+SAGAR,Damoh,Hatta,Police Station,RAVISHANKER PANDEY,9479991906
+SAGAR,Damoh,Hindoriya,Police Station,SHRI L. L. SHRIVASTA,9479991810
+SAGAR,Damoh,Jabera,Police Station,Satya Narayan Khampariya,9479991890
+SAGAR,Damoh,DM_Kotwali,Police Station,k k tripathi,9479991760
+SAGAR,Damoh,Kumhari,Police Station,S.V .MISRA,9425656089
+SAGAR,Damoh,Modiyado,Police Station,T. P. MISHRA,9685214372
+SAGAR,Damoh,Magran,Police Station,,7869017709
+SAGAR,Damoh,Nohta,Police Station,A.N.DWIVEDI,9827875475
+SAGAR,Damoh,Patera,Police Station,S.K.SETH,9479991780
+SAGAR,Damoh,Pathariya,Police Station,R.K.soni,9479991930
+SAGAR,Damoh,Rahne,Police Station,SAHARSH YADAV,9993762652
+SAGAR,Damoh,Rajpura,Police Station,BAMANIYA,9098712388
+SAGAR,Damoh,Taradahi,Police Station,si r a pandey ji,9300216055
+SAGAR,Damoh,Tejgarh,Police Station,SI == SANJAY,
+SAGAR,Damoh,Tendkudha,Police Station,,
+SAGAR,Damoh,Banwar,Out Post,,9977199248
+SAGAR,Damoh,Chauraiya,Out Post,,
+SAGAR,Damoh,Fatehpur,Out Post,SALIGRAM RECHRIYA,8120821178
+SAGAR,Damoh,Futerakala,Out Post,,
+SAGAR,Damoh,Imalyaghat,Out Post,SB.MISHRA,HC.161-96857751
+SAGAR,Damoh,Kerbana,Out Post,,
+SAGAR,Damoh,Murach,Out Post,,
+SAGAR,Damoh,Sadpur,Out Post,,
+SAGAR,Damoh,Zerath,Out Post,Chakradhari Choubey,9893863107

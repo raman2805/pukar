@@ -1,5 +1,4 @@
 from django.contrib import admin
-from sos_action.models import Complaint, Action
+from sos_action.models import Complaint
 
 admin.site.register(Complaint)
-admin.site.register(Action)

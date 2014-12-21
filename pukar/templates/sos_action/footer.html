@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<footer>
+  <p align="center">
+  <a href="/sos_action"> Homepage  </a>
+  | 
+  {% if user.is_authenticated %}
+  <a href="/sos_action/logout">Logout -  {{ user.username }}</a>
+  {% else %}
+  <a href="/sos_action/login"> Login </a>
+  {% endif %}
+  <br>
+</footer>
+</body>
+</html>

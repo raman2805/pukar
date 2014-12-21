@@ -1,68 +1,30 @@
 <!DOCTYPE html>
+<html>
 <head>
-<head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 5px;
-}
-th {
-  text-align: left;
-}
-</style>
-</head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'sos_action/style.css' %}" />
 </head>
 <body>
-<h2> Commplaint Details  </h2>
-<table style="width:100%">
-  <tr> 
-    <td>Complaint id</td>
-    <td>{{ complaint.id }} </td>
-  </tr>
-  <tr> 
-    <td>Name of Complainant</td>
-    <td>{{ complaint.name }} </td>
-  </tr>
-  <tr> 
-    <td>Mobile Number</td>
-    <td>{{ complaint.mobile }} </td>
-  </tr>
-  <tr> 
-    <td>IMEI Number (ID field)</td>
-    <td>{{ complaint.imei }} </td>
-  </tr>
-  <tr> 
-    <td>Alert Location</td>
-    <td>{{ complaint.location }} </td>
-  </tr>
-  <tr> 
-    <td>DateTime</td>
-    <td>{{ complaint_time }} </td>
-  </tr>
-  <tr> 
-    <td>Status</td>
-    <td>{{ status }} </td>
-  </tr>
-</table>
-
+<h2> Complaint Details  </h2>
+{%  include "sos_action/complaint_common.html" with complaint=complaint only %}
 <h2> Actions taken on the Complaint </h2>
 <table style="width:100%">
   <tr>
-    <th>ActionTakenBy</th>
-    <th>ActionTime</th>
-    <th>ActionDescription</th>
+    <th>User</th>
+    <th>ComplaintId</th>
+    <th>Time</th>
+    <th>Description</th>
   </tr>
-  {% for action in actions %}
+ {% for update in complaint.updates_set.all %}
   <tr>
-    <td> {{ action.name }} </td>
-    <td> {{ action.action_time }} </td>
-    <td> {{ action.action }} </td>
+    <td> {{ update.user.username }} </td>
+    <td> {{ update.complaint.id }} </td>
+    <td> {{ update.update_time }} </td>
+    <td> {{ update.information }} </td>
   </tr>
   {% endfor %}
 </table>
-<a href="/sos_action/add_action/{{complaint.id}}"> add_action </a>
+<a href="/sos_action/update/{{complaint.id}}"> Update </a>
+{% include "sos_action/footer.html" %}
 </body>
 </html>

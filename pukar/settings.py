@@ -1,4 +1,3 @@
-# Django settings for pukar project.
 
 import os
 DEBUG = True
@@ -8,6 +7,8 @@ PROJECT_PATH = os.path.abspath(SETTINGS_DIR)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 STATIC_PATH = os.path.join(PROJECT_PATH,'static')
 DATABASE_PATH = os.path.join(PROJECT_PATH, 'pukar.db')
+DATA_PATH = os.path.join(PROJECT_PATH, 'data')
+LOGIN_REDIRECT_URL = '/sos_action/'
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),

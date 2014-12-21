@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+{%  include "sos_action/complaint_common.html" with complaint=complaint only %}
+<form id="UpdateForm" name="UpdateForm" method="post" action="/sos_action/assign_station/{{ complaint.id }}">
+  {% csrf_token %}
+  <table style=witdh:100%>
+    <tr>
+      <td> Complaint Type </td>
+      <td> 
+        <select name="complaint_type" id="complaint_type"> 
+          {% for type in complaint_types %}
+          <option value="{{ type }}"> {{ type }}
+          {% endfor %}
+        </select>
+      </td>
+    <tr> 
+      <td> Select Range </td>
+      <td> 
+        <select name="range" id="range" onchange="Select()">
+          <option value=""> 
+          {% for range in ranges %}
+          <option value="{{ range }}"{% ifequal range selected_range %} selected="selected"{% endifequal %}>{{ range }}
+          {% endfor  %}
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td> Select District </td>
+      <td>
+        <select name="district" id="district" onchange="Select()">
+          <option value=""> 
+          {% for district in districts %}
+          <option value="{{ district }}" {% ifequal district selected_district %} selected="selected" {% endifequal %}>{{ district }}
+          {% endfor %}
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td> Select Station </td>
+      <td>
+        <select name="station" id="station">
+          {% for station in stations %}
+          <option value={{ station.id }}>{{ station.station }}, {{ station.in_charge }}, {{ station.contact }}</option>
+          {% endfor %}
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td> <input type="button" onclick="Assign()" value="Assign To Station"> </td>
+    </tr>
+  </table>
+</form>
+
+{% include "sos_action/footer.html" %}
+<script>
+function Select() {
+  document.getElementById("UpdateForm").method = "get"
+  document.getElementById("UpdateForm").submit()
+}
+function Assign() {
+  document.getElementById("UpdateForm").method = "post"
+  document.getElementById("UpdateForm").submit()
+}
+</script>
+</body>
+</html>

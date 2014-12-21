@@ -1,14 +1,11 @@
 from django import forms
-from models import Complaint, Action
+from models import Complaint
+from django.contrib.auth.models import User
 
-class ActionForm(forms.ModelForm) :
-  name = forms.CharField(max_length = 128, 
-                         help_text = 'Add Name of Person handling the complaint')
-  action = forms.CharField(max_length = 128,
-                           help_text = 'Action taken')
-  complaint_id = forms.IntegerField(widget = forms.HiddenInput, initial = 4)
+class UserForm(forms.ModelForm) :
+  password = forms.CharField(widget=forms.PasswordInput())
+  class Meta:
+    model = User
+    fields = ('username', 'email', 'password')
 
-  class Meta :
-    model = Action
-    fields = ( 'name', 'action', 'complaint_id')
 

@@ -1,0 +1,64 @@
+<head>
+</head>
+<table style="width:100%">
+  <tr> 
+    <td>Complaint id</td>
+    <td>{{ complaint.id }} </td>
+  </tr>
+  <tr> 
+    <td>Name of Complainant</td>
+    <td>{{ complaint.complainant.userName }} </td>
+  </tr>
+  <tr> 
+    <td>Mobile Number</td>
+    <td>{{ complaint.complainant.userPhoneNo }} </td>
+  </tr>
+  <tr> 
+    <td>IMEI Number (ID field)</td>
+    <td>{{ complaint.complainant.imeiNo }} </td>
+  </tr>
+  <tr> 
+    <td>Emergency Contacts</td>
+    <td>{{ complaint.complainant.emergencyPh1 }}, 
+        {{ complaint.complainant.emergencyPh2 }},
+        {{ complaint.complainant.emergencyPh3 }}, 
+        {{ complaint.complainant.emergencyPh4 }},
+        {{ complaint.complainant.emergencyPh4 }} </td>
+  </tr>
+  <tr> 
+    <td>Alert Location</td>
+    <td>{{ complaint.location }} </td>
+  </tr>
+  <tr> 
+    <td>Complaint Time</td>
+    <td>{{ complaint.complaint_time }} </td>
+  </tr>
+  <tr> 
+    <td>Informer</td>
+    <td>{{ complaint.informer }} </td>
+  </tr>
+  <tr> 
+    <td>Status</td>
+    <td>{{ complaint.status }} </td>
+  </tr>
+  {% if complaint.resolved_time %}
+  <tr>
+    <td>Resolved Time</td>
+    <td>{{ complaint.resolved_time }} </td>
+  </tr> 
+  {% endif %}
+
+  {% if complaint.complaint_type %}
+  <tr>
+    <td>Complaint Type</td>
+    <td>{{ complaint.complaint_type }} </td>
+  </tr> 
+  {% endif %}
+  <tr>
+  {% if complaint.station %}
+    <td>Station Handling</td>
+    <td> {{ complaint.station.district}} </td>
+  </tr>
+  {% endif %}
+</table>
+
