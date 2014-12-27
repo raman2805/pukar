@@ -1,4 +1,4 @@
-range,city,district,type,in_charge,contact
+range,district,station,type,in_charge,contact
 BHOPAL,Bhopal,Aishbag,Police Station,Sanjay SG Bais,9479990521
 BHOPAL,Bhopal,BP_AJK,Police Station,Amar Singh,9479990607
 BHOPAL,Bhopal,Ashoka Garden,Police Station,Rupesh Dubey,9479990434
@@ -748,99 +748,98 @@ GWALIOR,Ashoknagar,Madhogarh,Out Post Ashok n.,,
 GWALIOR,Ashoknagar,Depalkhedi,Out Post Ashok n.,R.K.Surariya,9893373765
 GWALIOR,Ashoknagar,Bhadaun,Out Post Ashok n.,Radheshyam Sharma,9752759415
 GWALIOR,Ashoknagar,Dehat,Police Station,b.p.singh jaat,9479992342
-GWALIOR,Hoshangabad,Control Room,Control_Room,,7574252448
-GWALIOR,Hoshangabad,HO_AJK,Police Station,Nawal Singh,9669087556
-GWALIOR,Hoshangabad,Babai,Police Station,H.L.SHARMA,9479993270
-GWALIOR,Hoshangabad,Bankhedi,Police Station,SMT LAXMI KASHYAP,"9827248250,882"
-GWALIOR,Hoshangabad,Dolairya,Police Station,K.S. Chandel,9479993274
-GWALIOR,Hoshangabad,Itarsi,Police Station,mahendra singh chohan,9479993312
-GWALIOR,Hoshangabad,Kesla,Police Station,MADAN LAL PAWAR,9752218964
-GWALIOR,Hoshangabad,HO_Kotwali,Police Station,MUKATI JI,9479993261
-GWALIOR,Hoshangabad,Pachmarhi,Police Station,Girish Khare,9425158831
-GWALIOR,Hoshangabad,Pathrota,Police Station,pp mishra,9479993345
-GWALIOR,Hoshangabad,Pipariya,Police Station,V.K. SHARMA,9425166096
-GWALIOR,Hoshangabad,Rampurgurra,Police Station,Rajendra Shukla,9479993330
-GWALIOR,Hoshangabad,Seonimalwa,Police Station,AJAY DUEBY,9479993284
-GWALIOR,Hoshangabad,Shivpur,Police Station,R.A. Tiwari,9479993295
-GWALIOR,Hoshangabad,Sohagpur,Police Station,Mahendra Singh Chouhan,9479993232
-GWALIOR,Hoshangabad,Tawanagar,Police Station,Amit Bhawsar,9406508994
-GWALIOR,Hoshangabad,Bagar tawa,Out Post Hosh.,,
-GWALIOR,Hoshangabad,Banpura,Out Post Hosh.,,8085460185
-GWALIOR,Hoshangabad,Matkulee,Out Post Hosh.,,
-GWALIOR,Hoshangabad,Newyarditarsi,Out Post Hosh.,,
-GWALIOR,Hoshangabad,Securitypapermill,Out Post Hosh.,,
-GWALIOR,Hoshangabad,Semariharchand,Out Post Hosh.,rajeshawari mishra,9893602735
-GWALIOR,Hoshangabad,Sondhia,Out Post Hosh.,,
-GWALIOR,Hoshangabad,Umardha,Out Post Hosh.,,
-GWALIOR,Hoshangabad,Dehat,Police Station,Shri. H.C. PANCHAL,9827595487
-GWALIOR,Hoshangabad,GRP_Itarsi,LocalStation,t i dilip gangradey,
-GWALIOR,Raisen,Control Room,Control_Room,,7482223206
-GWALIOR,Raisen,RS_AJK,Police Station,NK Dixit,9479996722
-GWALIOR,Raisen,Bamori,Police Station,Ramdeen Parihar,9893072293
-GWALIOR,Raisen,Bareli,Police Station,MANOJ SINGH,9425693812
-GWALIOR,Raisen,Bari,Police Station,Umashankar Tiwari,9893372860
-GWALIOR,Raisen,Begumganj,Police Station,Arvind Raghuvanshi,9425097745
-GWALIOR,Raisen,Bharkach,Police Station,r.s.yadav,9479996628
-GWALIOR,Raisen,Dehgaon,Police Station,Shivram Yadav,8223094114
-GWALIOR,Raisen,RS_Deori,Police Station,giish Dubey,9425660473
-GWALIOR,Raisen,Gairatganj,Police Station,S.S. Patel,9425300024
-GWALIOR,Raisen,Mandideep,Police Station,N.S. Rathor,9425013061
-GWALIOR,Raisen,Noorganj,Police Station,Vishnudutt mishra,9479996711
-GWALIOR,Raisen,Obedullaganj,Police Station,Mahendra Meena,9826016961
-GWALIOR,Raisen,Raisen,Police Station,Jagdish Singh Sidhu,9406951315
-GWALIOR,Raisen,Salamatpur,Police Station,J.P. Rai,9425374933
-GWALIOR,Raisen,Sanchi,Police Station,anuruddh gaur,9425674307
-GWALIOR,Raisen,Silwani,Police Station,Bhartendu Sharma,9826558001
-GWALIOR,Raisen,Sultanganj,Police Station,PB Singh,9826020740
-GWALIOR,Raisen,Sultanpur,Police Station,Ajay Rathor,9826349679
-GWALIOR,Raisen,Udaipura,Police Station,k.k. bhargawa,9425006085
-GWALIOR,Raisen,Umraoganj,Police Station,Dinesh Pratap Singh,9425374837
-GWALIOR,Raisen,Barkheda,Out Post Raisen,Dashrath Singh,9424402814
-GWALIOR,Raisen,Chhater,Out Post Raisen,,
-GWALIOR,Raisen,Chiklod,Out Post Raisen,Dharmendra Dubey,9893457488
-GWALIOR,Raisen,Deevanganj,Out Post Raisen,9981329342,
-GWALIOR,Raisen,Garhi,Out Post Raisen,Sukhdev Singh,9425610437
-GWALIOR,Raisen,Goharganj,Out Post Raisen,M.P. Thakkar,9425366246
-GWALIOR,Raisen,Jethari,Out Post Raisen,Narendra Pandey,9893248671
-GWALIOR,Raisen,Kharwai,Out Post Raisen,Kamal Singh Rajput,9479996551
-GWALIOR,Raisen,Naktara,Out Post Raisen,Kamal Singh Meena,9926510638
-GWALIOR,Harda,Control Room,Control_Room,,7577224713
-GWALIOR,Harda,Harda,Police Station,UMASHANKER TIWARI,9479993150
-GWALIOR,Harda,HA_AJK,Police Station,Arun Yogi,9425494007
-GWALIOR,Harda,Chhipabad,Police Station,MOHAN PATEL,9826333001
-GWALIOR,Harda,Handia,Police Station,MAYA SINGH,9425036851
-GWALIOR,Harda,Rehatgaon,Police Station,Ramesh Piplodiya,9479993195
-GWALIOR,Harda,Siroli,Police Station,ROHIT KATHAWA,"9479993170,"
-GWALIOR,Harda,Timarni,Police Station,Ramsnehi Chouhan,9479993201
-GWALIOR,Betul,Control Room,Control_Room,,7141232300
-GWALIOR,Betul,BE_AJK,Police Station,Vimla Choudhri,9479990382
-GWALIOR,Betul,Amla,Police Station,Vikram Rajak,9479990278
-GWALIOR,Betul,Athner,Police Station,d.s. chohan,9479990298
-GWALIOR,Betul,Betul,Police Station,pankaj tyagi,9479990217
-GWALIOR,Betul,Betulbazar,Police Station,pankaj tyagi,9826732888
-GWALIOR,Betul,Bhainsdehi,Police Station,SASHI BHUSHAN RAGHUWANSHI,9479990289
-GWALIOR,Betul,Bijadehi,Police Station,R.R. Mujalde,9479990369
-GWALIOR,Betul,Bodkhi,Police Station,dhurve jee,9424635102
-GWALIOR,Betul,Chicholi,Police Station,ti jayant,9479990248
-GWALIOR,Betul,Chopna,Police Station,b.l.uike,9479990359
-GWALIOR,Betul,Jhallar,Police Station,H.Y.KHAN,9479990237
-GWALIOR,Betul,Mohda,Police Station,K.L. Chouhan,9479990266
-GWALIOR,Betul,Multai,Police Station,s.k singh,9407867788
-GWALIOR,Betul,Ranipur,Police Station,,
-GWALIOR,Betul,Saikheda,Police Station,dp suryavansi,9302316122
-GWALIOR,Betul,Sarni,Police Station,Anup Singh Nain,9479990329
-GWALIOR,Betul,BE_Shahpur,Police Station,Jyant Aglave,
-GWALIOR,Betul,Betulganj,Out Post Betul,,
-GWALIOR,Betul,Bhimpur,Out Post Betul,,
-GWALIOR,Betul,Bhoura,Out Post Betul,B.S.TOMAR,975368716
-GWALIOR,Betul,Damjeepura,Out Post Betul,Keshav Singh,9479990261
-GWALIOR,Betul,Dunawa,Out Post Betul,JADISH SINGH,9479990268
-GWALIOR,Betul,Ghoradongari,Out Post Betul,abhdesh tivvari,9425670171
-GWALIOR,Betul,Masod,Out Post Betul,si vikash kapish sir,9630699688
-GWALIOR,Betul,Pathakeda,Out Post Betul,yadav -9479990330,7049135664
-GWALIOR,Betul,Patan,Out Post Betul,,9826779688
-GWALIOR,Betul,Pader,Out Post Betul,Jugal Kishore,9424461806
-GWALIOR,Betul,Bordehi,Police Station,s i maskole,9479667869
+hosangabad,Hoshangabad,HO_AJK,Police Station,Nawal Singh,9669087556
+hosangabad,Hoshangabad,Babai,Police Station,H.L.SHARMA,9479993270
+hosangabad,Hoshangabad,Bankhedi,Police Station,SMT LAXMI KASHYAP,"9827248250,882"
+hosangabad,Hoshangabad,Dolairya,Police Station,K.S. Chandel,9479993274
+hosangabad,Hoshangabad,Itarsi,Police Station,mahendra singh chohan,9479993312
+hosangabad,Hoshangabad,Kesla,Police Station,MADAN LAL PAWAR,9752218964
+hosangabad,Hoshangabad,HO_Kotwali,Police Station,MUKATI JI,9479993261
+hosangabad,Hoshangabad,Pachmarhi,Police Station,Girish Khare,9425158831
+hosangabad,Hoshangabad,Pathrota,Police Station,pp mishra,9479993345
+hosangabad,Hoshangabad,Pipariya,Police Station,V.K. SHARMA,9425166096
+hosangabad,Hoshangabad,Rampurgurra,Police Station,Rajendra Shukla,9479993330
+hosangabad,Hoshangabad,Seonimalwa,Police Station,AJAY DUEBY,9479993284
+hosangabad,Hoshangabad,Shivpur,Police Station,R.A. Tiwari,9479993295
+hosangabad,Hoshangabad,Sohagpur,Police Station,Mahendra Singh Chouhan,9479993232
+hosangabad,Hoshangabad,Tawanagar,Police Station,Amit Bhawsar,9406508994
+hosangabad,Hoshangabad,Bagar tawa,Out Post Hosh.,,
+hosangabad,Hoshangabad,Banpura,Out Post Hosh.,,8085460185
+hosangabad,Hoshangabad,Matkulee,Out Post Hosh.,,
+hosangabad,Hoshangabad,Newyarditarsi,Out Post Hosh.,,
+hosangabad,Hoshangabad,Securitypapermill,Out Post Hosh.,,
+hosangabad,Hoshangabad,Semariharchand,Out Post Hosh.,rajeshawari mishra,9893602735
+hosangabad,Hoshangabad,Sondhia,Out Post Hosh.,,
+hosangabad,Hoshangabad,Umardha,Out Post Hosh.,,
+hosangabad,Hoshangabad,Dehat,Police Station,Shri. H.C. PANCHAL,9827595487
+hosangabad,Hoshangabad,GRP_Itarsi,LocalStation,t i dilip gangradey,
+hosangabad,Raisen,Control Room,Control_Room,,7482223206
+hosangabad,Raisen,RS_AJK,Police Station,NK Dixit,9479996722
+hosangabad,Raisen,Bamori,Police Station,Ramdeen Parihar,9893072293
+hosangabad,Raisen,Bareli,Police Station,MANOJ SINGH,9425693812
+hosangabad,Raisen,Bari,Police Station,Umashankar Tiwari,9893372860
+hosangabad,Raisen,Begumganj,Police Station,Arvind Raghuvanshi,9425097745
+hosangabad,Raisen,Bharkach,Police Station,r.s.yadav,9479996628
+hosangabad,Raisen,Dehgaon,Police Station,Shivram Yadav,8223094114
+hosangabad,Raisen,RS_Deori,Police Station,giish Dubey,9425660473
+hosangabad,Raisen,Gairatganj,Police Station,S.S. Patel,9425300024
+hosangabad,Raisen,Mandideep,Police Station,N.S. Rathor,9425013061
+hosangabad,Raisen,Noorganj,Police Station,Vishnudutt mishra,9479996711
+hosangabad,Raisen,Obedullaganj,Police Station,Mahendra Meena,9826016961
+hosangabad,Raisen,Raisen,Police Station,Jagdish Singh Sidhu,9406951315
+hosangabad,Raisen,Salamatpur,Police Station,J.P. Rai,9425374933
+hosangabad,Raisen,Sanchi,Police Station,anuruddh gaur,9425674307
+hosangabad,Raisen,Silwani,Police Station,Bhartendu Sharma,9826558001
+hosangabad,Raisen,Sultanganj,Police Station,PB Singh,9826020740
+hosangabad,Raisen,Sultanpur,Police Station,Ajay Rathor,9826349679
+hosangabad,Raisen,Udaipura,Police Station,k.k. bhargawa,9425006085
+hosangabad,Raisen,Umraoganj,Police Station,Dinesh Pratap Singh,9425374837
+hosangabad,Raisen,Barkheda,Out Post Raisen,Dashrath Singh,9424402814
+hosangabad,Raisen,Chhater,Out Post Raisen,,
+hosangabad,Raisen,Chiklod,Out Post Raisen,Dharmendra Dubey,9893457488
+hosangabad,Raisen,Deevanganj,Out Post Raisen,9981329342,
+hosangabad,Raisen,Garhi,Out Post Raisen,Sukhdev Singh,9425610437
+hosangabad,Raisen,Goharganj,Out Post Raisen,M.P. Thakkar,9425366246
+hosangabad,Raisen,Jethari,Out Post Raisen,Narendra Pandey,9893248671
+hosangabad,Raisen,Kharwai,Out Post Raisen,Kamal Singh Rajput,9479996551
+hosangabad,Raisen,Naktara,Out Post Raisen,Kamal Singh Meena,9926510638
+hosangabad,Harda,Control Room,Control_Room,,7577224713
+hosangabad,Harda,Harda,Police Station,UMASHANKER TIWARI,9479993150
+hosangabad,Harda,HA_AJK,Police Station,Arun Yogi,9425494007
+hosangabad,Harda,Chhipabad,Police Station,MOHAN PATEL,9826333001
+hosangabad,Harda,Handia,Police Station,MAYA SINGH,9425036851
+hosangabad,Harda,Rehatgaon,Police Station,Ramesh Piplodiya,9479993195
+hosangabad,Harda,Siroli,Police Station,ROHIT KATHAWA,"9479993170,"
+hosangabad,Harda,Timarni,Police Station,Ramsnehi Chouhan,9479993201
+hosangabad,Betul,Control Room,Control_Room,,7141232300
+hosangabad,Betul,BE_AJK,Police Station,Vimla Choudhri,9479990382
+hosangabad,Betul,Amla,Police Station,Vikram Rajak,9479990278
+hosangabad,Betul,Athner,Police Station,d.s. chohan,9479990298
+hosangabad,Betul,Betul,Police Station,pankaj tyagi,9479990217
+hosangabad,Betul,Betulbazar,Police Station,pankaj tyagi,9826732888
+hosangabad,Betul,Bhainsdehi,Police Station,SASHI BHUSHAN RAGHUWANSHI,9479990289
+hosangabad,Betul,Bijadehi,Police Station,R.R. Mujalde,9479990369
+hosangabad,Betul,Bodkhi,Police Station,dhurve jee,9424635102
+hosangabad,Betul,Chicholi,Police Station,ti jayant,9479990248
+hosangabad,Betul,Chopna,Police Station,b.l.uike,9479990359
+hosangabad,Betul,Jhallar,Police Station,H.Y.KHAN,9479990237
+hosangabad,Betul,Mohda,Police Station,K.L. Chouhan,9479990266
+hosangabad,Betul,Multai,Police Station,s.k singh,9407867788
+hosangabad,Betul,Ranipur,Police Station,,
+hosangabad,Betul,Saikheda,Police Station,dp suryavansi,9302316122
+hosangabad,Betul,Sarni,Police Station,Anup Singh Nain,9479990329
+hosangabad,Betul,BE_Shahpur,Police Station,Jyant Aglave,
+hosangabad,Betul,Betulganj,Out Post Betul,,
+hosangabad,Betul,Bhimpur,Out Post Betul,,
+hosangabad,Betul,Bhoura,Out Post Betul,B.S.TOMAR,975368716
+hosangabad,Betul,Damjeepura,Out Post Betul,Keshav Singh,9479990261
+hosangabad,Betul,Dunawa,Out Post Betul,JADISH SINGH,9479990268
+hosangabad,Betul,Ghoradongari,Out Post Betul,abhdesh tivvari,9425670171
+hosangabad,Betul,Masod,Out Post Betul,si vikash kapish sir,9630699688
+hosangabad,Betul,Pathakeda,Out Post Betul,yadav -9479990330,7049135664
+hosangabad,Betul,Patan,Out Post Betul,,9826779688
+hosangabad,Betul,Pader,Out Post Betul,Jugal Kishore,9424461806
+hosangabad,Betul,Bordehi,Police Station,s i maskole,9479667869
 JABALPUR,Jabalpur,Control Room Omti,Police Station,Ishapanth,9479994051
 JABALPUR,Jabalpur,Control Room Kotwali,Police Station,Sushil Chouhan,9479994041
 JABALPUR,Jabalpur,Adhartal,Police Station,Sanjay Sharma,9425045415

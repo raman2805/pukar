@@ -4,7 +4,7 @@ if [[ $# -lt 2 ]]; then
   echo "Usage: $0 <input_file> <output_file>"
   exit
 fi
-cat $1 |
+cat $1 | awk '(NR > 1) {print $0}' | sed -e 's/Range/RANGE/g' |
 awk -F, 'BEGIN{
   header="range,district,station,type,in_charge,contact"
   print header
