@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body onload="AddComplaintTypeForm()">
 {%  include "sos_action/complaint_common.html" with complaint=complaint only %}
 <form id="UpdateForm" name="UpdateForm" method="post" action="/sos_action/assign_station/{{ complaint.id }}">
   {% csrf_token %}
@@ -8,9 +8,9 @@
     <tr>
       <td> Complaint Type </td>
       <td> 
-        <select name="complaint_type" id="complaint_type"> 
+        <select name="complaint_type" id="complaint_type" onchange="AddComplaintTypeForm()"> 
           {% for type in complaint_types %}
-          <option value="{{ type }}"> {{ type }}
+          <option value="{{ type }}" {% ifequal type selected_complaint_type %} selected="selected"{% endifequal %}> {{ type }}
           {% endfor %}
         </select>
       </td>
@@ -47,20 +47,44 @@
       </td>
     </tr>
     <tr>
-      <td> <input type="button" onclick="Assign()" value="Assign To Station"> </td>
+      <td> <input type="button" onclick="Assign()" value="Submit"> </td>
     </tr>
   </table>
 </form>
 
 {% include "sos_action/footer.html" %}
 <script>
+function AddComplaintTypeForm() {
+  var form = document.getElementById("UpdateForm");
+  var complaint = form.getElementsByTagName("tr")[0];
+  var complaint_type = document.getElementById("complaint_type");
+  var other_complaint = document.getElementById("other_complaint");
+  if (complaint_type.value == "Others") {
+    if (other_complaint == null)
+    {
+      var td = document.createElement("TD");
+      var input = document.createElement("INPUT");
+      input.setAttribute("type", "text");
+      input.setAttribute("id", "other_complaint");
+      input.setAttribute("name", "other_complaint");
+      input.setAttribute("value", "{{ other_complaint_text }}");
+      td.appendChild(input);
+      complaint.appendChild(td);
+    }
+  }
+  else if (other_complaint != null)
+  {
+    complaint.removeChild(other_complaint.parentNode);
+  }
+}
+
 function Select() {
-  document.getElementById("UpdateForm").method = "get"
-  document.getElementById("UpdateForm").submit()
+  document.getElementById("UpdateForm").method = "get";
+  document.getElementById("UpdateForm").submit();
 }
 function Assign() {
-  document.getElementById("UpdateForm").method = "post"
-  document.getElementById("UpdateForm").submit()
+  document.getElementById("UpdateForm").method = "post";
+  document.getElementById("UpdateForm").submit();
 }
 </script>
 </body>

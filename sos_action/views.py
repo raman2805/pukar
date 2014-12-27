@@ -7,10 +7,14 @@ import models
 from models import mobappuser, Station, Complaint, Updates
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
+import django
 import sos_action
 import datetime
+import pytz
 gRanges = list(set([x.range for x in Station.objects.all()]))
 gComplaintTypesList = [x[0] for x in sos_action.models.gComplaintTypes]
+gAllDistricts = list(set([x.district for x in Station.objects.all()]))
+
 def index(request) :
   context = RequestContext(request)
   return render_to_response('sos_action/index.html', {}, context)
@@ -21,6 +25,74 @@ def AddUpdateToDb(user, complaint, information) :
   update.complaint = complaint
   update.information = information
   update.save()
+
+class Stat :
+  pass
+
+def GetStat(complaints) :
+  stat = Stat()
+  stat.open = len([x for x in complaints if x.status == 'OPEN' ])
+  stat.closed = len([x for x in complaints if x.status != 'OPEN' ])
+  resolved_times = [(x.resolved_time - x.complaint_time).days
+                    for x in complaints if x.resolved_time]
+  if resolved_times :
+    stat.avg_resolution_time = int(sum(resolved_times)/len(resolved_times))
+  return stat
+
+def GetStats(complaints) :
+  stats  = []
+  stat = Stat()
+  stat = GetStat(complaints)
+  stat.type = 'Overall'
+  stats.append(stat)
+
+  for complaint_type in gComplaintTypesList :
+    by_incident = [x for x in complaints if x.complaint_type == complaint_type]
+    stat = GetStat(by_incident)
+    stat.type = complaint_type
+    stats.append(stat)
+
+  unknown = [x for x in complaints if not x.complaint_type ]
+  stat = GetStat(unknown)
+  stat.type = 'Unknown'
+  stats.append(stat)
+  return stats
+
+
+
+def Report(request) : 
+  context = RequestContext(request)
+  context_dict = {}
+  context_dict['districts']  = gAllDistricts
+  context_dict['users']  = django.contrib.auth.models.User.objects.all()
+  complaints = Complaint.objects.all()
+  district = request.GET.get('district', 'All')
+  if district != 'All' :
+    complaints = filter(lambda x : x.station and x.station.district == district, complaints)
+
+  start_date = datetime.datetime.strptime(request.GET.get('start_date', '01-JAN-2001'), '%d-%b-%Y')
+  today = datetime.datetime.strftime(datetime.datetime.now(), '%d-%b-%Y')
+  end_date = datetime.datetime.strptime(request.GET.get('end_date', today), '%d-%b-%Y')
+  
+  if 'date_range' in request.GET :
+    end_date = datetime.datetime.today()
+    if request.GET.get('date_range') == 'week' : 
+      start_date = end_date - datetime.timedelta(days = 7)
+    elif request.GET.get('date_range') == 'month' : 
+      start_date = end_date - datetime.timedelta(days = 30)
+
+  start_date = pytz.utc.localize(start_date)
+  end_date = pytz.utc.localize(end_date)
+  complaints = filter(lambda x : x.complaint_time > start_date and x.complaint_time < end_date,
+                      complaints)
+  context_dict['stats'] = GetStats(complaints)
+  context_dict['complaints'] = complaints
+  context_dict['district'] = district
+  context_dict['selected_start_date'] = datetime.datetime.strftime(start_date, '%d-%b-%Y')
+  context_dict['selected_end_date'] = datetime.datetime.strftime(end_date, '%d-%b-%Y')
+
+  # The filtering logic based on commands
+  return render_to_response('sos_action/report.html', context_dict, context)
 
 def AddComplaint(request) : 
   context = RequestContext(request)
@@ -35,14 +107,14 @@ def AddComplaint(request) :
     c.status = 'OPEN'
     if request.GET.get('informer', '') != '' :
       c.informer = request.GET.get('informer')
-    c.save()
-  elif request.method == 'POST' :
-    c = Complaint()
-    c.location = request.POST.get('location')
-    if request.POST.get('informer', '') != '' :
-      c.informer = request.POST.get('informer')
-    c.status = 'OPEN'
-    c.complainant = mobappuser.objects.get(id = request.POST.get('mobappuser_id'))
+      c.save()
+    elif request.method == 'POST' :
+      c = Complaint()
+      c.location = request.POST.get('location')
+      if request.POST.get('informer', '') != '' :
+        c.informer = request.POST.get('informer')
+        c.status = 'OPEN'
+        c.complainant = mobappuser.objects.get(id = request.POST.get('mobappuser_id'))
 
   return HttpResponseRedirect('/sos_action/update/%s' % (c.id))
 
@@ -65,16 +137,16 @@ def UpdateInfo(request, complaint_id) :
     status = request.POST.get('status')
     if status == 'CLOSED' and status != old_status :
       complaint.resolved_time = datetime.datetime.now()
-    complaint.status = status
-    complaint.save()
-    AddUpdateToDb(request.user, complaint, update_info)
-    return HttpResponseRedirect('/sos_action/complaint/%s' % complaint_id)
-  else :
-    context_dict['complaint'] =  complaint
-    return render_to_response('sos_action/update_info.html', 
-                              context_dict, 
-                              RequestContext(request))
- 
+      complaint.status = status
+      complaint.save()
+      AddUpdateToDb(request.user, complaint, update_info)
+      return HttpResponseRedirect('/sos_action/complaint/%s' % complaint_id)
+
+  context_dict['complaint'] =  complaint
+  return render_to_response('sos_action/update_info.html', 
+                            context_dict, 
+                            RequestContext(request))
+
 
 @login_required(login_url = '/sos_action/login')
 def AssignStation(request, complaint_id) :
@@ -87,15 +159,16 @@ def AssignStation(request, complaint_id) :
   context_dict['complaint_types'] = gComplaintTypesList
   if request.method == 'GET' :
     context_dict['selected_complaint_type'] = request.GET.get('complaint_type', '')
+    context_dict['other_complaint_text'] = request.GET.get('other_complaint', '')
     range = request.GET.get('range', '')
     district = request.GET.get('district', '')
     if range != '' :
       context_dict['selected_range'] = range
       districts = list(set([x.district for x in Station.objects.filter(range = range)]))
-    if district != '' :
-      context_dict['selected_district'] = district
-      stations = Station.objects.filter(range = range, district = district)
-      
+      if district != '' :
+        context_dict['selected_district'] = district
+        stations = Station.objects.filter(range = range, district = district)
+
     context_dict['ranges'] = gRanges
     context_dict['districts'] = districts
     context_dict['stations'] = stations
@@ -112,6 +185,8 @@ def AssignStation(request, complaint_id) :
     update_desc = 'Assigned to Station ' + station.district
     AddUpdateToDb(request.user, complaint, update_desc)
     complaint.complaint_type = complaint_type
+    if complaint.complaint_type == 'Others' : 
+      complaint.complaint_type += ( ' - ' + request.POST.get('other_complaint', ''))
     complaint.save()
     return ViewComplaint(request, complaint_id)
 

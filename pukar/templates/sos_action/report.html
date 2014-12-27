@@ -1,0 +1,118 @@
+<!DOCTYPE html> <html>
+<head>
+<title>Reports</title>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'sos_action/style.css' %}" />
+<script type="text/javascript" src="{% static 'sos_action/calendarDateInput.js' %}"> 
+
+/***********************************************
+ * Jason's Date Input Calendar- By Jason Moon http://calendar.moonscript.com/dateinput.cfm
+ * Script featured on and available at http://www.dynamicdrive.com
+ * Keep this notice intact for use.
+ ***********************************************/
+</script>
+<script type="text/javascript" src="{% static 'charts/Chart.js' %}"> </script>
+</head>
+<body>
+
+<form id="form" method="get" action="/sos_action/report">
+  <table style="width:100%">
+    <tr>
+      <td> Start Date </td>
+      <td> <script>DateInput('start_date', true, 'DD-MON-YYYY', '{{ selected_start_date }}')</script> </td>
+    </tr>
+
+    <tr>
+      <td> End Date </td>
+      <td> <script>DateInput('end_date', true, 'DD-MON-YYYY', '{{ selected_end_date }}')</script> </td>
+    </tr>
+
+    <tr>
+      <td> District </td>
+      <td>
+        <select name="district" id="districts">
+          <option value="All" {% ifequal district 'All' %} checked {% endifequal %}> {{ district }}
+          {% for district in districts %}
+          <option value="{{ district }}" {% ifequal district selected_district %} checked {% endifequal %}> {{ district }}
+          {% endfor  %}
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td> Agent </td>
+      <td>
+        <select name="agent" id="agents">
+          <option value="All"> All
+          {% for user in users %}
+          <option value="{{ user.id }}"> {{ user.username }}
+          {% endfor  %}
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td> <input type="submit" value="Report"> </td>
+      <td> <input type="button" value="Report-LastWeek" onclick="SetRange('week')"> </td>
+      <td> <input type="button" value="Report-LastMonth" onclick="SetRange('month')"> </td>
+    </tr>
+  </table>
+</form>
+
+<table>
+  <tr>
+    <th> Open </th>
+    <th> Closed </th>
+  </tr>
+  <tr>
+    <td><canvas id="open_chart" width="400" height="400"></canvas> </td>
+    <td><canvas id="closed_chart" width="400" height="400"></canvas> </td>
+  </tr>
+</table>
+
+<script>
+var ctx_open = document.getElementById("open_chart").getContext("2d");
+var ctx_closed = document.getElementById("closed_chart").getContext("2d");
+var data = [];
+var data_closed = [];
+{% for stat in stats %}
+{% ifnotequal stat.type "Overall" %}
+var color = "#"+ ((1<<24)*Math.random()|0).toString(16);
+var config_open = {
+  value:{{ stat.open }},
+  color: color,
+  label:"{{ stat.type }}"
+};
+var config_closed = {
+  value:{{ stat.closed }},
+  color: color,
+  label:"{{ stat.type }}"
+};
+
+data[data.length] = config_open;
+data_closed[data_closed.length] = config_closed
+{% endifnotequal %}
+{% endfor %}
+var open_chart = new Chart(ctx_open).Pie(data, {});
+var closed_chart = new Chart(ctx_closed).Pie(data_closed, {});
+</script>
+
+
+<h3> Summary </h3>
+{% include "sos_action/summary.html" with stats=stats only  %}
+<h3> List of complaints </h3>
+{% include "sos_action/list_complaints_common.html" with complaints=complaints only  %}
+{% include "sos_action/footer.html" %}
+<script>
+function SetRange(range){
+  var form = document.getElementById("form");
+  var hidden = document.createElement("INPUT");
+  hidden.setAttribute("type", "hidden");
+  hidden.setAttribute("name", "date_range");
+  hidden.setAttribute("value", range);
+  form.appendChild(hidden);
+  form.submit();
+}
+</script>
+
+</body>
+</html>

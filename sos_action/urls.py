@@ -10,6 +10,7 @@ urlpatterns = patterns('',
                        url(r'^list_complaints/', views.ListComplaints, name = 'list_complaints'),
                        url(r'^register/$', views.Register, name='register'),
                        url(r'^login/$', 'django.contrib.auth.views.login', {'template_name': 'sos_action/login.html'}),
+                       url(r'^report/$', views.Report, name = 'report'),
                        url(r'^logout/$', views.UserLogout, name='logout')
                       )
 

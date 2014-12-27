@@ -39,13 +39,13 @@ class Complaint(models.Model) :
                                     choices = gComplaintTypes,
                                     null = True)
   location = models.CharField(max_length = 30)
+  location_link = models.CharField(max_length = 128)
   complaint_time = models.DateTimeField()
   informer = models.CharField(max_length = 128, null = True)
   resolved_time = models.DateTimeField(null = True)
   status = models.CharField(max_length = 10,
-                            choices = [('O', 'OPEN'), 
-                                       ('A', 'ASSIGNED'),
-                                       ('C', 'CLOSED')])
+                            choices = [('OPEN', 'OPEN'), 
+                                       ('CLOSED', 'CLOSED')])
   def __unicode__(self) : 
     return self.complainant.userName
 

@@ -44,7 +44,7 @@ def PopStations(inputFile) :
       print 'processing',  row
       # to exclude the header
       if 'range' in row :
-          pass
+          continue
       s = Station()
       (s.range, s.district, s.station, s.type, s.in_charge, s.contact) = tuple(row)
       s.save()
@@ -61,6 +61,7 @@ def PopComplaints() :
       c.complainant = random.choice(mobappuser.objects.all())
       c.location = random.choice(districts)
       c.complaint_time = get_random_date() + ' ' + get_random_time()
+      c.location_link = "https://www.google.co.uk/maps/dir//22.7077697,75.8588391/@22.7073738,75.8612316,16z"
       if random.randint(0, 10) > 7 :
         c.informer = random.choice(informers)
       c.status = 'OPEN'

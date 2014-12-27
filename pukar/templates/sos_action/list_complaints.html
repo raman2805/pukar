@@ -5,34 +5,5 @@
 <link rel="stylesheet" type="text/css" href="{% static 'sos_action/style.css' %}" />
 </head>
 <body>
-<table style="width:100%">
-  <tr>
-    <th>Id</th>
-    <th>Name</th>
-    <th>Mobile</th>
-    <th>IMEI</th>
-    <th>Informer</th>
-    <th>Location</th>
-    <th>Complaint Time</th>
-    <th>Contacts</th>
-    <th>Status</th>
-    <th></th>
-  </tr>
-  {% for c in complaints %}
-  <tr>
-    <td> {{ c.id }} </td>
-    <td> {{ c.complainant.userName }} </td>
-    <td> {{ c.complainant.userPhoneNo }} </td>
-    <td> {{ c.complainant.imeiNo }} </td>
-    <td> {{ c.informer }} </td>
-    <td> {{ c.location }} </td>
-    <td> {{ c.complaint_time }} </td>
-    <td>{{ c.complainant.emergencyPh1 }}, {{ c.complainant.emergencyPh2 }},
-        {{ c.complainant.emergencyPh3 }}, {{ c.complainant.emergencyPh4 }},
-        {{ c.complainant.emergencyPh4 }} </td>
-    <td> {{ c.status }} </td>
-    <td> <a href="/sos_action/update/{{ c.id }}"> update </a> </td>
-  </tr>
-  {% endfor %}
-</table>
+{% include "sos_action/list_complaints_common.html" with complaints=complaints only  %}
 </body>

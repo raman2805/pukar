@@ -1,6 +1,6 @@
 <head>
 </head>
-<table style="width:100%">
+<table style="width:100%" id="bordered">
   <tr> 
     <td>Complaint id</td>
     <td>{{ complaint.id }} </td>
@@ -28,6 +28,10 @@
   <tr> 
     <td>Alert Location</td>
     <td>{{ complaint.location }} </td>
+  </tr>
+  <tr> 
+    <td>Map Link</td>
+    <td><a href="{{ complaint.location_link }}"> link </a> </td>
   </tr>
   <tr> 
     <td>Complaint Time</td>

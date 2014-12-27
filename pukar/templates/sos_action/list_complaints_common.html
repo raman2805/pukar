@@ -1,0 +1,32 @@
+<div id="bordered">
+<table style="width:100%" id="bordered">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Mobile</th>
+    <th>IMEI</th>
+    <th>Informer</th>
+    <th>Location</th>
+    <th>Complaint Time</th>
+    <th>Trusted Contacts</th>
+    <th>Status</th>
+    <th></th>
+  </tr>
+  {% for c in complaints %}
+  <tr>
+    <td> <a href="/sos_action/complaint/{{ c.id }}"> {{ c.id }}  </a> </td>
+    <td> {{ c.complainant.userName }} </td>
+    <td> {{ c.complainant.userPhoneNo }} </td>
+    <td> {{ c.complainant.imeiNo }} </td>
+    <td> {{ c.informer }} </td>
+    <td> {{ c.location }} </td>
+    <td> {{ c.complaint_time }} </td>
+    <td>{{ c.complainant.emergencyPh1 }}, {{ c.complainant.emergencyPh2 }},
+        {{ c.complainant.emergencyPh3 }}, {{ c.complainant.emergencyPh4 }},
+        {{ c.complainant.emergencyPh4 }} </td>
+    <td> {{ c.status }} </td>
+    <td> <a href="/sos_action/update/{{ c.id }}"> Add/Edit Response </a> </td>
+  </tr>
+  {% endfor %}
+</table>
+</div>
