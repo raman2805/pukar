@@ -42,10 +42,12 @@ class Complaint(models.Model) :
   location_link = models.CharField(max_length = 128)
   complaint_time = models.DateTimeField()
   informer = models.CharField(max_length = 128, null = True)
+  additional_info = models.CharField(max_length = 1000, null = True)
   resolved_time = models.DateTimeField(null = True)
   status = models.CharField(max_length = 10,
                             choices = [('OPEN', 'OPEN'), 
                                        ('CLOSED', 'CLOSED')])
+
   def __unicode__(self) : 
     return self.complainant.userName
 

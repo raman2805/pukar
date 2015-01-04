@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body onload="AddComplaintTypeForm()">
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'sos_action/style.css' %}" />
 {%  include "sos_action/complaint_common.html" with complaint=complaint only %}
 <form id="UpdateForm" name="UpdateForm" method="post" action="/sos_action/assign_station/{{ complaint.id }}">
   {% csrf_token %}
@@ -8,7 +10,7 @@
     <tr>
       <td> Complaint Type </td>
       <td> 
-        <select name="complaint_type" id="complaint_type" onchange="AddComplaintTypeForm()"> 
+        <select style="width:20em" name="complaint_type" id="complaint_type" onchange="AddComplaintTypeForm()"> 
           {% for type in complaint_types %}
           <option value="{{ type }}" {% ifequal type selected_complaint_type %} selected="selected"{% endifequal %}> {{ type }}
           {% endfor %}
@@ -17,7 +19,7 @@
     <tr> 
       <td> Select Range </td>
       <td> 
-        <select name="range" id="range" onchange="Select()">
+        <select style="width:20em" name="range" id="range" onchange="Select()">
           <option value=""> 
           {% for range in ranges %}
           <option value="{{ range }}"{% ifequal range selected_range %} selected="selected"{% endifequal %}>{{ range }}
@@ -28,7 +30,7 @@
     <tr>
       <td> Select District </td>
       <td>
-        <select name="district" id="district" onchange="Select()">
+        <select style="width:20em" name="district" id="district" onchange="Select()">
           <option value=""> 
           {% for district in districts %}
           <option value="{{ district }}" {% ifequal district selected_district %} selected="selected" {% endifequal %}>{{ district }}
@@ -39,12 +41,16 @@
     <tr>
       <td> Select Station </td>
       <td>
-        <select name="station" id="station">
+        <select style="width:20em" name="station" id="station">
+          <option value=-1> 
           {% for station in stations %}
           <option value={{ station.id }}>{{ station.station }}, {{ station.in_charge }}, {{ station.contact }}</option>
           {% endfor %}
         </select>
       </td>
+    <tr>
+      <td> Additional Information </td>
+      <td> <input style="width:20em" type="text" name="additional_info">  </td>
     </tr>
     <tr>
       <td> <input type="button" onclick="Assign()" value="Submit"> </td>

@@ -11,6 +11,7 @@ import django
 import sos_action
 import datetime
 import pytz
+
 gRanges = list(set([x.range for x in Station.objects.all()]))
 gComplaintTypesList = [x[0] for x in sos_action.models.gComplaintTypes]
 gAllDistricts = list(set([x.district for x in Station.objects.all()]))
@@ -29,7 +30,7 @@ def AddUpdateToDb(user, complaint, information) :
 class Stat :
   pass
 
-def GetStat(complaints) :
+def GetStats(complaints) :
   stat = Stat()
   stat.open = len([x for x in complaints if x.status == 'OPEN' ])
   stat.closed = len([x for x in complaints if x.status != 'OPEN' ])
@@ -39,36 +40,18 @@ def GetStat(complaints) :
     stat.avg_resolution_time = int(sum(resolved_times)/len(resolved_times))
   return stat
 
-def GetStats(complaints) :
-  stats  = []
-  stat = Stat()
-  stat = GetStat(complaints)
-  stat.type = 'Overall'
-  stats.append(stat)
-
-  for complaint_type in gComplaintTypesList :
-    by_incident = [x for x in complaints if x.complaint_type == complaint_type]
-    stat = GetStat(by_incident)
-    stat.type = complaint_type
-    stats.append(stat)
-
-  unknown = [x for x in complaints if not x.complaint_type ]
-  stat = GetStat(unknown)
-  stat.type = 'Unknown'
-  stats.append(stat)
-  return stats
-
-
-
 def Report(request) : 
   context = RequestContext(request)
   context_dict = {}
-  context_dict['districts']  = gAllDistricts
-  context_dict['users']  = django.contrib.auth.models.User.objects.all()
   complaints = Complaint.objects.all()
   district = request.GET.get('district', 'All')
+  complaint_type = request.GET.get('complaint_type', 'All')
+
   if district != 'All' :
     complaints = filter(lambda x : x.station and x.station.district == district, complaints)
+
+  if complaint_type != 'All' :
+    complaints = filter(lambda x : x.complaint_type == complaint_type, complaints)
 
   start_date = datetime.datetime.strptime(request.GET.get('start_date', '01-JAN-2001'), '%d-%b-%Y')
   today = datetime.datetime.strftime(datetime.datetime.now(), '%d-%b-%Y')
@@ -85,14 +68,46 @@ def Report(request) :
   end_date = pytz.utc.localize(end_date)
   complaints = filter(lambda x : x.complaint_time > start_date and x.complaint_time < end_date,
                       complaints)
+
   context_dict['stats'] = GetStats(complaints)
   context_dict['complaints'] = complaints
-  context_dict['district'] = district
+  context_dict['districts']  = gAllDistricts
+  context_dict['complaint_types'] = gComplaintTypesList
+  context_dict['users']  = django.contrib.auth.models.User.objects.all()
+  context_dict['selected_district'] = district
+  context_dict['selected_complaint_type'] = complaint_type
+  context_dict['selected_start_date'] = datetime.datetime.strftime(start_date, '%d-%b-%Y')
   context_dict['selected_start_date'] = datetime.datetime.strftime(start_date, '%d-%b-%Y')
   context_dict['selected_end_date'] = datetime.datetime.strftime(end_date, '%d-%b-%Y')
 
   # The filtering logic based on commands
   return render_to_response('sos_action/report.html', context_dict, context)
+
+# this function adds/fetches the user from the db/updates the db with a new user
+def GetUserFromRequest(request) :
+  if 'mobappuser_id' in request.GET :
+    return mobappuser.objects.get(id = request.GET.get('mobappuser_id'))
+
+  if 'imeiNo' in request.GET :
+    user = mobappuser.objects.filter(imeiNo = request.GET.get('imeiNo'))
+    if user :
+      # multiple users with the same imei , some problem, anyways return the first one
+      # <TODO> handle this
+      return user[0]
+    # Lets add the user
+    u = mobappuser()
+    u.userName = request.GET.get('userName')
+    u.userPhoneNo = request.GET.get('userPhoneNo')
+    u.imeiNo = request.GET.get('imeiNo')
+    u.userEmail = request.GET.get('userEmail', '')
+    u.emergencyPh1 = request.GET.get('emergencyPh1')
+    u.emergencyPh2 = request.GET.get('emergencyPh2', '')
+    u.emergencyPh3 = request.GET.get('emergencyPh3', '')
+    u.emergencyPh4 = request.GET.get('emergencyPh4', '')
+    u.emergencyPh5 = request.GET.get('emergencyPh5', '')
+    u.createDate = datetime.datetime.now()
+    u.save()
+    return u
 
 def AddComplaint(request) : 
   context = RequestContext(request)
@@ -101,21 +116,13 @@ def AddComplaint(request) :
   if request.method == 'GET' :
     c = Complaint()
     # figure out the userid
-    c.complainant = mobappuser.objects.get(id = request.GET.get('mobappuser_id'))
+    c.complainant = GetUserFromRequest(request)
     c.location = request.GET.get('location', 'unknown')
     c.complaint_time = datetime.datetime.now()
     c.status = 'OPEN'
-    if request.GET.get('informer', '') != '' :
+    if 'informer' in request.GET :
       c.informer = request.GET.get('informer')
-      c.save()
-    elif request.method == 'POST' :
-      c = Complaint()
-      c.location = request.POST.get('location')
-      if request.POST.get('informer', '') != '' :
-        c.informer = request.POST.get('informer')
-        c.status = 'OPEN'
-        c.complainant = mobappuser.objects.get(id = request.POST.get('mobappuser_id'))
-
+    c.save()
   return HttpResponseRedirect('/sos_action/update/%s' % (c.id))
 
 @login_required(login_url = '/sos_action/login')
@@ -135,9 +142,11 @@ def UpdateInfo(request, complaint_id) :
     update_info = request.POST.get('info')
     old_status = complaint.status
     status = request.POST.get('status')
-    if status == 'CLOSED' and status != old_status :
+    if status != 'CLOSED' or status != old_status :
       complaint.resolved_time = datetime.datetime.now()
       complaint.status = status
+      if status == 'CLOSED' :
+        update_info += ', Complaint was closed'
       complaint.save()
       AddUpdateToDb(request.user, complaint, update_info)
       return HttpResponseRedirect('/sos_action/complaint/%s' % complaint_id)
@@ -177,14 +186,18 @@ def AssignStation(request, complaint_id) :
                               RequestContext(request))
 
   if request.method == 'POST' :
-    station_id = request.POST.get('station')
-    complaint_type = request.POST.get('complaint_type')
     complaint = Complaint.objects.get(id = complaint_id)
+    if complaint.station :
+      return ViewComplaint(request, complaint_id)
+    station_id = request.POST.get('station')
     station = Station.objects.get(id = request.POST.get('station'))
-    complaint.station = station
     update_desc = 'Assigned to Station ' + station.district
     AddUpdateToDb(request.user, complaint, update_desc)
+
+    complaint_type = request.POST.get('complaint_type')
+    complaint.station = station
     complaint.complaint_type = complaint_type
+    complaint.additional_info = request.POST.get('additional_info', '')
     if complaint.complaint_type == 'Others' : 
       complaint.complaint_type += ( ' - ' + request.POST.get('other_complaint', ''))
     complaint.save()

@@ -1,17 +1,17 @@
 <table id="bordered"> 
   <tr>
-    <th> Complaint Type </th>
-    <th> Open </th>
-    <th> Closed </th>
-    <th> Avergate Resolution Time (days) </th>
+    <td> Open </td>
+    <td> {{ stats.open }} </td>
   </tr>
-  {% for stat in stats %}
+
   <tr>
-    <td> {{ stat.type }} </td>
-    <td> {{ stat.open }} </td>
-    <td> {{ stat.closed }} </td>
-    <td> {{ stat.avg_resolution_time }} days </td>
+    <td> Closed </td>
+    <td> {{ stats.closed }} </td>
   </tr>
-  {% endfor %}
+
+  <tr>
+    <td> Average Resolution Time (days) </td>
+    <td> {{ stats.avg_resolution_time }} </td>
+  </tr>
 </table>
 

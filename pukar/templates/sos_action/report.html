@@ -31,7 +31,7 @@
       <td> District </td>
       <td>
         <select name="district" id="districts">
-          <option value="All" {% ifequal district 'All' %} checked {% endifequal %}> {{ district }}
+          <option value="All" {% ifequal 'All' selected_district %} checked {% endifequal %}> All
           {% for district in districts %}
           <option value="{{ district }}" {% ifequal district selected_district %} checked {% endifequal %}> {{ district }}
           {% endfor  %}
@@ -51,51 +51,25 @@
       </td>
     </tr>
     <tr>
-      <td> <input type="submit" value="Report"> </td>
-      <td> <input type="button" value="Report-LastWeek" onclick="SetRange('week')"> </td>
-      <td> <input type="button" value="Report-LastMonth" onclick="SetRange('month')"> </td>
+      <td> Complaint Type </td>
+      <td>
+        <select name="complaint_type" id="complaint_type">
+          <option value="All" {% ifequal 'All' selected_complaint_type %} checked {% endifequal %}> All
+          {% for complaint_type in complaint_types %}
+          <option value="{{ complaint_type }}" {% ifequal district selected_district %} checked {% endifequal %}> {{ complaint_type }}
+          {% endfor  %}
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td> 
+        <input type="submit" value="Report"> 
+        <input type="button" value="Report-LastWeek" onclick="SetRange('week')"> 
+        <input type="button" value="Report-LastMonth" onclick="SetRange('month')"> 
+      </td>
     </tr>
   </table>
 </form>
-
-<table>
-  <tr>
-    <th> Open </th>
-    <th> Closed </th>
-  </tr>
-  <tr>
-    <td><canvas id="open_chart" width="400" height="400"></canvas> </td>
-    <td><canvas id="closed_chart" width="400" height="400"></canvas> </td>
-  </tr>
-</table>
-
-<script>
-var ctx_open = document.getElementById("open_chart").getContext("2d");
-var ctx_closed = document.getElementById("closed_chart").getContext("2d");
-var data = [];
-var data_closed = [];
-{% for stat in stats %}
-{% ifnotequal stat.type "Overall" %}
-var color = "#"+ ((1<<24)*Math.random()|0).toString(16);
-var config_open = {
-  value:{{ stat.open }},
-  color: color,
-  label:"{{ stat.type }}"
-};
-var config_closed = {
-  value:{{ stat.closed }},
-  color: color,
-  label:"{{ stat.type }}"
-};
-
-data[data.length] = config_open;
-data_closed[data_closed.length] = config_closed
-{% endifnotequal %}
-{% endfor %}
-var open_chart = new Chart(ctx_open).Pie(data, {});
-var closed_chart = new Chart(ctx_closed).Pie(data_closed, {});
-</script>
-
 
 <h3> Summary </h3>
 {% include "sos_action/summary.html" with stats=stats only  %}

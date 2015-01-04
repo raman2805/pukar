@@ -13,3 +13,5 @@ th, td {
 th {
   text-align: left;
 }
+
+#fixedwidth option {width:20em} 
